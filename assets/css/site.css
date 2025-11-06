@@ -44,3 +44,5 @@ button:hover{filter:brightness(0.95)}
   .hero{grid-template-columns:80px 1fr}
   .headshot{width:80px;height:80px}
 }
+.project-hero{width:100%;max-height:420px;object-fit:cover;border:1px solid var(--border);border-radius:var(--radius);margin:.5rem 0 1rem 0}
+.project .meta{color:var(--muted);margin:.25rem 0 1rem 0}
