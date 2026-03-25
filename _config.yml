@@ -28,17 +28,13 @@ plugins:
   - jekyll-tabs
   - jekyll-toc
   - jemoji
+  - jekyll-socials
 
 keywords: human-AI teaming, human factors, cognitive science, human-robot interaction, AI systems
 
 author:
   name: Dr. Rhyse Bendell
   email: rhyben94@gmail.com
-
-socials:
-  github: rhyse-bendell
-  linkedin: rhyse-bendell-b4637b1a6
-  scholar: RdZstH8AAAAJ
 
 collections:
   projects:
