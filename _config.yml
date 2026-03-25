@@ -8,13 +8,26 @@ markdown: kramdown
 permalink: pretty
 
 remote_theme: alshedivat/al-folio
+
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-scholar
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-scholar
-  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-link-attributes
+  - jekyll-loading-lazy
+  - jekyll-optional-front-matter
+  - jekyll-paginate-v2
+  - jekyll-regex-replace
+  - jekyll-tabs
+  - jekyll-toc
+  - jemoji
 
 keywords: human-AI teaming, human factors, cognitive science, human-robot interaction, AI systems
 
@@ -53,5 +66,3 @@ max_width: 900px
 exclude:
   - vendor
   - node_modules
-  - Gemfile
-  - Gemfile.lock
