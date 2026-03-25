@@ -6,6 +6,26 @@ importance: 2
 category: experiments
 ---
 
-This project area covers controlled human-subjects and subject matter expert studies on collaboration with AI-enabled teammates and decision-support systems. Experiments are designed to measure trust calibration, workload, interaction quality, and task performance under realistic constraints.
+## Short Summary
+A set of controlled studies examining how humans collaborate with AI-enabled teammates and decision-support systems across complex task environments.
 
-Study designs emphasize rigorous experimental control, reproducible analysis, and multimodal performance metrics to evaluate when AI support improves outcomes and when it introduces coordination costs.
+## Problem
+AI assistance can improve task outcomes, but it can also introduce trust miscalibration, coordination friction, and hidden workload costs.
+
+## Context
+Operational use of AI depends on human-AI teams that are not only accurate, but also understandable, adaptable, and reliable under pressure.
+
+## My Role
+I led experiment design, constructed performance and workload measures, coordinated subject matter expert and participant studies, and interpreted behavioral findings.
+
+## Approach
+I used controlled experimental designs with multimodal metrics (performance, trust, workload, interaction behavior) to isolate when AI support helps versus harms team effectiveness.
+
+## Outcome
+The studies produced actionable findings on interface transparency, teaming policies, and decision-support calibration across varying task constraints.
+
+## Why It Matters
+This work helps translate human factors theory into design guidance for deployable human-AI systems.
+
+## Media
+- Experimental setup diagrams and result visualizations are maintained with each study package.

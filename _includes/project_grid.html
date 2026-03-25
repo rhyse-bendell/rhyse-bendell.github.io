@@ -1,0 +1,20 @@
+{% assign projects = site.projects | sort: 'importance' %}
+{% if include.limit %}
+  {% assign projects = projects | slice: 0, include.limit %}
+{% endif %}
+
+<div class="portfolio-grid">
+  {% for project in projects %}
+    <article class="portfolio-card">
+      <a href="{{ project.url | relative_url }}" class="portfolio-card__image-link" aria-label="View {{ project.title }} project">
+        {% if project.img %}
+          <img src="{{ project.img | relative_url }}" alt="{{ project.title }} preview image" class="portfolio-card__image">
+        {% endif %}
+      </a>
+      <div class="portfolio-card__content">
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        <p>{{ project.description }}</p>
+      </div>
+    </article>
+  {% endfor %}
+</div>
