@@ -6,6 +6,26 @@ importance: 4
 category: engineering
 ---
 
-This project area focuses on mechanical and systems-level design work for automation in research and laboratory settings. Efforts include CAD-driven enclosure design, interface and hardware integration, and platform configuration for robust experimental deployment.
+## Short Summary
+Engineering-focused design work that connects automated hardware systems with research operations, emphasizing robust deployment and maintainability.
 
-Design decisions prioritize maintainability, instrumentation access, and compatibility with human-subjects workflows, connecting engineering implementation with experimental research requirements.
+## Problem
+Research platforms often fail when mechanical, interface, and instrumentation constraints are not addressed as a unified system.
+
+## Context
+Human-centered automation in labs requires integrated design decisions so that hardware reliability and experimental usability evolve together.
+
+## My Role
+I led CAD-driven design and integration efforts, including enclosure architecture, interface access planning, and compatibility decisions for instrumentation workflows.
+
+## Approach
+I used iterative prototyping and systems integration methods to align mechanical layouts, operator interaction needs, and experimental deployment constraints.
+
+## Outcome
+The resulting designs improved platform maintainability, setup efficiency, and consistency for repeated research use.
+
+## Why It Matters
+This work demonstrates how experimental design quality depends on strong engineering foundations in the underlying automated system.
+
+## Media
+- CAD renders, integration diagrams, and prototype photos are tracked within project documentation.
