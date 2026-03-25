@@ -1,0 +1,57 @@
+title: "Rhyse Bendell"
+description: "Human-AI teaming, cognitive systems, and human factors research"
+url: "https://rhyse-bendell.github.io"
+baseurl: ""
+
+lang: en
+markdown: kramdown
+permalink: pretty
+
+remote_theme: alshedivat/al-folio
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-scholar
+  - jekyll-include-cache
+
+keywords: human-AI teaming, human factors, cognitive science, human-robot interaction, AI systems
+
+author:
+  name: Dr. Rhyse Bendell
+  email: rhyben94@gmail.com
+
+socials:
+  github: rhyse-bendell
+  linkedin: rhyse-bendell-b4637b1a6
+  scholar: RdZstH8AAAAJ
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: page
+
+scholar:
+  source: ./_bibliography/
+  bibliography: papers.bib
+  style: apa
+  locale: en
+  sort_by: year,month
+  order: descending
+
+navbar_fixed: true
+footer_fixed: true
+max_width: 900px
+
+exclude:
+  - vendor
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
