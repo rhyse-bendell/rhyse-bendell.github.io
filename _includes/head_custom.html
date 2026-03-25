@@ -2,4 +2,75 @@
   body { background: #ffffff; }
   .container, main .container { max-width: 900px; }
   .card, .project-card { border: 1px solid #efefef !important; box-shadow: none !important; }
+
+  /* Homepage hero polish */
+  .post .profile {
+    width: min(40%, 320px);
+    margin-left: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .post .profile img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .post .profile .more-info {
+    margin-top: 0.65rem;
+    font-size: 0.85rem;
+    line-height: 1.35;
+  }
+
+  .post .profile .more-info p {
+    margin: 0.15rem 0;
+  }
+
+  .homepage-hero {
+    margin-top: 0.1rem;
+    max-width: 62ch;
+  }
+
+  .homepage-hero .hero-name {
+    margin: 0;
+    font-size: clamp(1.85rem, 2.6vw, 2.35rem);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  .homepage-hero .hero-headline {
+    margin: 0.4rem 0 0;
+    font-size: clamp(1.05rem, 1.55vw, 1.25rem);
+    line-height: 1.35;
+    font-weight: 500;
+  }
+
+  .homepage-hero .hero-bio {
+    margin: 0.85rem 0 0;
+    line-height: 1.6;
+  }
+
+  .homepage-hero .hero-cta {
+    margin: 0.95rem 0 0;
+  }
+
+  @media (max-width: 900px) {
+    .post .profile {
+      width: min(48%, 290px);
+      margin-left: 1.25rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .post .profile {
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto 1rem;
+      float: none;
+    }
+
+    .homepage-hero {
+      margin-top: 0;
+      max-width: 100%;
+    }
+  }
 </style>
