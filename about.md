@@ -1,9 +1,9 @@
 ---
 layout: about
-title: Home
+title: About
 nav: true
-nav_order: 1
-permalink: /
+nav_order: 2
+permalink: /about/
 profile:
   align: right
   image: portraits/Bendell_Rhyse.jpeg
@@ -14,42 +14,22 @@ profile:
     <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
 ---
 
-<style>
-  .post-title {
-    display: none;
-  }
-</style>
+I am a human factors and cognitive science researcher focused on how people and AI systems perform together in complex environments. My work blends behavioral science, system design, and rigorous experimentation to improve decision quality, team coordination, and operational outcomes.
 
-<div class="home-portfolio">
-  <section class="homepage-hero">
-    <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
-    <p class="hero-identity">Human-AI Systems Researcher &amp; Experimental Designer</p>
-    <p class="hero-headline">Designing and evaluating human-AI systems for real-world performance</p>
-    <p class="hero-bio">I am a human factors and cognitive science researcher specializing in human-AI teaming, cognitive systems, and experimental evaluation. I earned my Ph.D. in Human Factors and Cognitive Psychology and my M.A. in Applied Experimental and Human Factors Psychology from the University of Central Florida, and my B.Sc. in Mechanical Engineering from MIT. My work spans LLM-enabled workflows, human-subjects experimentation, VR simulation testbeds, and multimodal performance analysis, with 30+ peer-reviewed publications including work in Nature’s Scientific Reports.</p>
-    <p class="hero-cta"><a class="btn btn-primary" href="/assets/pdf/Rhyse_Bendell_Resume.pdf">Download Resume</a></p>
-  </section>
+## Professional Identity
 
-  <section>
-    <h2>Focus Areas</h2>
-    <div class="focus-areas">
-      <div class="focus-item">Human-AI Teaming</div>
-      <div class="focus-item">Experimental Systems &amp; Simulation</div>
-      <div class="focus-item">AI-Enabled Research Workflows</div>
-    </div>
-  </section>
+I work at the intersection of human-AI teaming, cognitive systems, and applied research methods. Across projects, I design studies, build prototypes, and evaluate workflows that involve LLMs, human operators, and mission-critical tasks.
 
-  <section>
-    <h2>Featured Work</h2>
-    {% include home_featured_work.html %}
-  </section>
+## Educational Background
 
-  <section>
-    <h2>Research Snapshot</h2>
-    <div class="credibility-strip">
-      <div class="credibility-item">MIT</div>
-      <div class="credibility-item">UCF Ph.D.</div>
-      <div class="credibility-item">30+ Publications</div>
-      <div class="credibility-item">Nature Scientific Reports</div>
-    </div>
-  </section>
-</div>
+- **Ph.D.** in Human Factors and Cognitive Psychology, University of Central Florida  
+- **M.A.** in Applied Experimental and Human Factors Psychology, University of Central Florida  
+- **B.Sc.** in Mechanical Engineering, Massachusetts Institute of Technology
+
+## Work and Research Trajectory
+
+My trajectory has moved from engineering foundations into human-centered AI research. Early training in mechanical engineering gave me a systems perspective; graduate work in human factors and cognitive psychology developed my approach to experimental design and behavioral measurement.
+
+That combination now shapes my research program: creating and evaluating human-AI systems that are both technically capable and cognitively aligned with the people who use them. I have led and contributed to work spanning LLM-enabled research workflows, VR simulation testbeds, automated systems design, and multimodal performance analysis.
+
+My publications include more than 30 peer-reviewed outputs, including work published in *Scientific Reports*. I am especially interested in translating rigorous lab and simulation findings into practical tools and methods for real-world teams.
