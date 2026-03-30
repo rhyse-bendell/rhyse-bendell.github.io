@@ -1,7 +1,7 @@
 ---
 title: AI-Supported Research Workflows
 description: LLM-powered research assistant workflows for literature synthesis, human-in-the-loop review, and research automation.
-img: /assets/img/portraits/Bendell_Rhyse.jpeg
+img: /assets/img/projects/asist-placeholder.svg
 importance: 1
 category: research
 ---
