@@ -6,6 +6,8 @@ nav_order: 1
 permalink: /
 ---
 
+{% include head_custom.html %}
+
 <div class="home-portfolio">
   <section class="homepage-hero" style="display:grid;grid-template-columns:1.6fr 1fr;gap:2rem;align-items:center;">
     <div>

@@ -1,3 +1,100 @@
+<style data-featured-grid-styles>
+  .home-portfolio .homepage-featured-work {
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+
+  .home-portfolio .homepage-featured-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 0 0 1rem;
+    justify-content: center;
+  }
+
+  .home-portfolio .homepage-featured-filter {
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    padding: 0.4rem 0.9rem;
+    background: #fff;
+    color: #374151;
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .home-portfolio .homepage-featured-filter.is-active {
+    background: #b45309;
+    border-color: #b45309;
+    color: #fff;
+  }
+
+  .home-portfolio .homepage-featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .home-portfolio .homepage-featured-card {
+    min-width: 0;
+    display: flex;
+  }
+
+  .home-portfolio .homepage-featured-card__link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+    text-decoration: none;
+  }
+
+  .home-portfolio .homepage-featured-card__image {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .home-portfolio .homepage-featured-card__caption {
+    padding: 0.55rem 0.75rem;
+    border-top: 1px solid #ececec;
+    background: #f7f7f7;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .home-portfolio .homepage-featured-card__title {
+    margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.25;
+    color: #374151;
+    font-weight: 700;
+  }
+
+  .home-portfolio .homepage-featured-card__link--placeholder {
+    cursor: default;
+  }
+
+  @media (max-width: 768px) {
+    .home-portfolio .homepage-featured-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 560px) {
+    .home-portfolio .homepage-featured-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 {% assign featured_slugs = "0_artificial_social_intelligence_for_successful_teams_asist|1_ai_research_assistant|2_ai_teaming_experiments|3_vr_simulation_testbeds|4_automated_systems_design" | split: "|" %}
 
 {% assign max_tiles = 9 %}
