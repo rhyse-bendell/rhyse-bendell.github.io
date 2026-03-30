@@ -80,17 +80,21 @@
 
   .homepage-featured-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   .homepage-featured-card {
     min-width: 0;
+    display: flex;
   }
 
   .homepage-featured-card__link {
     position: relative;
     display: block;
+    width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 12px;
     overflow: hidden;
@@ -139,6 +143,15 @@
   .homepage-featured-card__link:focus-visible .homepage-featured-card__overlay {
     opacity: 1;
   }
+
+  .homepage-featured-card__link--placeholder {
+    cursor: default;
+  }
+
+  .homepage-featured-card__overlay--visible {
+    opacity: 1;
+  }
+
   .portfolio-grid {
     display: grid;
     gap: 1rem;
@@ -215,9 +228,18 @@
     .homepage-hero { max-width: 100%; }
 
     .focus-areas,
-    .homepage-featured-grid,
     .portfolio-grid,
     .credibility-strip {
+      grid-template-columns: 1fr;
+    }
+
+    .homepage-featured-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 560px) {
+    .homepage-featured-grid {
       grid-template-columns: 1fr;
     }
   }
