@@ -78,20 +78,20 @@
   }
 
 
-  .homepage-featured-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  .home-portfolio .homepage-featured-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     gap: 1rem;
     max-width: 960px;
     margin: 0 auto;
   }
 
-  .homepage-featured-card {
+  .home-portfolio .homepage-featured-card {
     min-width: 0;
     display: flex;
   }
 
-  .homepage-featured-card__link {
+  .home-portfolio .homepage-featured-card__link {
     position: relative;
     display: block;
     width: 100%;
@@ -103,7 +103,7 @@
     text-decoration: none;
   }
 
-  .homepage-featured-card__image {
+  .home-portfolio .homepage-featured-card__image {
     width: 100%;
     height: 100%;
     display: block;
@@ -111,7 +111,7 @@
     object-position: center;
   }
 
-  .homepage-featured-card__overlay {
+  .home-portfolio .homepage-featured-card__overlay {
     position: absolute;
     inset: 0;
     display: flex;
@@ -125,30 +125,30 @@
     transition: opacity 160ms ease-in-out;
   }
 
-  .homepage-featured-card__title {
+  .home-portfolio .homepage-featured-card__title {
     margin: 0;
     font-size: 1rem;
     line-height: 1.25;
     color: inherit;
   }
 
-  .homepage-featured-card__description {
+  .home-portfolio .homepage-featured-card__description {
     margin: 0;
     font-size: 0.85rem;
     line-height: 1.4;
     color: #e2e8f0;
   }
 
-  .homepage-featured-card__link:hover .homepage-featured-card__overlay,
-  .homepage-featured-card__link:focus-visible .homepage-featured-card__overlay {
+  .home-portfolio .homepage-featured-card__link:hover .homepage-featured-card__overlay,
+  .home-portfolio .homepage-featured-card__link:focus-visible .homepage-featured-card__overlay {
     opacity: 1;
   }
 
-  .homepage-featured-card__link--placeholder {
+  .home-portfolio .homepage-featured-card__link--placeholder {
     cursor: default;
   }
 
-  .homepage-featured-card__overlay--visible {
+  .home-portfolio .homepage-featured-card__overlay--visible {
     opacity: 1;
   }
 
@@ -233,13 +233,13 @@
       grid-template-columns: 1fr;
     }
 
-    .homepage-featured-grid {
+    .home-portfolio .homepage-featured-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
   @media (max-width: 560px) {
-    .homepage-featured-grid {
+    .home-portfolio .homepage-featured-grid {
       grid-template-columns: 1fr;
     }
   }
