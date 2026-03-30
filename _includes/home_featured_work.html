@@ -1,0 +1,24 @@
+{% assign featured_slugs = "0_artificial_social_intelligence_for_successful_teams_asist|1_ai_research_assistant|2_ai_teaming_experiments|3_vr_simulation_testbeds" | split: "|" %}
+
+<div class="homepage-featured-grid" role="list">
+  {% for slug in featured_slugs %}
+    {% assign project = site.projects | where_exp: "item", "item.path contains slug" | first %}
+    {% if project %}
+      {% assign tile_image = project.img | default: "/assets/img/projects/asist-placeholder.svg" %}
+      <article class="homepage-featured-card" role="listitem">
+        <a class="homepage-featured-card__link" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
+          <img
+            class="homepage-featured-card__image"
+            src="{{ tile_image | relative_url }}"
+            alt="{{ project.title }} preview image"
+            loading="lazy"
+            onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
+          <div class="homepage-featured-card__overlay">
+            <h3 class="homepage-featured-card__title">{{ project.title }}</h3>
+            <p class="homepage-featured-card__description">{{ project.description | default: project.short_description | truncate: 130 }}</p>
+          </div>
+        </a>
+      </article>
+    {% endif %}
+  {% endfor %}
+</div>

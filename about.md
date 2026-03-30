@@ -40,7 +40,7 @@ profile:
 
   <section>
     <h2>Featured Work</h2>
-    {% include project_grid.html limit=4 %}
+    {% include home_featured_work.html %}
   </section>
 
   <section>
