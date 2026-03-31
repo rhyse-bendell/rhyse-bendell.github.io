@@ -51,9 +51,26 @@ I integrate systems design, controlled experimentation, and iterative prototypin
 
 ## Educational Background
 
-**Ph.D., Human Factors and Cognitive Psychology** — University of Central Florida  
-**M.A., Applied Experimental and Human Factors Psychology** — University of Central Florida  
-**B.Sc., Mechanical Engineering** — Massachusetts Institute of Technology
+### B.Sc., Mechanical Engineering, Massachusetts Institute of Technology  
+**Dates:** Undergraduate study
+
+I began with a pre-med orientation grounded in biology, chemistry, and foundational natural science, alongside early coursework in psychology and neuroscience that sharpened my interest in cognition as a biological and computational phenomenon. That trajectory progressively shifted toward cognitive neuroscience and then into a full mechanical engineering curriculum organized around dynamics and control, fluid dynamics, thermodynamics, heat transfer, materials and mechanics, and instrumentation-based measurement. Across this progression, the central throughline became systems-level explanation rather than single-discipline specialization.
+
+This interdisciplinary path established durable systems-thinking habits: modeling physical and biological processes with the same analytic discipline, reasoning across scale from component behavior to whole-system performance, and translating between human constraints and engineered mechanisms. Research involvement in biomechatronics through undergraduate lab work integrated physiology, robotics, control architecture, and human-machine interaction, providing early exposure to human-machine integration as both a design problem and an empirical research problem.
+
+### M.A., Applied Experimental and Human Factors Psychology, University of Central Florida  
+**Dates:** Graduate study
+
+The master's training formalized my methodological foundation in human factors and cognition through advanced work in experimental design, statistical inference, human performance, cognitive systems, and applied evaluation in complex operational environments. Rather than treating theory and application as separate domains, the program emphasized rigorous hypothesis-driven experimentation within realistic sociotechnical contexts where attention, workload, uncertainty, and coordination pressures shape performance.
+
+The primary takeaway was methodological fluency for translational research: designing and running human-subject experiments, operationalizing cognitive and workload constructs, and evaluating system behavior under mission-like constraints. This stage also reinforced the practice of moving from theory to deployment by converting cognitive and human factors principles into testable interventions relevant to simulation, defense-oriented workflows, and AI-enabled decision support settings.
+
+### Ph.D., Human Factors and Cognitive Psychology, University of Central Florida  
+**Dates:** Completed 2025
+
+Doctoral work extended this foundation into human-AI teaming research focused on macrocognition in teams, adaptive coordination, and decision support in complex environments. The emphasis was on integrating controlled experimentation with computational modeling to characterize how AI policies, team interaction structure, and uncertainty conditions jointly influence collective cognition and performance.
+
+This phase consolidated an end-to-end research identity that links theory, model design, and empirical validation: framing team cognition as a measurable systems phenomenon, building experimentally tractable human-AI paradigms, and using computational and behavioral evidence together to guide design choices for collaborative AI systems.
 
 ## Research Approach
 
