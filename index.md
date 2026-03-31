@@ -11,12 +11,16 @@ permalink: /
 <div class="home-portfolio">
   <section class="homepage-hero">
     <div class="homepage-hero__content">
+      <p class="hero-home">Home</p>
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
-      <p class="hero-identity">Human-AI Systems Researcher &amp; Experimental Designer</p>
-      <p class="hero-ux-signal">Research-driven UX design for complex human–AI systems</p>
-      <p class="hero-headline">Designing and evaluating human-AI systems for real-world performance</p>
-      <p class="hero-bio">I study human-AI teaming, cognitive systems, and experimental evaluation for high-stakes environments.</p>
-      <p class="hero-cta"><a class="btn btn-primary" href="/projects/">View Featured Work</a></p>
+      <div class="hero-hat">
+        <h2 class="hero-hat__title">Designer &amp; Builder</h2>
+        <p class="hero-hat__description">I build AI-supported systems, simulation environments, and research software that help people think, coordinate, and perform in complex settings. My work spans human-AI interaction, experimental platforms, agent-based systems, and tools for studying and supporting real-world decision-making.</p>
+      </div>
+      <div class="hero-hat">
+        <h2 class="hero-hat__title">Researcher &amp; Scientist</h2>
+        <p class="hero-hat__description">I design and conduct rigorous studies to test theory, evaluate human-AI systems, and generate new knowledge about cognition, collaboration, and performance. My research combines human factors, cognitive science, experimentation, and modeling to understand how people and intelligent systems work together.</p>
+      </div>
     </div>
     <div class="homepage-hero__portrait-wrap">
       <img class="homepage-hero__portrait" src="/assets/img/portraits/Bendell_Rhyse.jpeg" alt="Portrait of Rhyse Bendell" />
@@ -25,7 +29,7 @@ permalink: /
 
   <section>
     <h2>Focus Areas</h2>
-    <p class="focus-areas-inline">Human–AI Teaming • Experimental Systems &amp; Simulation • AI-Enabled Research Workflows</p>
+    <p class="focus-areas-inline">Human–AI Interaction • Human–AI Teaming • Cognitive Systems • Experimental Simulation • Adaptive Decision Support • Team Cognition • Artificial Social Intelligence • Human-Centered AI • Research Platforms</p>
   </section>
 
   <section>
