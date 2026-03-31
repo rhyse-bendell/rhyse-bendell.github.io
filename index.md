@@ -9,8 +9,8 @@ permalink: /
 {% include head_custom.html %}
 
 <div class="home-portfolio">
-  <section class="homepage-hero" style="display:grid;grid-template-columns:1.6fr 1fr;gap:2rem;align-items:center;">
-    <div>
+  <section class="homepage-hero">
+    <div class="homepage-hero__content">
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
       <p class="hero-identity">Human-AI Systems Researcher &amp; Experimental Designer</p>
       <p class="hero-ux-signal">Research-driven UX design for complex human–AI systems</p>
@@ -18,8 +18,8 @@ permalink: /
       <p class="hero-bio">I study human-AI teaming, cognitive systems, and experimental evaluation for high-stakes environments.</p>
       <p class="hero-cta"><a class="btn btn-primary" href="/projects/">View Featured Work</a></p>
     </div>
-    <div>
-      <img src="/assets/img/portraits/Bendell_Rhyse.jpeg" alt="Portrait of Rhyse Bendell" style="width:100%;max-width:320px;border-radius:8px;" />
+    <div class="homepage-hero__portrait-wrap">
+      <img class="homepage-hero__portrait" src="/assets/img/portraits/Bendell_Rhyse.jpeg" alt="Portrait of Rhyse Bendell" />
     </div>
   </section>
 

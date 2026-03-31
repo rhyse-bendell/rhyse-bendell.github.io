@@ -34,7 +34,7 @@
   .home-portfolio .homepage-featured-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 1.1rem;
   }
 
   .home-portfolio .homepage-featured-card {
@@ -42,40 +42,64 @@
     display: flex;
   }
 
-  .home-portfolio .homepage-featured-card__link {
-    display: flex;
-    flex-direction: column;
+  .home-portfolio .homepage-featured-card__link.project-card {
+    position: relative;
+    display: block;
     width: 100%;
     border-radius: 12px;
     overflow: hidden;
     border: 1px solid #e9e9e9;
-    background: #fff;
+    background: #111;
     text-decoration: none;
   }
 
-  .home-portfolio .homepage-featured-card__image {
+  .home-portfolio .homepage-featured-card__image.project-card__image {
     width: 100%;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 1 / 1;
     display: block;
     object-fit: cover;
     object-position: center;
   }
 
-  .home-portfolio .homepage-featured-card__caption {
-    padding: 0.55rem 0.75rem;
-    border-top: 1px solid #ececec;
-    background: #f7f7f7;
-    min-height: 3rem;
+  .home-portfolio .project-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.18);
+    color: #fff;
+    padding: 0.85rem 0.9rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.35rem;
+    transition: background-color 180ms ease;
   }
 
-  .home-portfolio .homepage-featured-card__title {
+  .home-portfolio .homepage-featured-card__title.project-card__title {
     margin: 0;
-    font-size: 0.98rem;
+    font-size: 0.96rem;
     line-height: 1.25;
-    color: #374151;
+    color: #fff;
     font-weight: 700;
+  }
+
+  .home-portfolio .project-card__description {
+    margin: 0;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .home-portfolio .project-card:hover .project-card__overlay,
+  .home-portfolio .project-card:focus-visible .project-card__overlay {
+    background: rgba(0, 0, 0, 0.45);
+  }
+
+  .home-portfolio .project-card:hover .project-card__description,
+  .home-portfolio .project-card:focus-visible .project-card__description {
+    opacity: 1;
+    transform: translateY(0);
   }
 
   .home-portfolio .homepage-featured-card__link--placeholder {
@@ -116,15 +140,16 @@
         {% assign project_image = project.img | default: "/assets/img/projects/asist-placeholder.svg" %}
         {% assign project_category_slug = project.category | default: "uncategorized" | slugify %}
         <article class="homepage-featured-card" role="listitem" data-category="{{ project_category_slug }}">
-          <a class="homepage-featured-card__link" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
+          <a class="homepage-featured-card__link project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
             <img
-              class="homepage-featured-card__image"
+              class="homepage-featured-card__image project-card__image"
               src="{{ project_image | relative_url }}"
               alt="{{ project.title }} preview image"
               loading="lazy"
               onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
-            <div class="homepage-featured-card__caption">
-              <h3 class="homepage-featured-card__title">{{ project.title }}</h3>
+            <div class="project-card__overlay homepage-featured-card__overlay">
+              <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
+              <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
             </div>
           </a>
         </article>
@@ -135,15 +160,16 @@
     {% assign placeholder_start = rendered_tiles | plus: 1 %}
     {% for i in (placeholder_start..max_tiles) %}
       <article class="homepage-featured-card" role="listitem" data-category="coming-soon">
-        <div class="homepage-featured-card__link homepage-featured-card__link--placeholder" aria-label="Placeholder Project {{ i }} (coming soon)">
+        <div class="homepage-featured-card__link homepage-featured-card__link--placeholder project-card" aria-label="Placeholder Project {{ i }} (coming soon)">
           <img
-            class="homepage-featured-card__image"
+            class="homepage-featured-card__image project-card__image"
             src="{{ '/assets/img/projects/placeholder-project-' | append: i | append: '.svg' | relative_url }}"
             alt="Placeholder Project {{ i }} preview image"
             loading="lazy"
             onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
-          <div class="homepage-featured-card__caption">
-            <h3 class="homepage-featured-card__title">Placeholder Project {{ i }}</h3>
+          <div class="project-card__overlay homepage-featured-card__overlay">
+            <h3 class="homepage-featured-card__title project-card__title">Placeholder Project {{ i }}</h3>
+            <p class="project-card__description">Additional case study details coming soon.</p>
           </div>
         </div>
       </article>
