@@ -37,16 +37,16 @@
   .post .profile .more-info p { margin: 0.2rem 0; }
 
   .homepage-hero {
-    margin-top: 0.2rem;
+    margin-top: 0.25rem;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 2rem;
+    grid-template-columns: minmax(0, 1.6fr) minmax(300px, 1fr);
+    gap: 2.25rem;
     align-items: center;
     max-width: 100%;
   }
 
   .homepage-hero__content {
-    max-width: 68ch;
+    max-width: 62ch;
   }
 
   .homepage-hero__portrait-wrap {
@@ -55,46 +55,48 @@
   }
 
   .homepage-hero__portrait {
-    width: min(100%, 390px);
+    width: min(100%, 420px);
     border-radius: 10px;
     display: block;
   }
 
-  .homepage-hero .hero-name {
+  .homepage-hero .hero-home {
     margin: 0;
-    font-size: clamp(2rem, 2.8vw, 2.5rem);
-    line-height: 1.15;
+    font-size: clamp(2.35rem, 3.5vw, 3rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+
+  .homepage-hero .hero-name {
+    margin: 0.2rem 0 0;
+    font-size: clamp(1.7rem, 2.35vw, 2.2rem);
+    line-height: 1.18;
     letter-spacing: -0.01em;
   }
 
-  .homepage-hero .hero-identity {
-    margin: 0.35rem 0 0;
-    font-size: 1.05rem;
+  .homepage-hero .hero-hat {
+    margin-top: 0.9rem;
+  }
+
+  .homepage-hero .hero-hat__title {
+    margin: 0;
+    font-size: clamp(1.2rem, 1.45vw, 1.35rem);
+    line-height: 1.3;
     font-weight: 600;
   }
 
-  .homepage-hero .hero-ux-signal {
+  .homepage-hero .hero-hat__description {
     margin: 0.35rem 0 0;
-    font-size: 0.96rem;
-    color: #4b5563;
+    font-size: 1rem;
+    line-height: 1.55;
+    color: #2f3136;
   }
-
-  .homepage-hero .hero-headline {
-    margin: 0.45rem 0 0;
-    font-size: clamp(1.05rem, 1.6vw, 1.25rem);
-    line-height: 1.35;
-    font-weight: 500;
-  }
-
-  .homepage-hero .hero-bio {
-    margin: 0.75rem 0 0;
-    line-height: 1.58;
-  }
-
-  .homepage-hero .hero-cta { margin: 0.9rem 0 0; }
 
   .focus-areas-inline {
-    font-size: 0.95rem;
+    max-width: 72ch;
+    font-size: 0.98rem;
+    line-height: 1.6;
     color: #444;
     margin-top: 0.5rem;
   }
@@ -276,12 +278,12 @@
 
   @media (max-width: 900px) {
     .homepage-hero {
-      grid-template-columns: 1.35fr 1fr;
+      grid-template-columns: minmax(0, 1.45fr) minmax(260px, 1fr);
       gap: 1.5rem;
     }
 
     .homepage-hero__portrait {
-      width: min(100%, 350px);
+      width: min(100%, 370px);
     }
 
     .post .profile {
@@ -327,11 +329,11 @@
     .homepage-hero {
       max-width: 100%;
       grid-template-columns: 1fr;
-      gap: 1rem;
+      gap: 1.2rem;
     }
 
     .homepage-hero__portrait {
-      width: min(100%, 320px);
+      width: min(100%, 340px);
     }
 
     .portfolio-grid,
