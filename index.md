@@ -20,6 +20,11 @@ permalink: /
         <h2 class="hero-hat__title">Researcher &amp; Scientist</h2>
         <p class="hero-hat__description">I design and conduct rigorous studies to test theory, evaluate human-AI systems, and generate new knowledge about cognition, collaboration, and performance. My research combines human factors, cognitive science, experimentation, and modeling to understand how people and intelligent systems work together.</p>
       </div>
+      <div class="hero-credentials" aria-label="Academic credentials">
+        <p>Ph.D., Human Factors and Cognitive Psychology, University of Central Florida</p>
+        <p>M.A., Applied Experimental &amp; Human Factors Psychology, University of Central Florida</p>
+        <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
+      </div>
     </div>
     <div class="homepage-hero__portrait-wrap">
       <img class="homepage-hero__portrait" src="/assets/img/portraits/Bendell_Rhyse.jpeg" alt="Portrait of Rhyse Bendell" />
