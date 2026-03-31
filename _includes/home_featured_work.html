@@ -7,10 +7,11 @@
   .home-portfolio .projects-layout {
     display: flex;
     gap: 2rem;
+    align-items: flex-start;
   }
 
   .home-portfolio .projects-sidebar {
-    width: 200px;
+    width: 220px;
     flex-shrink: 0;
   }
 
@@ -18,22 +19,30 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
   }
 
   .home-portfolio .project-filters-vertical li {
-    padding: 8px 12px;
-    margin-bottom: 6px;
+    padding: 10px 12px;
     cursor: pointer;
     border-radius: 6px;
-    color: #444;
+    border: 1px solid #d8d8d8;
+    color: #2b2b2b;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    transition: background-color 180ms ease, border-color 180ms ease;
   }
 
   .home-portfolio .project-filters-vertical li:hover {
     background: #f2f2f2;
+    border-color: #cfcfcf;
   }
 
   .home-portfolio .project-filters-vertical li.active {
     background: #e6e6e6;
+    border-color: #bdbdbd;
     font-weight: 600;
   }
 
@@ -126,13 +135,8 @@
     }
 
     .home-portfolio .project-filters-vertical {
-      display: flex;
+      flex-direction: row;
       flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .home-portfolio .project-filters-vertical li {
-      margin-bottom: 0;
     }
   }
 
@@ -152,56 +156,81 @@
 {% assign max_tiles = 9 %}
 {% assign rendered_tiles = 0 %}
 {% assign featured_projects = site.projects | where: 'canonical', true | where: 'featured', true | sort: 'importance' %}
+{% assign filter_categories = 'Human–AI Interaction|Simulation Systems|Cognitive Science|Prototyping' | split: '|' %}
 
 <div class="homepage-featured-work" data-featured-grid>
-  <div class="homepage-featured-filters" role="toolbar" aria-label="Filter featured projects">
-    <button class="homepage-featured-filter is-active" type="button" data-filter="all" aria-pressed="true">All</button>
-    {% for category in filter_categories %}
-      {% assign category_slug = category | slugify %}
-      <button class="homepage-featured-filter" type="button" data-filter="{{ category_slug }}" aria-pressed="false">{{ category }}</button>
-    {% endfor %}
-  </div>
+  <div class="projects-layout">
+    <aside class="projects-sidebar" aria-label="Project filters">
+      <ul class="project-filters-vertical" role="toolbar" aria-label="Filter featured projects">
+        <li class="active" role="button" tabindex="0" data-filter="all" aria-pressed="true">All</li>
+        {% for category in filter_categories %}
+          {% assign category_slug = category | slugify %}
+          <li role="button" tabindex="0" data-filter="{{ category_slug }}" aria-pressed="false">{{ category }}</li>
+        {% endfor %}
+      </ul>
+    </aside>
 
-  <div class="homepage-featured-grid" role="list">
-    {% for project in featured_projects %}
-      {% if rendered_tiles < max_tiles %}
-        {% assign project_image = project.img | default: "/assets/img/projects/asist-placeholder.svg" %}
-        {% assign project_category_slug = project.category | default: "uncategorized" | slugify %}
-        <article class="homepage-featured-card" role="listitem" data-category="{{ project_category_slug }}">
-          <a class="homepage-featured-card__link project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
-            <img
-              class="homepage-featured-card__image project-card__image"
-              src="{{ project_image | relative_url }}"
-              alt="{{ project.title }} preview image"
-              loading="lazy"
-              onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
-            <div class="project-card__overlay homepage-featured-card__overlay">
-              <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
-              <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
+    <div class="projects-grid-container">
+      <div class="homepage-featured-grid" role="list">
+        {% for project in featured_projects %}
+          {% if rendered_tiles < max_tiles %}
+            {% assign project_image = project.img | default: '/assets/img/projects/asist-placeholder.svg' %}
+            {% assign project_tags = '' %}
+            {% assign project_category = project.category | default: '' | downcase %}
+
+            {% if project_category contains 'human-ai' or project_category contains 'team' or project_category contains 'experiment' %}
+              {% assign project_tags = project_tags | append: 'human-ai-interaction ' %}
+            {% endif %}
+            {% if project_category contains 'simulation' or project_category contains 'spatial' %}
+              {% assign project_tags = project_tags | append: 'simulation-systems ' %}
+            {% endif %}
+            {% if project_category contains 'cognition' or project_category contains 'spatial' %}
+              {% assign project_tags = project_tags | append: 'cognitive-science ' %}
+            {% endif %}
+            {% if project_category contains 'research' or project_category contains 'engineering' or project_category contains 'experiment' %}
+              {% assign project_tags = project_tags | append: 'prototyping ' %}
+            {% endif %}
+            {% if project_tags == '' %}
+              {% assign project_tags = 'prototyping' %}
+            {% endif %}
+
+            <article class="homepage-featured-card" role="listitem" data-category="{{ project_tags | strip }}">
+              <a class="homepage-featured-card__link project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
+                <img
+                  class="homepage-featured-card__image project-card__image"
+                  src="{{ project_image | relative_url }}"
+                  alt="{{ project.title }} preview image"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
+                <div class="project-card__overlay homepage-featured-card__overlay">
+                  <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
+                  <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
+                </div>
+              </a>
+            </article>
+            {% assign rendered_tiles = rendered_tiles | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+
+        {% assign placeholder_start = rendered_tiles | plus: 1 %}
+        {% for i in (placeholder_start..max_tiles) %}
+          <article class="homepage-featured-card" role="listitem" data-category="coming-soon">
+            <div class="homepage-featured-card__link homepage-featured-card__link--placeholder project-card" aria-label="Placeholder Project {{ i }} (coming soon)">
+              <img
+                class="homepage-featured-card__image project-card__image"
+                src="{{ '/assets/img/projects/placeholder-project-' | append: i | append: '.svg' | relative_url }}"
+                alt="Placeholder Project {{ i }} preview image"
+                loading="lazy"
+                onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
+              <div class="project-card__overlay homepage-featured-card__overlay">
+                <h3 class="homepage-featured-card__title project-card__title">Placeholder Project {{ i }}</h3>
+                <p class="project-card__description">Additional case study details coming soon.</p>
+              </div>
             </div>
-          </a>
-        </article>
-        {% assign rendered_tiles = rendered_tiles | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-
-    {% assign placeholder_start = rendered_tiles | plus: 1 %}
-    {% for i in (placeholder_start..max_tiles) %}
-      <article class="homepage-featured-card" role="listitem" data-category="coming-soon">
-        <div class="homepage-featured-card__link homepage-featured-card__link--placeholder project-card" aria-label="Placeholder Project {{ i }} (coming soon)">
-          <img
-            class="homepage-featured-card__image project-card__image"
-            src="{{ '/assets/img/projects/placeholder-project-' | append: i | append: '.svg' | relative_url }}"
-            alt="Placeholder Project {{ i }} preview image"
-            loading="lazy"
-            onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
-          <div class="project-card__overlay homepage-featured-card__overlay">
-            <h3 class="homepage-featured-card__title project-card__title">Placeholder Project {{ i }}</h3>
-            <p class="project-card__description">Additional case study details coming soon.</p>
-          </div>
-        </div>
-      </article>
-    {% endfor %}
+          </article>
+        {% endfor %}
+      </div>
+    </div>
   </div>
 </div>
 
@@ -217,6 +246,7 @@
       buttons.forEach((button) => {
         const active = button.dataset.filter === nextFilter;
         button.classList.toggle('active', active);
+        button.setAttribute('aria-pressed', active ? 'true' : 'false');
       });
 
       cards.forEach((card) => {
@@ -228,6 +258,12 @@
 
     buttons.forEach((button) => {
       button.addEventListener('click', () => setFilter(button.dataset.filter));
+      button.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          setFilter(button.dataset.filter);
+        }
+      });
     });
   })();
 </script>
