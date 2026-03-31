@@ -18,6 +18,10 @@ profile:
   .post .profile img {
     max-width: 272px;
   }
+
+  .post .post-title {
+    display: none;
+  }
 </style>
 
 I am a human factors and cognitive science researcher focused on how people and AI systems perform together in complex environments. My work blends behavioral science, system design, and rigorous experimentation to improve decision quality, team coordination, and operational outcomes.
