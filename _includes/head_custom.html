@@ -40,8 +40,8 @@
     margin-top: 0.25rem;
     display: grid;
     grid-template-columns: minmax(0, 1.6fr) minmax(300px, 1fr);
-    gap: 2.25rem;
-    align-items: center;
+    gap: 1.4rem;
+    align-items: start;
     max-width: 100%;
   }
 
@@ -83,6 +83,24 @@
     font-size: 1rem;
     line-height: 1.55;
     color: #2f3136;
+  }
+
+  .homepage-hero .hero-credentials {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid #e7e7e7;
+  }
+
+  .homepage-hero .hero-credentials p {
+    margin: 0;
+    font-size: 0.94rem;
+    line-height: 1.5;
+    color: #3a3d42;
+    font-family: inherit;
+  }
+
+  .homepage-hero .hero-credentials p + p {
+    margin-top: 0.35rem;
   }
 
   .home-portfolio .homepage-focus-areas {
@@ -276,7 +294,7 @@
   @media (max-width: 900px) {
     .homepage-hero {
       grid-template-columns: minmax(0, 1.45fr) minmax(260px, 1fr);
-      gap: 1.5rem;
+      gap: 1.15rem;
     }
 
     .homepage-hero__portrait {
