@@ -97,6 +97,16 @@ permalink: /contact/
 <div class="contact-page">
   <p class="contact-intro">If you'd like to discuss research, consulting, collaboration, or design opportunities, feel free to reach out.</p>
 
+  <section class="contact-section" aria-labelledby="professional-links-heading">
+    <h2 id="professional-links-heading">Professional Links</h2>
+    <ul class="contact-links">
+      <li><span class="contact-label">GitHub:</span> <a href="https://github.com/rhyse-bendell" target="_blank" rel="noopener noreferrer">github.com/rhyse-bendell</a></li>
+      <li><span class="contact-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/rhyse-bendell" target="_blank" rel="noopener noreferrer">linkedin.com/in/rhyse-bendell</a></li>
+      <li><span class="contact-label">Cognitive Sciences Laboratory:</span> <a href="https://csl.ist.ucf.edu/People" target="_blank" rel="noopener noreferrer">csl.ist.ucf.edu/People</a></li>
+      <li><span class="contact-label">Google Scholar:</span> <a href="https://scholar.google.com/scholar?q=Rhyse+Bendell" target="_blank" rel="noopener noreferrer">scholar.google.com (Rhyse Bendell search)</a></li>
+    </ul>
+  </section>
+
   <section class="contact-section" aria-labelledby="contact-form-heading">
     <h2 id="contact-form-heading">Contact Form</h2>
     <!-- Replace with real Formspree endpoint -->
@@ -123,22 +133,5 @@ permalink: /contact/
 
       <button class="contact-submit" type="submit">Send Message</button>
     </form>
-  </section>
-
-  <section class="contact-section" aria-labelledby="direct-contact-heading">
-    <h2 id="direct-contact-heading">Direct Contact</h2>
-    <ul class="contact-links">
-      <li><span class="contact-label">Email:</span> <a href="mailto:rhyben94@gmail.com">rhyben94@gmail.com</a></li>
-      <li><span class="contact-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/rhyse-bendell" target="_blank" rel="noopener noreferrer">linkedin.com/in/rhyse-bendell</a></li>
-      <li><span class="contact-label">Cognitive Sciences Laboratory:</span> <a href="https://csl.ist.ucf.edu/People" target="_blank" rel="noopener noreferrer">csl.ist.ucf.edu/People</a></li>
-    </ul>
-  </section>
-
-  <section class="contact-section" aria-labelledby="professional-links-heading">
-    <h2 id="professional-links-heading">Professional Links</h2>
-    <ul class="contact-links">
-      <li><span class="contact-label">GitHub:</span> <a href="https://github.com/rhyse-bendell" target="_blank" rel="noopener noreferrer">github.com/rhyse-bendell</a></li>
-      <li><span class="contact-label">Google Scholar:</span> <a href="https://scholar.google.com/scholar?q=Rhyse+Bendell" target="_blank" rel="noopener noreferrer">scholar.google.com (Rhyse Bendell search)</a></li>
-    </ul>
   </section>
 </div>
