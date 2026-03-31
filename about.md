@@ -8,15 +8,31 @@ profile:
   align: right
   image: portraits/Bendell_Rhyse.jpeg
   image_circular: false
-  more_info: |
-    <p>Ph.D., Human Factors and Cognitive Psychology, University of Central Florida</p>
-    <p>M.A., Applied Experimental and Human Factors Psychology, University of Central Florida</p>
-    <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
 ---
+
+<style>
+  .post .profile {
+    width: min(30.4%, 272px);
+  }
+
+  .post .profile img {
+    max-width: 272px;
+  }
+</style>
 
 I am a human factors and cognitive science researcher focused on how people and AI systems perform together in complex environments. My work blends behavioral science, system design, and rigorous experimentation to improve decision quality, team coordination, and operational outcomes.
 
-## My Approach to UX & Human-Centered Design
+## Professional Identity
+
+I work at the intersection of human-AI teaming, cognitive systems, and applied research methods. Across projects, I design studies, build prototypes, and evaluate workflows that involve LLMs, human operators, and mission-critical tasks.
+
+## Educational Background
+
+- **Ph.D.** in Human Factors and Cognitive Psychology, University of Central Florida  
+- **M.A.** in Applied Experimental and Human Factors Psychology, University of Central Florida  
+- **B.Sc.** in Mechanical Engineering, Massachusetts Institute of Technology
+
+## My Approach to Human-Centered Design
 
 I approach UX as an empirical, research-driven process grounded in human cognition, team behavior, and real-world performance. My work blends human factors, experimental psychology, and system design to ensure that technologies are not only usable, but effective in complex operational environments.
 
@@ -41,17 +57,6 @@ I approach UX as an empirical, research-driven process grounded in human cogniti
    - Iterate based on measurable improvements in team and mission performance.
 
 My goal is to move beyond surface-level usability and toward systems that actively support human thinking, coordination, and decision-making in high-stakes environments.
-
-
-## Professional Identity
-
-I work at the intersection of human-AI teaming, cognitive systems, and applied research methods. Across projects, I design studies, build prototypes, and evaluate workflows that involve LLMs, human operators, and mission-critical tasks.
-
-## Educational Background
-
-- **Ph.D.** in Human Factors and Cognitive Psychology, University of Central Florida  
-- **M.A.** in Applied Experimental and Human Factors Psychology, University of Central Florida  
-- **B.Sc.** in Mechanical Engineering, Massachusetts Institute of Technology
 
 ## Work and Research Trajectory
 
