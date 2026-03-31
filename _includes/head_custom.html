@@ -5,7 +5,10 @@
 
   .navbar .nav-item .nav-link.active,
   .navbar .nav-item .nav-link:hover,
-  .navbar .nav-item .nav-link:focus {
+  .navbar .nav-item .nav-link:focus,
+  .nav-list .nav-list-item .nav-list-link.active,
+  .nav-list .nav-list-item .nav-list-link[aria-current="page"],
+  .nav-list .nav-list-item .nav-list-link.current {
     color: #2ec4c7 !important;
   }
 
@@ -101,20 +104,20 @@
 
   .homepage-hero .hero-credentials__group {
     display: grid;
-    grid-template-columns: 34px minmax(0, 1fr);
-    column-gap: 0.55rem;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 0.65rem;
     align-items: start;
   }
 
   .homepage-hero .hero-credentials__logo {
-    width: 34px;
+    width: 40px;
     height: auto;
     margin-top: 0.14rem;
     object-fit: contain;
   }
 
   .homepage-hero .hero-credentials__logo--mit {
-    width: 36px;
+    width: 42px;
   }
 
   .homepage-hero .hero-credentials__degree-list p {
