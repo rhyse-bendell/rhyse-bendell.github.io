@@ -25,11 +25,7 @@ permalink: /
 
   <section>
     <h2>Focus Areas</h2>
-    <div class="focus-areas">
-      <div class="focus-item">Human-AI Teaming</div>
-      <div class="focus-item">Experimental Systems &amp; Simulation</div>
-      <div class="focus-item">AI-Enabled Research Workflows</div>
-    </div>
+    <p class="focus-areas-inline">Human–AI Teaming • Experimental Systems &amp; Simulation • AI-Enabled Research Workflows</p>
   </section>
 
   <section>
