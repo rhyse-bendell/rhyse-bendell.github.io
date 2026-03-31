@@ -11,7 +11,6 @@ permalink: /
 <div class="home-portfolio">
   <section class="homepage-hero">
     <div class="homepage-hero__content">
-      <p class="hero-home">Home</p>
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
       <div class="hero-hat">
         <h2 class="hero-hat__title">Designer &amp; Builder</h2>
@@ -27,7 +26,7 @@ permalink: /
     </div>
   </section>
 
-  <section>
+  <section class="homepage-focus-areas">
     <h2>Focus Areas</h2>
     <p class="focus-areas-inline">Human–AI Interaction • Human–AI Teaming • Cognitive Systems • Experimental Simulation • Adaptive Decision Support • Team Cognition • Artificial Social Intelligence • Human-Centered AI • Research Platforms</p>
   </section>
