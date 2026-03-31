@@ -4,8 +4,10 @@ subtitle: Human-AI teaming, artificial theory of mind, flocking, profiling, and 
 description: A flagship research effort integrating experiment design, agent behavior modeling, dataset curation, and social-science-grounded AI teammate support.
 short_description: Human-AI teaming research integrating artificial theory of mind, teammate profiling, flocking behaviors, experiment/testbed design, and curated datasets for socially intelligent agent support.
 img: /assets/img/projects/asist-placeholder.svg
-importance: 0
+importance: 99
 category: human-ai teaming
+canonical: false
+featured: false
 ---
 
 ## Hero / Overview

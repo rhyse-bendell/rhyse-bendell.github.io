@@ -1,4 +1,4 @@
-{% assign projects = site.projects | sort: 'importance' %}
+{% assign projects = site.projects | where: 'canonical', true | sort: 'importance' %}
 {% if include.limit %}
   {% assign projects = projects | slice: 0, include.limit %}
 {% endif %}

@@ -2,8 +2,10 @@
 title: VR Simulation Testbeds
 description: Custom Unreal Engine simulation environments built for controlled experiments in human-agent and human-robot interaction.
 img: /assets/img/projects/mars-colony.jpg
-importance: 3
+importance: 5
 category: simulation
+canonical: true
+featured: false
 ---
 
 ## Short Summary
