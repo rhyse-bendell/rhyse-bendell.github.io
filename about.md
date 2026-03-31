@@ -22,33 +22,54 @@ profile:
   .post .post-title {
     display: none;
   }
+
+  .post h2 {
+    font-size: 1.48rem;
+    margin-top: 1.55rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .post h3 {
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .post p {
+    line-height: 1.74;
+    margin-bottom: 0.9rem;
+  }
 </style>
 
-I am a human factors and cognitive systems researcher who designs and evaluates human-AI teams in complex, high-consequence environments. My work addresses a central systems question: how to build AI collaborators that reason with people, model teammate needs under uncertainty, and improve team-level performance without obscuring decision logic. I combine behavioral experimentation, computational modeling, and full-stack prototyping to translate theory into operational systems. The objective is not simply better interfaces or faster automation, but sociotechnical systems that preserve human judgment, strengthen coordination, and produce decisions that can be traced, interpreted, and improved.
+I am a human factors and cognitive systems researcher who designs and evaluates human-AI teams in complex, high-consequence environments. My work addresses a central systems question: how to build AI collaborators that reason with people, model teammate needs under uncertainty, and improve team-level performance without obscuring decision logic. I combine behavioral experimentation, computational modeling, and full-stack prototyping to translate theory into operational systems.
 
-## Research & Systems Focus
+## Professional Identity
 
-**Human-AI Teaming.** I study AI as a team participant rather than a tool endpoint, with emphasis on shared context, role-sensitive support, and adaptive coordination across changing mission demands. I design and test interaction structures where AI support can be inspected, challenged, and integrated into collective decision processes.
+My research identity is centered on human-AI teaming as a social-cognitive problem, not only an interface or automation problem. I study how AI can participate in team cognition by modeling teammate state, knowledge gaps, and coordination demands in ways that remain inspectable and contestable during work. This framing draws directly on social cognition and theory of mind: AI systems should infer what collaborators know, need, and are likely to do next, then adapt support to those conditions without suppressing human judgment.
 
-**Artificial Social Intelligence.** I develop methods for socially informed machine reasoning using sparse human data. This includes profiling human agents with demographic, psychometric, psychographic, and knowledge features so systems can infer teammate state, anticipate information needs, and select support strategies that remain explainable in context.
+I integrate systems design, controlled experimentation, and iterative prototyping as a single research practice. Theoretical constructs from team cognition and macrocognition are translated into measurable behavioral targets, implemented in software architecture, and evaluated through instrumented studies. The result is a formal research-engineering loop where conceptual models, empirical evidence, and deployed capabilities co-evolve.
 
-**Team Cognition & Macrocognition.** I investigate how teams build shared understanding under time pressure, uncertainty, and distributed information. My research uses macrocognitive constructs to model sensemaking, replanning, and coordination breakdowns, then turns those models into design and evaluation targets for human-AI systems.
+## Research Approach
 
-**Agent-Based Simulation.** I build simulation environments and experimental testbeds to study constrained decision-making, emergent coordination, and performance tradeoffs before field deployment. These structured environments allow controlled manipulation of team composition, information flow, and task pressure to evaluate hypotheses with repeatable evidence.
+My approach begins with operationally realistic problem framing: ambiguous goals, constrained resources, and distributed information. I formalize those conditions into hypotheses, task structures, and coordination requirements that can be studied experimentally and embodied in system design. This allows design decisions to be justified against evidence rather than intuition.
 
-**Knowledge Systems & Research Infrastructure.** I design systems that treat knowledge as an active operational asset, including state tracking, provenance, and reasoning continuity across long-running work. This enables teams to preserve epistemic context over time and reduces failure modes caused by fragmented records or ungrounded model outputs.
+I then build testable prototypes and measure collaboration at the level of communication, workload, adaptation, and team performance. Findings feed back into model revision and redesign, producing cumulative evidence about what forms of human-AI coordination are reliable under uncertainty and time pressure.
 
-## Ailys: Knowledge Infrastructure for Human-AI Cognition
+## Simulations and Testbeds
 
-Ailys is an example of this research-engineering approach in practice. It is a knowledge infrastructure system for managing knowledge spaces, maintaining persistent epistemic state, and supporting distributed cognition across humans and AI agents. Rather than replacing human work, it is designed to scaffold collaborative reasoning by keeping evidence, assumptions, and decision paths visible as work evolves.
+A major part of this work originated in immersive simulation environments. Using Unreal Engine and collaborative virtual environments developed through the Robotics Collaborative Technology Alliance and dissertation research, I studied distributed teaming in dynamic scenarios where perception, communication, and coordination had to be maintained across shared synthetic spaces.
 
-The system emphasizes traceability and reasoning preservation so conclusions can be audited, revised, and extended across sessions and contributors. By grounding workflows in explicit sources, structured state transitions, and transparent intermediate reasoning artifacts, Ailys supports higher-integrity collaboration and mitigates hallucination-prone interaction patterns common in opaque AI workflows.
+From immersive environments, I progressed to interactive testbeds for tightly controlled experimentation. In collaboration with Lockheed Martin, I developed and evaluated a supervisory control and function allocation system to examine human-AI coordination under operational constraints, including shifting task demands, limited attention, and time-sensitive decisions.
 
-## My Approach to Human-Centered Design
+I also use agent-based simulation as an abstract experimental instrument. The Macrocognition in Teams Model (MITM) supports controlled manipulation of team structure, information flow, and AI behavioral policies to analyze coordination, knowledge development, and decision trajectories. Together, these simulation modalities form a progression from immersive to controlled to abstract environments for theory-driven experimentation rather than demonstration.
 
-My methodology is a research-modeling-systems-evaluation loop grounded in macrocognition and team science. I begin with ambiguous operational problems, map constraints and coordination demands, and formalize them into measurable constructs, hypotheses, and system requirements. That formalization stage links behavioral theory to architecture decisions so implementation choices remain testable rather than ad hoc.
+## Human-AI Design and Systems
 
-I then build experimental systems and instrumented prototypes that expose interaction dynamics at the level of decisions, communication, workload, and adaptation. These systems are evaluated with behavioral data, controlled experimental design, and performance metrics tied to operational objectives. Findings are fed back into model revision and system redesign, creating an iterative validation cycle where human-AI interaction is treated as a dynamic system rather than a static interface problem.
+My system-building philosophy is centered on augmented workflows: AI should extend cognition, not replace it. I design human-in-the-loop interaction structures that preserve deliberation, make intermediate reasoning visible, and support structured exchanges between humans and AI over the full course of analysis and action.
+
+Within this framework, AI is treated as a teammate rather than a tool endpoint. Effective systems require social intelligence, including sensitivity to human state, knowledge, uncertainty, and context. This perspective is especially important in AI-enabled collaborative environments where communication and coordination are distributed across people, models, and shared information spaces.
+
+These principles are motivated by high-stakes domains such as urban search and rescue and defense operations, where decisions must be made under uncertainty, incomplete information, and time pressure. Ailys is one example system implementing this agenda through knowledge space management, epistemic traceability, and collaboration continuity across contributors and time. Its role in this portfolio is as a research vehicle for longitudinal coordination and reasoning integrity, not as an isolated product artifact.
 
 ## Educational Background
 
