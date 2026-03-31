@@ -11,6 +11,22 @@ category: human-ai teaming
 ## Hero / Overview
 ASIST (Artificial Social Intelligence for Successful Teams) is a DARPA-sponsored human-AI teaming research effort focused on building artificial social intelligence for collaboration in complex team settings. This work combined social science theory, human-subjects experimentation, intelligent agent design, and team-performance analysis. As a portfolio project, ASIST represents a flagship example of my work at the intersection of human-AI teaming, cognitive systems, and experimental design.
 
+
+## UX Process in Practice
+In the ASIST program, my work focused on understanding and improving how humans interact with AI teammates in complex, time-critical environments.
+
+- **Problem Framing**
+  Defined human-AI teaming as a coordination and cognition challenge, not merely an interface issue. I focused on trust calibration, workload distribution, and shared understanding across team roles.
+
+- **Research**
+  Designed and executed large-scale human-subject experiments in simulated urban search-and-rescue environments, capturing movement, communication, and task-execution behavior.
+
+- **Modeling**
+  Developed methods to quantify team coordination (including flocking metrics) and diagnose breakdowns in shared mental models and collaboration patterns.
+
+- **Design & Evaluation**
+  Translated findings into actionable AI-teammate design guidance for communication, coordination, and support behavior, then evaluated interventions empirically rather than relying on heuristic UX assumptions.
+
 ## The Problem
 How can AI systems move beyond task execution to function as effective teammates that understand human cognition, team dynamics, and collaboration needs?
 

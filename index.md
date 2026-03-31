@@ -13,6 +13,7 @@ permalink: /
     <div>
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
       <p class="hero-identity">Human-AI Systems Researcher &amp; Experimental Designer</p>
+      <p class="hero-ux-signal">Research-driven UX design for complex human–AI systems</p>
       <p class="hero-headline">Designing and evaluating human-AI systems for real-world performance</p>
       <p class="hero-bio">I study human-AI teaming, cognitive systems, and experimental evaluation for high-stakes environments.</p>
       <p class="hero-cta"><a class="btn btn-primary" href="/projects/">View Featured Work</a></p>

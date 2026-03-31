@@ -16,6 +16,33 @@ profile:
 
 I am a human factors and cognitive science researcher focused on how people and AI systems perform together in complex environments. My work blends behavioral science, system design, and rigorous experimentation to improve decision quality, team coordination, and operational outcomes.
 
+## My Approach to UX & Human-Centered Design
+
+I approach UX as an empirical, research-driven process grounded in human cognition, team behavior, and real-world performance. My work blends human factors, experimental psychology, and system design to ensure that technologies are not only usable, but effective in complex operational environments.
+
+1. **Problem Framing & Context Analysis**
+   - Identify system-level constraints in the real environment, not just interface-level issues.
+   - Define user roles, goals, and operational pressures that shape behavior.
+   - Translate ambiguous challenges into testable research and design questions.
+
+2. **Research & Data Collection**
+   - Run human-subject experiments in both controlled and applied settings.
+   - Capture behavioral telemetry, including movement, communication, and decisions.
+   - Combine quantitative performance measures with qualitative interaction patterns.
+
+3. **Modeling & Insight Generation**
+   - Build cognitive and behavioral models, including mental models, team coordination, and workload.
+   - Identify breakdowns in understanding, coordination, and decision-making.
+   - Apply structured frameworks such as macrocognition and team cognition to interpret findings.
+
+4. **Design & Iteration**
+   - Translate findings into system interventions across AI support, workflows, and interfaces.
+   - Evaluate design changes experimentally rather than relying on intuition alone.
+   - Iterate based on measurable improvements in team and mission performance.
+
+My goal is to move beyond surface-level usability and toward systems that actively support human thinking, coordination, and decision-making in high-stakes environments.
+
+
 ## Professional Identity
 
 I work at the intersection of human-AI teaming, cognitive systems, and applied research methods. Across projects, I design studies, build prototypes, and evaluate workflows that involve LLMs, human operators, and mission-critical tasks.

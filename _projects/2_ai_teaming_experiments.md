@@ -15,6 +15,22 @@ AI assistance can improve task outcomes, but it can also introduce trust miscali
 ## Context
 Operational use of AI depends on human-AI teams that are not only accurate, but also understandable, adaptable, and reliable under pressure.
 
+
+## UX Process in Practice
+In this project, I treated spatial cognition and wayfinding-like task navigation as core UX concerns: how people build mental maps, orient to evolving information, and sustain performance while coordinating with AI support.
+
+- **Problem Framing**
+  Framed the challenge around cognitive navigation, learning, and adaptation rather than interface preference alone.
+
+- **Research**
+  Ran controlled studies with human participants to capture behavior, trust signals, workload shifts, and decision patterns during AI-supported tasks.
+
+- **Modeling**
+  Analyzed how participants formed and updated mental representations of task space, identifying points where orientation, understanding, or handoff quality degraded.
+
+- **Design & Evaluation**
+  Converted findings into evidence-based recommendations for interaction flows and support strategies that improve learnability, navigation, and task execution quality.
+
 ## My Role
 I led experiment design, constructed performance and workload measures, coordinated subject matter expert and participant studies, and interpreted behavioral findings.
 
