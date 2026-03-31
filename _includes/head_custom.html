@@ -3,13 +3,19 @@
   .container, main .container { max-width: 1160px; }
   .card, .project-card { border: 1px solid #efefef !important; box-shadow: none !important; }
 
-  .navbar .nav-item .nav-link.active,
   .navbar .nav-item .nav-link:hover,
-  .navbar .nav-item .nav-link:focus,
+  .navbar .nav-item .nav-link:focus {
+    color: #2ec4c7 !important;
+  }
+
+  .navbar .nav-item .nav-link.active,
+  .navbar .nav-item .nav-link[aria-current="page"],
+  .nav-list .nav-list-item.active > .nav-list-link,
   .nav-list .nav-list-item .nav-list-link.active,
   .nav-list .nav-list-item .nav-list-link[aria-current="page"],
   .nav-list .nav-list-item .nav-list-link.current {
-    color: #2ec4c7 !important;
+    color: #0f7f8f !important;
+    font-weight: 600;
   }
 
   .home-portfolio {

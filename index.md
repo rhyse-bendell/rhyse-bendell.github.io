@@ -21,14 +21,14 @@ permalink: /
       </div>
       <div class="hero-credentials" aria-label="Academic credentials">
         <div class="hero-credentials__group">
-          <img class="hero-credentials__logo" src="/assets/img/logos/ucf-logo.svg" alt="University of Central Florida logo" />
+          <img class="hero-credentials__logo" src="/assets/img/logos/ucf-logo.png" alt="University of Central Florida logo" />
           <div class="hero-credentials__degree-list">
             <p>Ph.D., Human Factors and Cognitive Psychology, University of Central Florida</p>
             <p>M.A., Applied Experimental &amp; Human Factors Psychology, University of Central Florida</p>
           </div>
         </div>
         <div class="hero-credentials__group">
-          <img class="hero-credentials__logo hero-credentials__logo--mit" src="/assets/img/logos/mit-logo.svg" alt="Massachusetts Institute of Technology logo" />
+          <img class="hero-credentials__logo hero-credentials__logo--mit" src="/assets/img/logos/mit-logo.png" alt="Massachusetts Institute of Technology logo" />
           <div class="hero-credentials__degree-list">
             <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
           </div>
