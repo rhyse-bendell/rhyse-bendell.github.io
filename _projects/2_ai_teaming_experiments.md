@@ -2,8 +2,10 @@
 title: Human-AI Teaming Experiments
 description: Human-subjects and SME studies evaluating trust, workload, performance, and interaction with AI-supported systems.
 img: /assets/img/projects/mars-colony.jpg
-importance: 2
+importance: 4
 category: experiments
+canonical: true
+featured: true
 ---
 
 ## Short Summary

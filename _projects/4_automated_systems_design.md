@@ -2,8 +2,10 @@
 title: Automated Systems Design
 description: CAD-driven robotic enclosure, interface, and automation design for laboratory and research system integration.
 img: /assets/img/projects/mars-colony.jpg
-importance: 4
+importance: 6
 category: engineering
+canonical: true
+featured: false
 ---
 
 ## Short Summary

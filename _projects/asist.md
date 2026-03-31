@@ -2,9 +2,11 @@
 title: Artificial Social Intelligence for Successful Teams (ASIST)
 subtitle: DARPA program on human–AI teaming and machine theory of mind
 description: Large-scale human-subjects research advancing artificial social intelligence, team cognition modeling, and AI teammate evaluation in complex collaborative environments.
-img: /assets/img/asist_overview.svg
+img: /assets/img/projects/asist_overview.svg
 importance: 0
 category: human-ai teaming
+canonical: true
+featured: true
 ---
 
 ## Project Overview
@@ -62,6 +64,6 @@ My work centered on the design, execution, and analysis of large-scale human-sub
 </div>
 
 ### Images
-![ASIST overview placeholder](/assets/img/asist_overview.svg)
-![ASIST testbed placeholder](/assets/img/asist_testbed.svg)
-![ASIST flocking placeholder](/assets/img/asist_flocking.svg)
+![ASIST overview placeholder](/assets/img/projects/asist_overview.svg)
+![ASIST testbed placeholder](/assets/img/projects/asist_testbed.svg)
+![ASIST flocking placeholder](/assets/img/projects/asist_flocking.svg)

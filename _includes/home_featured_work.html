@@ -95,23 +95,10 @@
   }
 </style>
 
-{% assign featured_slugs = "0_artificial_social_intelligence_for_successful_teams_asist|1_ai_research_assistant|2_ai_teaming_experiments|3_vr_simulation_testbeds|4_automated_systems_design" | split: "|" %}
-
 {% assign max_tiles = 9 %}
 {% assign rendered_tiles = 0 %}
-{% assign featured_projects = "" | split: "" %}
-{% assign category_labels = "" | split: "" %}
-
-{% for slug in featured_slugs %}
-  {% assign project = site.projects | where_exp: "item", "item.path contains slug" | first %}
-  {% if project %}
-    {% assign featured_projects = featured_projects | push: project %}
-    {% if project.category %}
-      {% assign category_labels = category_labels | push: project.category %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
+{% assign featured_projects = site.projects | where: 'canonical', true | where: 'featured', true | sort: 'importance' %}
+{% assign category_labels = featured_projects | map: 'category' | compact %}
 {% assign filter_categories = category_labels | uniq | sort %}
 
 <div class="homepage-featured-work" data-featured-grid>

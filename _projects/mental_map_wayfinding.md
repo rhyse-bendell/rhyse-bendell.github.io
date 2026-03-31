@@ -2,9 +2,11 @@
 title: Mental Map Formation and Wayfinding
 subtitle: Dissertation research on spatial cognition and learning in virtual environments
 description: Experimental dissertation research on how people acquire and integrate route and survey knowledge in virtual environments for navigation and decision-making.
-img: /assets/img/mental_map_env.svg
+img: /assets/img/projects/mental_map_env.svg
 importance: 1
 category: spatial cognition
+canonical: true
+featured: true
 ---
 
 ## Project Overview
@@ -46,6 +48,6 @@ The work included controlled experiments in custom Unreal Engine virtual environ
 </div>
 
 ### Images
-![Mental map environment placeholder](/assets/img/mental_map_env.svg)
-![VR navigation placeholder](/assets/img/vr_navigation.svg)
-![Spatial layout placeholder](/assets/img/spatial_layout.svg)
+![Mental map environment placeholder](/assets/img/projects/mental_map_env.svg)
+![VR navigation placeholder](/assets/img/projects/vr_navigation.svg)
+![Spatial layout placeholder](/assets/img/projects/spatial_layout.svg)
