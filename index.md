@@ -21,9 +21,19 @@ permalink: /
         <p class="hero-hat__description">I design and conduct rigorous studies to test theory, evaluate human-AI systems, and generate new knowledge about cognition, collaboration, and performance. My research combines human factors, cognitive science, experimentation, and modeling to understand how people and intelligent systems work together.</p>
       </div>
       <div class="hero-credentials" aria-label="Academic credentials">
-        <p>Ph.D., Human Factors and Cognitive Psychology, University of Central Florida</p>
-        <p>M.A., Applied Experimental &amp; Human Factors Psychology, University of Central Florida</p>
-        <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
+        <div class="hero-credentials__group">
+          <img class="hero-credentials__logo" src="/assets/img/logos/ucf-logo.svg" alt="University of Central Florida logo" />
+          <div class="hero-credentials__degree-list">
+            <p>Ph.D., Human Factors and Cognitive Psychology, University of Central Florida</p>
+            <p>M.A., Applied Experimental &amp; Human Factors Psychology, University of Central Florida</p>
+          </div>
+        </div>
+        <div class="hero-credentials__group">
+          <img class="hero-credentials__logo hero-credentials__logo--mit" src="/assets/img/logos/mit-logo.svg" alt="Massachusetts Institute of Technology logo" />
+          <div class="hero-credentials__degree-list">
+            <p>B.Sc., Mechanical Engineering, Massachusetts Institute of Technology</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="homepage-hero__portrait-wrap">
