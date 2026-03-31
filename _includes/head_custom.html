@@ -63,13 +63,12 @@
 
   .homepage-hero .hero-cta { margin: 1rem 0 0; }
 
-  .focus-areas {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.9rem;
+  .focus-areas-inline {
+    font-size: 0.95rem;
+    color: #444;
+    margin-top: 0.5rem;
   }
 
-  .focus-areas .focus-item,
   .credibility-strip .credibility-item {
     border: 1px solid #e9e9e9;
     border-radius: 10px;
@@ -83,34 +82,41 @@
     margin: 0 auto;
   }
 
-  .home-portfolio .homepage-featured-filters {
+  .home-portfolio .projects-layout {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.55rem;
-    margin: 0 0 1rem;
-    justify-content: center;
+    gap: 2rem;
   }
 
-  .home-portfolio .homepage-featured-filter {
-    border: 1px solid #d6d6d6;
-    border-radius: 8px;
-    padding: 0.4rem 0.9rem;
-    background: #fff;
-    color: #374151;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
+  .home-portfolio .projects-sidebar {
+    width: 200px;
+    flex-shrink: 0;
+  }
+
+  .home-portfolio .project-filters-vertical {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-portfolio .project-filters-vertical li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
     cursor: pointer;
-    transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease;
+    border-radius: 6px;
+    color: #444;
   }
 
-  .home-portfolio .homepage-featured-filter:hover,
-  .home-portfolio .homepage-featured-filter:focus-visible,
-  .home-portfolio .homepage-featured-filter.is-active {
-    background: #b45309;
-    border-color: #b45309;
-    color: #fff;
+  .home-portfolio .project-filters-vertical li:hover {
+    background: #f2f2f2;
+  }
+
+  .home-portfolio .project-filters-vertical li.active {
+    background: #e6e6e6;
+    font-weight: 600;
+  }
+
+  .home-portfolio .projects-grid-container {
+    flex: 1;
   }
 
   .home-portfolio .homepage-featured-grid {
@@ -220,6 +226,24 @@
       margin-left: 1.25rem;
     }
 
+    .home-portfolio .projects-layout {
+      flex-direction: column;
+    }
+
+    .home-portfolio .projects-sidebar {
+      width: 100%;
+    }
+
+    .home-portfolio .project-filters-vertical {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .home-portfolio .project-filters-vertical li {
+      margin-bottom: 0;
+    }
+
     .portfolio-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -239,7 +263,6 @@
 
     .homepage-hero { max-width: 100%; }
 
-    .focus-areas,
     .portfolio-grid,
     .credibility-strip {
       grid-template-columns: 1fr;
