@@ -65,28 +65,28 @@ I integrate systems design, controlled experimentation, and iterative prototypin
 
 <div class="education-entry">
 
-### B.Sc. in Mechanical Engineering, Massachusetts Institute of Technology
-August 2012 – May 2016
+<h3>B.Sc. in Mechanical Engineering, Massachusetts Institute of Technology</h3>
+<p>August 2012 – May 2016</p>
 
-I began with a pre-med and natural science orientation, then moved through cognitive neuroscience into mechanical engineering. That path gave me a systems-level perspective across physical, biological, and cognitive processes, while undergraduate work in the MIT Media Lab’s Biomechatronics group grounded those interests in human-machine integration, measurement, and design.
-
-</div>
-
-<div class="education-entry">
-
-### M.A. in Applied Experimental & Human Factors Psychology, University of Central Florida
-August 2017 – May 2021
-
-My master’s training formalized my foundation in human factors, cognition, experimental design, and statistical analysis in complex operational settings. The program strengthened my ability to design human-subjects studies, translate theory into applied evaluation, and assess performance under realistic sociotechnical constraints.
+<p>I began with a pre-med and natural science orientation, then moved through cognitive neuroscience into mechanical engineering. That path gave me a systems-level perspective across physical, biological, and cognitive processes, while undergraduate work in the MIT Media Lab’s Biomechatronics group grounded those interests in human-machine integration, measurement, and design.</p>
 
 </div>
 
 <div class="education-entry">
 
-### Ph.D. in Human Factors and Cognitive Psychology, University of Central Florida
-January 2021 – December 2023
+<h3>M.A. in Applied Experimental & Human Factors Psychology, University of Central Florida</h3>
+<p>August 2017 – May 2021</p>
 
-My doctoral work focused on human-AI teaming, macrocognition in teams, and decision support in complex environments. It solidified an end-to-end research approach that combines controlled experimentation, computational modeling, and behavioral measurement to guide the design and evaluation of collaborative AI systems.
+<p>My master’s training formalized my foundation in human factors, cognition, experimental design, and statistical analysis in complex operational settings. The program strengthened my ability to design human-subjects studies, translate theory into applied evaluation, and assess performance under realistic sociotechnical constraints.</p>
+
+</div>
+
+<div class="education-entry">
+
+<h3>Ph.D. in Human Factors and Cognitive Psychology, University of Central Florida</h3>
+<p>January 2021 – December 2023</p>
+
+<p>My doctoral work focused on human-AI teaming, macrocognition in teams, and decision support in complex environments. It solidified an end-to-end research approach that combines controlled experimentation, computational modeling, and behavioral measurement to guide the design and evaluation of collaborative AI systems.</p>
 
 </div>
 
