@@ -12,7 +12,7 @@ permalink: /
     <div class="homepage-hero__content">
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
       <div class="hero-hat">
-        <h2 class="hero-hat__title">Designer &amp; Builder</h2>
+        <h2 class="hero-hat__title">Engineer &amp; Developer</h2>
         <p class="hero-hat__description">I build AI-supported systems, simulation environments, and research software that help people think, coordinate, and perform in complex settings. My work spans human-AI interaction, experimental platforms, agent-based systems, and tools for studying and supporting real-world decision-making.</p>
       </div>
       <div class="hero-hat">
