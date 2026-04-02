@@ -2,7 +2,7 @@
 title: Cognition in Support of Future Space Missions
 subtitle: Team cognition, AI integration, and simulation for extreme environments
 description: Research program studying macrocognition, team coordination, and AI-enabled simulation for high-risk mission contexts such as long-duration space operations.
-img: /assets/img/projects/mars_colony_task.svg
+img: /assets/img/projects/mars-colony.jpg
 importance: 2
 category: team cognition
 canonical: true
