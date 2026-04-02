@@ -1,33 +1,31 @@
 ---
 title: Automated Systems Design
-description: CAD-driven robotic enclosure, interface, and automation design for laboratory and research system integration.
-img: /assets/img/projects/mars-colony.jpg
+subtitle: CAD-driven integration for research and lab automation platforms
+description: Engineering design of automated research systems integrating mechanical layout, instrumentation, enclosures, and operator interface constraints.
+img: /assets/img/projects/simulation_view.svg
 importance: 6
 category: engineering
 canonical: true
 featured: false
 ---
 
-## Short Summary
-Engineering-focused design work that connects automated hardware systems with research operations, emphasizing robust deployment and maintainability.
+## Project Overview
+This project captures engineering work that supports reliable research operations through automation-focused system design. The emphasis is not a single device, but integrated platform design where hardware, instrumentation, and operator workflows are engineered together.
 
-## Problem
-Research platforms often fail when mechanical, interface, and instrumentation constraints are not addressed as a unified system.
-
-## Context
-Human-centered automation in labs requires integrated design decisions so that hardware reliability and experimental usability evolve together.
+## Design Scope
+- CAD-driven subsystem layout and packaging
+- Enclosure and access design for maintainability and safe operation
+- Instrument and sensor integration planning
+- Interface and workflow considerations for setup, calibration, and repeated use
+- Iterative prototyping to resolve real deployment constraints
 
 ## My Role
-I led CAD-driven design and integration efforts, including enclosure architecture, interface access planning, and compatibility decisions for instrumentation workflows.
+I led CAD-centered integration efforts across mechanical architecture, enclosure strategy, and instrumentation compatibility decisions for research-focused automated systems.
 
-## Approach
-I used iterative prototyping and systems integration methods to align mechanical layouts, operator interaction needs, and experimental deployment constraints.
-
-## Outcome
-The resulting designs improved platform maintainability, setup efficiency, and consistency for repeated research use.
+## Outcomes
+- Improved repeatability of system setup and operation
+- Better maintainability for recurring research workflows
+- Cleaner integration between hardware constraints and experiment needs
 
 ## Why It Matters
-This work demonstrates how experimental design quality depends on strong engineering foundations in the underlying automated system.
-
-## Media
-- CAD renders, integration diagrams, and prototype photos are tracked within project documentation.
+High-quality experimentation depends on dependable engineering infrastructure. This work provides the systems foundation that makes research platforms usable, stable, and scalable.

@@ -1,7 +1,7 @@
 ---
 title: Cognition in Support of Future Space Missions
-subtitle: Team cognition, AI integration, and simulation for extreme environments
-description: Research program studying macrocognition, team coordination, and AI-enabled simulation for high-risk mission contexts such as long-duration space operations.
+subtitle: Macrocognition, team coordination, and AI-enabled mission simulation
+description: Research on team cognition for extreme mission contexts, combining human-subjects experiments and computational modeling in Mars-colony-inspired environments.
 img: /assets/img/projects/mars-colony.jpg
 importance: 2
 category: team cognition
@@ -10,33 +10,33 @@ featured: true
 ---
 
 ## Project Overview
-This project examines how individual cognitive limitations scale to team-level outcomes in high-risk, complex settings such as long-duration space missions. The core research goal is to understand how teams reason, coordinate, and adapt when operating under stress, uncertainty, and constrained resources.
+This project studies how individual cognitive constraints and coordination demands scale to team-level performance in extreme environments, including long-duration mission contexts inspired by Mars-colony operations.
 
-The work combines experimental and computational methods to model macrocognition in teams and improve collaborative performance. It includes the design of novel human-subjects task environments, high-resolution interaction data collection, and development of agent-based simulation tools that connect empirical findings to predictive team models.
+## Research Focus
+- Macrocognition in teams under uncertainty and time pressure
+- Team coordination and adaptation in constrained operational settings
+- AI-enabled simulation support for mission planning and execution research
+- Progression from empirical studies to computational team modeling
 
 ## My Role
-- UCF team project manager coordinating 4 labs and 4 PIs
+- UCF team project manager coordinating multi-lab work across principal investigators
 - Human-subjects experiment design lead
-- Developed the Mars Colony Collaborative Construction Task
-- Led IRB development and study deployment
-- Currently developing an agent-based simulation framework
+- Developer of the Mars Colony Collaborative Construction Task
+- IRB and study deployment lead for team experimentation workflows
+- Contributor to agent-based simulation framework development
 
-## Technical Approach
-- Sensor-rich human-subject experimentation
-- Team interaction tracking (movement, communication, artifacts)
-- Macrocognition in Teams (MITM) framework application
-- Agent-based simulation modeling
-- Data-driven hypothesis generation and testing
+## Methods
+The program combines controlled human-subjects experimentation with data-driven modeling:
 
-## Key Contributions / Outcomes
-- Designed a novel collaborative task environment (Mars Colony simulation)
-- Enabled transition from archival analysis to live experimentation
-- Increased team data-collection output across participating labs
-- Bridged empirical team data with simulation-based modeling
-- Produced publications and ongoing research outputs across venues
+- sensor-rich interaction capture,
+- movement/communication/task-event analysis,
+- macrocognitive framework-guided interpretation,
+- iterative computational modeling for hypothesis refinement.
 
-## Links
-- Program and project links will be added as public resources are released.
+## Outcomes
+- Established a reusable Mars-colony-style collaborative research task
+- Increased capacity for live team experimentation across participating labs
+- Built a bridge from observed team behavior to computational simulation models
 
 ## Publications
 - Oxford Handbook chapter (in press)
@@ -44,12 +44,6 @@ The work combines experimental and computational methods to model macrocognition
 - AHFE conference papers
 
 ## Media
-### Simulation Demo Video
-<div style="padding: 0.9rem 1rem; border: 1px solid #e6e6e6; border-radius: 10px; background: #fafafa; margin-bottom: 1rem;">
-  <strong>Video placeholder:</strong> Simulation demo video will be embedded here when available.
-</div>
-
-### Images
-![Mars colony task placeholder](/assets/img/projects/mars_colony_task.svg)
-![Team interaction map placeholder](/assets/img/projects/team_interaction_map.svg)
-![Simulation view placeholder](/assets/img/projects/simulation_view.svg)
+![Mars colony collaborative task](/assets/img/projects/mars_colony_task.svg)
+![Team interaction mapping view](/assets/img/projects/team_interaction_map.svg)
+![Simulation environment view](/assets/img/projects/simulation_view.svg)

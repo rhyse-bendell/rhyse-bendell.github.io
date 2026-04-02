@@ -1,49 +1,36 @@
 ---
 title: Human-AI Teaming Experiments
-description: Human-subjects and SME studies evaluating trust, workload, performance, and interaction with AI-supported systems.
-img: /assets/img/projects/mars-colony.jpg
+subtitle: Experimental studies of trust, workload, and collaborative performance
+description: Human-subjects and SME studies evaluating how AI teammate behavior, policy, and interface design influence trust calibration and team effectiveness.
+img: /assets/img/projects/team_interaction_map.svg
 importance: 4
 category: experiments
 canonical: true
 featured: true
 ---
 
-## Short Summary
-A set of controlled studies examining how humans collaborate with AI-enabled teammates and decision-support systems across complex task environments.
+## Project Overview
+This project set examines how people collaborate with AI-enabled teammates and decision-support systems under realistic constraints. The emphasis is on measurable team outcomes rather than AI capability in isolation.
 
-## Problem
-AI assistance can improve task outcomes, but it can also introduce trust miscalibration, coordination friction, and hidden workload costs.
+## Research Questions
+- When does AI support improve performance versus create coordination friction?
+- How do intervention timing and explanation style affect trust calibration?
+- Which teaming policies reduce workload without degrading decision quality?
 
-## Context
-Operational use of AI depends on human-AI teams that are not only accurate, but also understandable, adaptable, and reliable under pressure.
+## Study Design
+The work uses controlled human-subjects experiments and subject-matter-expert evaluations with repeated measures of:
 
-
-## UX Process in Practice
-In this project, I treated spatial cognition and wayfinding-like task navigation as core UX concerns: how people build mental maps, orient to evolving information, and sustain performance while coordinating with AI support.
-
-- **Problem Framing**
-  Framed the challenge around cognitive navigation, learning, and adaptation rather than interface preference alone.
-
-- **Research**
-  Ran controlled studies with human participants to capture behavior, trust signals, workload shifts, and decision patterns during AI-supported tasks.
-
-- **Modeling**
-  Analyzed how participants formed and updated mental representations of task space, identifying points where orientation, understanding, or handoff quality degraded.
-
-- **Design & Evaluation**
-  Converted findings into evidence-based recommendations for interaction flows and support strategies that improve learnability, navigation, and task execution quality.
+- task performance and error patterns,
+- perceived and observed workload,
+- trust, reliance, and override behavior,
+- communication and handoff quality,
+- policy and interface effects across task phases.
 
 ## My Role
-I led experiment design, constructed performance and workload measures, coordinated subject matter expert and participant studies, and interpreted behavioral findings.
+I led experiment design and measurement strategy, coordinated participant and SME study execution, and translated findings into practical recommendations for human-AI teaming policy and interaction design.
 
-## Approach
-I used controlled experimental designs with multimodal metrics (performance, trust, workload, interaction behavior) to isolate when AI support helps versus harms team effectiveness.
-
-## Outcome
-The studies produced actionable findings on interface transparency, teaming policies, and decision-support calibration across varying task constraints.
+## Outcomes
+The studies produced evidence for calibrating AI support to task context and team state, including when reduced intervention frequency, clearer rationale, or adjusted authority boundaries improved collaboration.
 
 ## Why It Matters
-This work helps translate human factors theory into design guidance for deployable human-AI systems.
-
-## Media
-- Experimental setup diagrams and result visualizations are maintained with each study package.
+Deployable human-AI systems need more than high model performance; they need team-compatible behavior that sustains human understanding, trust, and coordinated execution.

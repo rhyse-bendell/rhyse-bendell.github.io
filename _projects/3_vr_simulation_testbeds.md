@@ -1,49 +1,32 @@
 ---
 title: VR Simulation Testbeds
-description: Custom Unreal Engine simulation environments built for controlled experiments in human-agent and human-robot interaction.
-img: /assets/img/projects/mars-colony.jpg
+subtitle: Unreal Engine environments for controlled team experimentation
+description: Immersive simulation platforms for repeatable human-agent and human-robot team studies with instrumentation, scenario control, and experimental realism.
+img: /assets/img/projects/mars_colony_task.svg
 importance: 5
 category: simulation
 canonical: true
-featured: false
+featured: true
 ---
 
-## Short Summary
-Custom VR and Unreal Engine testbeds designed to run repeatable human-agent and human-robot teaming experiments under controlled but realistic conditions.
+## Project Overview
+This work develops immersive Unreal Engine and VR testbeds that support controlled but realistic experiments on team coordination, human-agent interaction, and decision performance.
 
-## Problem
-Field environments are difficult to standardize, making it hard to compare team behavior across participants, interfaces, or AI teammate configurations.
+## Why a Simulation Testbed
+Field studies capture realism but are difficult to standardize. These environments provide repeatability while preserving role interdependence, communication demands, and dynamic task pressure.
 
-## Context
-Simulation testbeds make it possible to study complex team interactions with experimental control while preserving ecological relevance.
-
-
-## UX Process in Practice
-This work addressed UX at the system level by examining how teams think, coordinate, and make decisions under stress in realistic mission-like simulations, not just how a single interface looks or feels.
-
-- **Problem Framing**
-  Defined the core problem as team cognition under operational pressure, including coordination latency, workload, and decision bottlenecks.
-
-- **Research**
-  Built and ran simulation studies that captured team behavior, communication patterns, and performance tradeoffs across changing constraints.
-
-- **Modeling**
-  Used team cognition and macrocognitive lenses to identify where shared understanding weakened and how stress altered collective decision quality.
-
-- **Design & Evaluation**
-  Informed system and workflow interventions that strengthen coordination and decision support, then evaluated impact through measurable performance outcomes.
+## Platform Capabilities
+- Scenario authoring for controlled manipulations of complexity and timing
+- Instrumentation for movement, interaction, and task-event traces
+- Repeatable condition management across participant cohorts
+- Support for human-agent and human-robot coordination studies
+- Data-ready outputs for behavioral and performance analysis
 
 ## My Role
-I designed and integrated simulation scenarios, instrumentation, and experimental controls to support reproducible human-subjects studies.
+I designed and integrated simulation scenarios, instrumentation pipelines, and experimental controls so studies could be rerun consistently across cohorts and conditions.
 
-## Approach
-I developed modular scenarios with controlled manipulations of task complexity, interface design, and agent behavior, then paired these with structured data collection pipelines.
-
-## Outcome
-The testbeds enabled repeatable evaluation of decision quality, coordination dynamics, and performance trends across study conditions.
+## Outcomes
+The testbeds enabled stronger comparisons across interface/support variants and helped bridge lab rigor with mission-relevant task contexts.
 
 ## Why It Matters
-The platform bridges laboratory rigor and operational realism, enabling stronger evidence for human-AI system design decisions.
-
-## Media
-- Environment screenshots and scenario maps are attached to corresponding experiment records.
+Simulation infrastructure is foundational for evaluating team-support concepts before operational deployment, especially when experiments require both ecological validity and experimental control.
