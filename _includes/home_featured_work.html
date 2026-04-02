@@ -121,10 +121,6 @@
     transform: translateY(0);
   }
 
-  .home-portfolio .homepage-featured-card__link--placeholder {
-    cursor: default;
-  }
-
   @media (max-width: 900px) {
     .home-portfolio .projects-layout {
       flex-direction: column;
@@ -153,8 +149,6 @@
   }
 </style>
 
-{% assign max_tiles = 9 %}
-{% assign rendered_tiles = 0 %}
 {% assign featured_projects = site.projects | where: 'canonical', true | where: 'featured', true | sort: 'importance' %}
 {% assign filter_categories = 'Human–AI Interaction|Simulation Systems|Cognitive Science|Prototyping' | split: '|' %}
 
@@ -173,60 +167,39 @@
     <div class="projects-grid-container">
       <div class="homepage-featured-grid" role="list">
         {% for project in featured_projects %}
-          {% if rendered_tiles < max_tiles %}
-            {% assign project_image = project.img | default: '/assets/img/projects/asist-placeholder.svg' %}
-            {% assign project_tags = '' %}
-            {% assign project_category = project.category | default: '' | downcase %}
+          {% assign project_image = project.img | default: '/assets/img/projects/simulation_view.svg' %}
+          {% assign project_tags = '' %}
+          {% assign project_category = project.category | default: '' | downcase %}
 
-            {% if project_category contains 'human-ai' or project_category contains 'team' or project_category contains 'experiment' %}
-              {% assign project_tags = project_tags | append: 'human-ai-interaction ' %}
-            {% endif %}
-            {% if project_category contains 'simulation' or project_category contains 'spatial' %}
-              {% assign project_tags = project_tags | append: 'simulation-systems ' %}
-            {% endif %}
-            {% if project_category contains 'cognition' or project_category contains 'spatial' %}
-              {% assign project_tags = project_tags | append: 'cognitive-science ' %}
-            {% endif %}
-            {% if project_category contains 'research' or project_category contains 'engineering' or project_category contains 'experiment' %}
-              {% assign project_tags = project_tags | append: 'prototyping ' %}
-            {% endif %}
-            {% if project_tags == '' %}
-              {% assign project_tags = 'prototyping' %}
-            {% endif %}
-
-            <article class="homepage-featured-card" role="listitem" data-category="{{ project_tags | strip }}">
-              <a class="homepage-featured-card__link project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
-                <img
-                  class="homepage-featured-card__image project-card__image"
-                  src="{{ project_image | relative_url }}"
-                  alt="{{ project.title }} preview image"
-                  loading="lazy"
-                  onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
-                <div class="project-card__overlay homepage-featured-card__overlay">
-                  <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
-                  <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
-                </div>
-              </a>
-            </article>
-            {% assign rendered_tiles = rendered_tiles | plus: 1 %}
+          {% if project_category contains 'human-ai' or project_category contains 'team' or project_category contains 'experiment' %}
+            {% assign project_tags = project_tags | append: 'human-ai-interaction ' %}
           {% endif %}
-        {% endfor %}
+          {% if project_category contains 'simulation' or project_category contains 'spatial' %}
+            {% assign project_tags = project_tags | append: 'simulation-systems ' %}
+          {% endif %}
+          {% if project_category contains 'cognition' or project_category contains 'spatial' %}
+            {% assign project_tags = project_tags | append: 'cognitive-science ' %}
+          {% endif %}
+          {% if project_category contains 'research' or project_category contains 'engineering' or project_category contains 'experiment' %}
+            {% assign project_tags = project_tags | append: 'prototyping ' %}
+          {% endif %}
+          {% if project_tags == '' %}
+            {% assign project_tags = 'prototyping' %}
+          {% endif %}
 
-        {% assign placeholder_start = rendered_tiles | plus: 1 %}
-        {% for i in (placeholder_start..max_tiles) %}
-          <article class="homepage-featured-card" role="listitem" data-category="coming-soon">
-            <div class="homepage-featured-card__link homepage-featured-card__link--placeholder project-card" aria-label="Placeholder Project {{ i }} (coming soon)">
+          <article class="homepage-featured-card" role="listitem" data-category="{{ project_tags | strip }}">
+            <a class="homepage-featured-card__link project-card" href="{{ project.url | relative_url }}" aria-label="Open {{ project.title }} project page">
               <img
                 class="homepage-featured-card__image project-card__image"
-                src="{{ '/assets/img/projects/placeholder-project-' | append: i | append: '.svg' | relative_url }}"
-                alt="Placeholder Project {{ i }} preview image"
+                src="{{ project_image | relative_url }}"
+                alt="{{ project.title }} preview image"
                 loading="lazy"
-                onerror="this.onerror=null;this.src='{{ '/assets/img/projects/asist-placeholder.svg' | relative_url }}';">
+                onerror="this.onerror=null;this.src='{{ '/assets/img/projects/simulation_view.svg' | relative_url }}';">
               <div class="project-card__overlay homepage-featured-card__overlay">
-                <h3 class="homepage-featured-card__title project-card__title">Placeholder Project {{ i }}</h3>
-                <p class="project-card__description">Additional case study details coming soon.</p>
+                <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
+                <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
               </div>
-            </div>
+            </a>
           </article>
         {% endfor %}
       </div>

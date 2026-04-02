@@ -1,7 +1,7 @@
 ---
 title: Mental Map Formation and Wayfinding
 subtitle: Dissertation research on spatial cognition and learning in virtual environments
-description: Experimental dissertation research on how people acquire and integrate route and survey knowledge in virtual environments for navigation and decision-making.
+description: Dissertation experiments on how route and survey knowledge are acquired and integrated for wayfinding performance in virtual environments.
 img: /assets/img/projects/mental_map_env.svg
 importance: 1
 category: spatial cognition
@@ -10,29 +10,21 @@ featured: true
 ---
 
 ## Project Overview
-This dissertation project investigates how people form internal spatial representations (mental maps) through interaction with environments. The research examines how individual spatial ability, training modality, and environmental structure influence the integration of route knowledge and survey/configural knowledge.
+This dissertation research examined how people build internal spatial representations (mental maps) and how those representations support navigation decisions. The studies focused on integration of route knowledge and survey/configural knowledge across different learning conditions.
 
-The work included controlled experiments in custom Unreal Engine virtual environments to measure how participants acquire, integrate, and apply spatial knowledge for wayfinding and navigation decisions. Together, these studies provide an applied framework for understanding spatial learning in both research and training contexts.
+## Dissertation Scope
+- Principal-investigator-led experimental program
+- Two large-scale studies (**N = 274** total)
+- Custom Unreal Engine virtual environments for controlled wayfinding tasks
+- Analysis of spatial ability, training modality, and environmental structure effects
 
 ## My Role
-- Principal investigator
-- Designed and conducted two large-scale experiments (**N = 274**)
-- Developed a custom Unreal Engine VR research platform
-- Created new measures for spatial knowledge integration
-- Led analysis, interpretation, and reporting
+I designed the experiments, built the research environments, led data collection and analysis, and authored the final dissertation outputs.
 
-## Technical Approach
-- Custom Unreal Engine virtual environment development
-- Experimental manipulation of training modality
-- Spatial cognition measurement (route vs. configural/survey knowledge)
-- Behavioral performance metrics (wayfinding, recall, and accuracy)
-- Statistical modeling (mixed-effects approaches and cognitive covariates)
-
-## Key Contributions / Outcomes
-- Identified parallel integration processes in mental map formation
-- Demonstrated measurable effects of training modality on spatial learning
-- Built a reusable VR research testbed for follow-on studies
-- Established new evaluation methods for spatial cognition and transfer
+## Contributions
+- Identified parallel processes in mental-map formation
+- Showed measurable training-modality effects on spatial knowledge integration
+- Produced reusable VR research infrastructure for follow-on spatial-cognition studies
 
 ## Links
 - [Dissertation (UCF STARS)](https://stars.library.ucf.edu/etd2023/55)
@@ -42,12 +34,8 @@ The work included controlled experiments in custom Unreal Engine virtual environ
 - [Dissertation (2023)](https://stars.library.ucf.edu/etd2023/55)
 
 ## Media
-### Demo Video
-<div style="padding: 0.9rem 1rem; border: 1px solid #e6e6e6; border-radius: 10px; background: #fafafa; margin-bottom: 1rem;">
-  <strong>Video placeholder:</strong> Demo video will be embedded here when public link is available.
-</div>
+No public demo video is currently linked for this project.
 
-### Images
-![Mental map environment placeholder](/assets/img/projects/mental_map_env.svg)
-![VR navigation placeholder](/assets/img/projects/vr_navigation.svg)
-![Spatial layout placeholder](/assets/img/projects/spatial_layout.svg)
+![Mental map virtual environment](/assets/img/projects/mental_map_env.svg)
+![VR navigation study view](/assets/img/projects/vr_navigation.svg)
+![Spatial layout stimulus](/assets/img/projects/spatial_layout.svg)
