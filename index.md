@@ -49,14 +49,4 @@ permalink: /
     <h2>Featured Work</h2>
     {% include home_featured_work.html %}
   </section>
-
-  <section>
-    <h2>Research Snapshot</h2>
-    <div class="credibility-strip">
-      <div class="credibility-item">MIT</div>
-      <div class="credibility-item">UCF Ph.D.</div>
-      <div class="credibility-item">30+ Publications</div>
-      <div class="credibility-item">Nature Scientific Reports</div>
-    </div>
-  </section>
 </div>

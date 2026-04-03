@@ -149,7 +149,7 @@
   }
 </style>
 
-{% assign featured_projects = site.projects | where: 'canonical', true | where: 'featured', true | sort: 'importance' %}
+{% assign featured_projects = site.projects | where: 'canonical', true | sort: 'importance' %}
 {% assign filter_categories = 'Human–AI Interaction|Simulation Systems|Cognitive Science|Prototyping' | split: '|' %}
 
 <div class="homepage-featured-work" data-featured-grid>
