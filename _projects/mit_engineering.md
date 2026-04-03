@@ -1,12 +1,12 @@
 ---
 title: MIT Engineering
-subtitle: Biomechatronics, neuroengineering, instrumentation, and product design work at MIT
-description: Umbrella record of undergraduate MIT engineering and research work across prosthetics, neuroengineering, measurement systems, and product development.
+subtitle: Biomechatronics, neuroengineering, instrumentation, and product development
+description: Selected MIT engineering and research work across prosthetics, neural interfaces, measurement systems, and hands-on product prototyping.
 img: /assets/img/projects/mit-biomechatronics-prototypes.JPG
-importance: 7
+importance: 1.5
 category: engineering
 canonical: true
-featured: false
+featured: true
 ---
 
 <div class="mit-engineering-page">
@@ -17,11 +17,11 @@ featured: false
     }
 
     .mit-engineering-page .mit-section {
-      margin: 2rem 0;
+      margin: 2.25rem 0;
     }
 
     .mit-engineering-page .mit-subsection {
-      margin: 1.5rem 0;
+      margin: 1.6rem 0;
     }
 
     .mit-engineering-page .mit-lead {
@@ -31,9 +31,9 @@ featured: false
 
     .mit-engineering-page .mit-media-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
       gap: 1rem;
-      margin: 1rem 0 0.5rem;
+      margin-top: 0.9rem;
     }
 
     .mit-engineering-page .mit-media-card {
@@ -57,26 +57,26 @@ featured: false
       margin: 0;
       padding: 0.7rem 0.85rem 0.85rem;
       font-size: 0.92rem;
-      line-height: 1.45;
+      line-height: 1.4;
       color: #333;
     }
 
     .mit-engineering-page .mit-callout {
-      border: 1px solid #e6e6e6;
-      border-left: 4px solid #6d6d6d;
+      border: 1px solid #e3e3e3;
+      border-left: 4px solid #8d8d8d;
       border-radius: 10px;
       background: #fafafa;
       padding: 0.8rem 0.95rem;
-      margin-top: 0.75rem;
-      font-size: 0.95rem;
+      margin-top: 0.9rem;
+      font-size: 0.94rem;
     }
 
     .mit-engineering-page .mit-callout.warning {
-      border-left-color: #a26400;
-      background: #fffaf1;
+      border-left-color: #9a5d00;
+      background: #fff8ee;
     }
 
-    .mit-engineering-page .mit-video-list {
+    .mit-engineering-page .mit-video-grid {
       display: grid;
       gap: 1rem;
       margin-top: 1rem;
@@ -91,9 +91,9 @@ featured: false
 
     .mit-engineering-page .mit-video-card video {
       width: 100%;
-      max-width: 860px;
+      height: auto;
       max-height: 460px;
-      border-radius: 10px;
+      border-radius: 8px;
       border: 1px solid #e8e8e8;
       background: #000;
       display: block;
@@ -114,81 +114,92 @@ featured: false
   <section class="mit-section">
     <h2>Overview</h2>
     <p class="mit-lead">
-      This page is a curated umbrella record of my MIT undergraduate engineering and research work. Instead of presenting one isolated project, it summarizes a set of efforts that shaped how I approach mechanics, controls, instrumentation, experimental design, and translational neuroengineering.
+      This page brings together selected engineering and research work from my undergraduate years at MIT. Across biomechanics, neuroengineering, instrumentation, and product design, these projects developed the technical foundation that still shapes how I approach research and system building: start from first principles, build real things, measure performance carefully, and iterate until the design is both analytically defensible and practically workable.
     </p>
     <p>
-      Across these teams and courses, my role was consistently hands-on: building and debugging prototypes, connecting models to measurements, and improving systems through iterative testing. The sections below highlight representative artifacts rather than every historical file.
+      Although the projects vary in domain and scale, they share a common throughline. Each required translating formal models into functioning systems, working across design and fabrication constraints, and supporting empirical evaluation in real laboratory or user contexts. Together, they show the engineering side of my background before and alongside my later work in human factors, experimentation, and human-AI systems.
     </p>
     <div class="mit-media-grid">
       <figure class="mit-media-card">
-        <img src="/assets/img/projects/mit-biomechatronics-group-photo.jpg" alt="MIT Biomechatronics Group photo" loading="lazy" />
-        <figcaption><em>MIT Biomechatronics Group context for much of this engineering work.</em></figcaption>
+        <img src="/assets/img/projects/mit-biomechatronics-prototypes.JPG" alt="Representative biomechatronics prosthetic prototypes" loading="lazy" />
+        <figcaption><em>Representative biomechatronics prototypes from MIT engineering work.</em></figcaption>
       </figure>
       <figure class="mit-media-card">
-        <img src="/assets/img/projects/mit-biomechatronics-prototypes.JPG" alt="Biomechatronics prosthetic prototypes" loading="lazy" />
-        <figcaption><em>Representative assistive-device prototypes from biomechatronics research.</em></figcaption>
+        <img src="/assets/img/projects/mit-biomechatronics-group-photo.jpg" alt="MIT Biomechatronics Group" loading="lazy" />
+        <figcaption><em>Research context from the MIT Biomechatronics Group.</em></figcaption>
       </figure>
     </div>
   </section>
 
   <section class="mit-section">
-    <h2>Research Areas</h2>
+    <h2>Selected Research and Engineering Work</h2>
 
     <div class="mit-subsection">
       <h3>Biomechatronics and Neuroengineering</h3>
+
+      <h4>Quasi-Passive Ankle-Foot Prosthetic</h4>
       <p>
-        In the MIT Biomechatronics Group, I contributed to assistive-device projects spanning quasi-passive and passive ankle-foot prosthetics. For the quasi-passive system, my work centered on pneumatic subsystem design, prototype integration, state-machine control support, and analysis workflows in Python/MATLAB to tune gait behavior across test cycles. In the passive rotational-spring effort, I focused on linkage optimization, CAD, fabrication, and iterative mechanical refinement.
+        This project focused on developing a quasi-passive ankle-foot prosthetic intended to better approximate biomimetic torque-angle behavior during gait. The system combined mechanical design, pneumatic actuation, and control logic to support stance-phase dynamics in a more physiologically informed way than simpler passive devices.
+      </p>
+      <p>
+        My role centered on subsystem design and integration. I designed and refined the pneumatic architecture, contributed to mechanical analysis and fabrication, and helped implement the quasi-passive control logic used to coordinate behavior across gait phases. I also supported iterative testing and tuning using Python and MATLAB workflows, with the broader prototype ultimately reaching functional testing status in a laboratory setting.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
           <img src="/assets/img/projects/mit-engineer-biomechatronics-quasipassiveankle-prototype-1.jpg" alt="Quasi-passive ankle-foot prosthetic prototype" loading="lazy" />
-          <figcaption><em>Quasi-passive ankle-foot prototype used for gait-oriented testing.</em></figcaption>
-        </figure>
-        <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-biomechatronics-passiveankle-prototype.JPG" alt="Passive rotational spring ankle prototype" loading="lazy" />
-          <figcaption><em>Passive rotational spring concept focused on robust stance-phase mechanics.</em></figcaption>
+          <figcaption><em>Quasi-passive ankle-foot prototype prepared for laboratory gait testing.</em></figcaption>
         </figure>
       </div>
-    </div>
 
-    <div class="mit-subsection">
-      <h3>Translational and Neural Interface Work</h3>
+      <h4>Passive Rotational Spring Prosthetic</h4>
       <p>
-        I also supported translational neural-interface research, including implanted microchannel studies and optical/transdermal stimulation experiments. Responsibilities included experimental setup support, wet-lab and animal-model protocol participation, instrumentation buildout, and data-collection analysis. This work emphasized reliability and procedural discipline in addition to hardware design.
+        In parallel, I worked on a lightweight passive ankle-foot prosthetic designed around a mechanically efficient transition between stable states during stance. This project was especially formative because it required moving directly from abstract mechanics concepts to a manufacturable, physically functioning device.
       </p>
+      <p>
+        My contributions included linkage optimization, full 3D CAD development, fabrication, and repeated redesign as practical constraints emerged. This work sharpened my ability to reason across kinematics, structural layout, manufacturability, and physical performance rather than treating those as separate stages.
+      </p>
+      <div class="mit-media-grid">
+        <figure class="mit-media-card">
+          <img src="/assets/img/projects/mit-engineer-biomechatronics-passiveankle-prototype.JPG" alt="Passive rotational spring prosthetic prototype" loading="lazy" />
+          <figcaption><em>Passive rotational spring prototype focused on stance-phase mechanical efficiency.</em></figcaption>
+        </figure>
+      </div>
 
-      <h4>Graphic Biological/Surgical Content</h4>
+      <h4>Neural Interface and Regeneration Work</h4>
+      <p>
+        I also contributed to research on implanted microchannel devices designed to guide nerve regeneration through compliant channels with embedded electrodes. The work sat at the intersection of device engineering, biological constraints, and experimental protocol, and it required a different kind of rigor than purely mechanical design projects.
+      </p>
+      <p>
+        My role included supporting implant-related procedures, helping build data-collection infrastructure, participating in analysis workflows, and contributing engineering improvements to the platform. What made this work valuable was not only the device itself, but the experience of working in a translational research setting where hardware reliability, protocol discipline, and biological variability all materially affected progress.
+      </p>
+      <p>
+        Related work included engineering and experimental support for optical and transdermal stimulation efforts, as well as support for animal-model prosthetics research involving gait studies, instrumentation, and controlled testing environments. Across these projects, I developed experience operating at the boundary between device design and experimental research support.
+      </p>
       <p class="mit-callout warning">
-        The image below is intentionally limited and clearly labeled due to surgical/biological content.
+        Graphic biological/surgical content appears below in a single representative image.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-growth-2.jpg" alt="Microchannel implant example showing nerve growth" loading="lazy" />
-          <figcaption><em>Microchannel implant example (graphic surgical/biological content).</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-growth-2.jpg" alt="Microchannel implant example showing directed nerve growth" loading="lazy" />
+          <figcaption><em>Microchannel implant example from regeneration-oriented research (graphic content).</em></figcaption>
         </figure>
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-strip.jpg" alt="Microchannel strip with embedded channels" loading="lazy" />
-          <figcaption><em>Microchannel strip used for directed regeneration and electrode interfacing.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-strip.jpg" alt="Microchannel strip with embedded compliant channels" loading="lazy" />
+          <figcaption><em>Microchannel strip architecture with embedded channels for electrode interfacing.</em></figcaption>
         </figure>
       </div>
-      <p class="mit-callout">
-        Additional historical artifacts from these studies exist but are intentionally omitted from inline display to keep this page focused and readable.
-      </p>
-    </div>
 
-    <div class="mit-subsection">
-      <h3>Wilson Lab / Early Research</h3>
+      <h4>Wilson Lab Research</h4>
       <p>
-        Earlier work in the Wilson Lab focused on thalamic reticular nucleus (TRN) and memory experiments using optogenetic methods. My role included micro-drive fabrication, rodent handling/training support, and Arduino-based experimental setup development. The experience reinforced reproducible build practices and careful protocol execution in a neuroscience context.
+        An earlier MIT research experience in the Wilson Lab focused on memory-related neuroscience research involving the thalamic reticular nucleus and optogenetic methods. This work introduced me to a research environment where experimental questions, instrumentation, fabrication, and protocol execution were tightly interdependent.
+      </p>
+      <p>
+        My contributions included fabricating brain micro-drive implants, assisting with rodent handling and behavioral training, and building parts of the experimental setup using Arduino-based circuitry and task hardware. It was an early example of combining careful experimental support with hands-on engineering implementation.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-trn-diagram.jpg" alt="TRN memory experiment diagram" loading="lazy" />
-          <figcaption><em>TRN memory experiment overview diagram.</em></figcaption>
-        </figure>
-        <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-trn-prototype.jpg" alt="Prototype hardware used in Wilson Lab project" loading="lazy" />
-          <figcaption><em>Prototype hardware from early Wilson Lab setup development.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-trn-diagram.jpg" alt="Wilson Lab TRN experiment diagram" loading="lazy" />
+          <figcaption><em>TRN memory experiment architecture from early Wilson Lab research.</em></figcaption>
         </figure>
       </div>
     </div>
@@ -198,31 +209,37 @@ featured: false
     <h2>Coursework and Prototyping</h2>
 
     <div class="mit-subsection">
-      <h3>Letterbug (MIT 2.009)</h3>
+      <h3>Letterbug</h3>
       <p>
-        Letterbug was developed in MIT’s 2.009 Product Engineering Processes course. I contributed to design, prototyping, testing, and system integration, including SolidWorks chassis design for packaging constraints, access considerations, and mechatronic reliability before milestone demonstrations.
+        Letterbug was developed in MIT’s 2.009 Product Engineering Processes course as part of a team-based product development effort. The project required moving from concept generation to a functioning mechatronic prototype under significant time and integration pressure.
+      </p>
+      <p>
+        My role included chassis design, prototyping, testing, and system integration. I designed the SolidWorks chassis to accommodate the major mechanical and electronic components while preserving usability requirements such as button access and battery replacement. I also played a substantial role in assembly and testing, helping stabilize the overall system before major presentation milestones. The project reflects my interest in applied product development where packaging, manufacturability, and real-world behavior all have to be solved together.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
           <img src="/assets/img/projects/mit-engineer-letterbug-prototype-assembly.JPG" alt="Letterbug prototype assembly" loading="lazy" />
-          <figcaption><em>Letterbug assembly-stage prototype during integration and test cycles.</em></figcaption>
+          <figcaption><em>Letterbug assembly and integration before milestone demonstrations.</em></figcaption>
         </figure>
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-letterbug-soldiworks.png" alt="Letterbug SolidWorks chassis design" loading="lazy" />
-          <figcaption><em>Chassis packaging work in SolidWorks for the final integrated build.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-letterbug-soldiworks.png" alt="Letterbug chassis design in SolidWorks" loading="lazy" />
+          <figcaption><em>SolidWorks chassis design balancing packaging and usability constraints.</em></figcaption>
         </figure>
       </div>
     </div>
 
     <div class="mit-subsection">
-      <h3>Human 2.0</h3>
+      <h3>Human 2.0: Carpal Tunnel Prevention Prototyping</h3>
       <p>
-        This project explored prevention-oriented concepts for carpal tunnel syndrome through iterative prototyping and usability evaluation. We compared multiple wearable concepts (including exoskeleton and brace directions) to understand comfort, behavior change potential, and practical tradeoffs rather than claiming a finished medical device.
+        This project explored prevention-oriented design concepts for carpal tunnel syndrome rather than focusing solely on treatment. The work involved developing and comparing multiple wearable concepts, including a typing exoskeleton direction and a compliant wrist-brace approach.
+      </p>
+      <p>
+        My role included prototype development, CAD work, and evaluation-oriented iteration. The project was useful not because it produced a finished medical device, but because it required balancing human factors, mechanical feasibility, and user acceptability in a practical design workflow.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-human2-prototype.png" alt="Human 2.0 prototype" loading="lazy" />
-          <figcaption><em>Human 2.0 prevention-focused prototype exploration.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-human2-prototype.png" alt="Human 2.0 prototype concept" loading="lazy" />
+          <figcaption><em>Human 2.0 wearable prototype exploration for prevention-focused workflows.</em></figcaption>
         </figure>
       </div>
     </div>
@@ -230,29 +247,31 @@ featured: false
     <div class="mit-subsection">
       <h3>Maxwell’s Cat</h3>
       <p>
-        In 2.74/740 Bio-inspired Robotics, Maxwell’s Cat combined dynamics simulation and hardware verification for an autonomous self-righting robot. The work included 3D freefall modeling, control implementation, and high-speed video analysis to compare predicted and measured behavior.
+        Maxwell’s Cat was a bio-inspired robotics project centered on designing an autonomous robot capable of dynamic self-righting. The work combined analytical modeling with physical implementation and therefore required the project to hold together both mathematically and mechanically.
+      </p>
+      <p>
+        I contributed to the modeling and prototype development process used to compare simulated and embodied performance. The project involved dynamics modeling, electromechanical implementation, and motion characterization using experimental observation. It was a strong example of how theoretical mechanics and real hardware validation can inform one another when treated as part of the same engineering problem.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-maxwellcat-poster.png" alt="Maxwell's Cat poster" loading="lazy" />
-          <figcaption><em>Technical poster summarizing the self-righting robot design and validation.</em></figcaption>
-        </figure>
-        <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-maxwellcat-flipimage.png" alt="Maxwell's Cat flip sequence" loading="lazy" />
-          <figcaption><em>Representative self-righting sequence from validation testing.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-maxwellcat-poster.png" alt="Maxwell's Cat technical poster" loading="lazy" />
+          <figcaption><em>Poster summary of modeling and embodied validation for self-righting behavior.</em></figcaption>
         </figure>
       </div>
     </div>
 
     <div class="mit-subsection">
-      <h3>Measurement and Instrumentation (MIT 2.671)</h3>
+      <h3>Measurement and Instrumentation</h3>
       <p>
-        My 2.671 solo project focused on thermodynamics instrumentation for measuring heat transfer through solid materials. It emphasized sensor and calibration choices, uncertainty interpretation, and the practical gap between theoretical models and field measurement constraints.
+        In MIT’s Measurement and Instrumentation course, I completed a solo project focused on heat transfer through solid matter. The goal was to design and build a system that could produce interpretable measurements while forcing careful attention to calibration, sensor behavior, and error sources.
+      </p>
+      <p>
+        This project was important because it strengthened the bridge between theoretical understanding and empirical measurement. Rather than treating instrumentation as a secondary step, it emphasized that the quality of a conclusion depends on the quality of the measurement strategy that supports it.
       </p>
       <div class="mit-media-grid">
         <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-2671-poster.PNG" alt="2.671 thermodynamics instrumentation poster" loading="lazy" />
-          <figcaption><em>2.671 poster on thermodynamics-focused measurement system design.</em></figcaption>
+          <img src="/assets/img/projects/mit-engineer-2671-poster.PNG" alt="Measurement and instrumentation project poster" loading="lazy" />
+          <figcaption><em>Measurement-system design and analysis for heat-transfer instrumentation.</em></figcaption>
         </figure>
       </div>
     </div>
@@ -261,17 +280,16 @@ featured: false
   <section class="mit-section">
     <h2>Selected Videos</h2>
     <p>
-      These representative clips are kept in a restrained list format. Source files remain `.MOV`, so fallback links are included for direct playback when browser support is inconsistent.
+      The videos below document representative prototypes and experimental systems in action. They are included as supporting material rather than as the primary content of this page.
     </p>
 
-    <div class="mit-video-list">
+    <div class="mit-video-grid">
       <figure class="mit-video-card">
         <video controls preload="metadata">
           <source src="/assets/video/projects/mit-engineer-letterbug-innerworkings-video.MOV" type="video/quicktime">
           Your browser does not support embedded video playback for this format.
         </video>
         <figcaption><em>Letterbug internal mechanism walkthrough.</em></figcaption>
-        <p><a href="/assets/video/projects/mit-engineer-letterbug-innerworkings-video.MOV">Fallback link: Open Letterbug inner-workings video</a></p>
       </figure>
 
       <figure class="mit-video-card">
@@ -280,7 +298,6 @@ featured: false
           Your browser does not support embedded video playback for this format.
         </video>
         <figcaption><em>Letterbug pre-paint testing clip.</em></figcaption>
-        <p><a href="/assets/video/projects/mit-engineer-letterbug-prepaint-testing-video.MOV">Fallback link: Open Letterbug pre-paint testing video</a></p>
       </figure>
 
       <figure class="mit-video-card">
@@ -289,15 +306,17 @@ featured: false
           Your browser does not support embedded video playback for this format.
         </video>
         <figcaption><em>Representative transdermal stimulation research clip.</em></figcaption>
-        <p><a href="/assets/video/projects/mit-engineer-transdermal-video.MOV">Fallback link: Open transdermal stimulation video</a></p>
       </figure>
     </div>
   </section>
 
   <section class="mit-section">
-    <h2>Why It Still Matters</h2>
+    <h2>Engineering Foundation</h2>
     <p>
-      These projects remain relevant because they document a durable engineering foundation: translating first-principles reasoning into working systems under practical constraints, then validating behavior through instrumentation and experiment. That foundation continues to inform later work in human-AI systems, simulation, and research-oriented product development.
+      These projects reflect the engineering foundation underlying my later work in research, simulation, experimentation, and human-AI systems. They show sustained experience with mechanical design, CAD, controls, instrumentation, prototyping, and laboratory system development, as well as an early pattern of working across disciplinary boundaries rather than inside a single narrow specialization.
+    </p>
+    <p>
+      For collaborators, employers, and research partners, the value of this page is not only historical. It demonstrates that my later work in cognition, experimentation, and intelligent systems is grounded in real engineering practice: building hardware, integrating systems, supporting empirical studies, and turning technical ideas into working artifacts.
     </p>
   </section>
 </div>
