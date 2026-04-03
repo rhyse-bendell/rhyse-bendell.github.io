@@ -175,14 +175,14 @@ featured: true
       <p>
         Related work included engineering and experimental support for optical and transdermal stimulation efforts, as well as support for animal-model prosthetics research involving gait studies, instrumentation, and controlled testing environments. Across these projects, I developed experience operating at the boundary between device design and experimental research support.
       </p>
-      <p class="mit-callout warning">
-        Graphic biological/surgical content appears below in a single representative image.
-      </p>
       <div class="mit-media-grid">
-        <figure class="mit-media-card">
-          <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-growth-2.jpg" alt="Microchannel implant example showing directed nerve growth" loading="lazy" />
-          <figcaption><em>Microchannel implant example from regeneration-oriented research (graphic content).</em></figcaption>
-        </figure>
+        {% include censored_image.html
+          src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-growth-2.jpg"
+          alt="Microchannel implant example showing directed nerve growth"
+          warning="Sensitive research image"
+          caption="Microchannel implant example from regeneration-oriented research (graphic content)."
+          class="mit-media-card"
+        %}
         <figure class="mit-media-card">
           <img src="/assets/img/projects/mit-engineer-biomechatronics-microchannel-strip.jpg" alt="Microchannel strip with embedded compliant channels" loading="lazy" />
           <figcaption><em>Microchannel strip architecture with embedded channels for electrode interfacing.</em></figcaption>
