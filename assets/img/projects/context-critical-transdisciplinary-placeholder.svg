@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+  <title id="t">Context for Critical Transdisciplinary Research</title>
+  <desc id="d">Abstract network of intersecting disciplines.</desc>
+  <rect width="1200" height="800" fill="#111827"/>
+  <circle cx="360" cy="320" r="150" fill="#60a5fa" opacity="0.22"/>
+  <circle cx="610" cy="300" r="170" fill="#f59e0b" opacity="0.2"/>
+  <circle cx="840" cy="360" r="155" fill="#34d399" opacity="0.22"/>
+  <rect x="130" y="520" width="940" height="150" rx="14" fill="#f8fafc" opacity="0.1"/>
+  <text x="130" y="110" fill="#f3f4f6" font-size="38" font-family="Arial, sans-serif" font-weight="700">Context for Critical Transdisciplinary Research</text>
+  <text x="170" y="610" fill="#d1d5db" font-size="30" font-family="Arial, sans-serif">Additional materials and technical details will be added</text>
+</svg>

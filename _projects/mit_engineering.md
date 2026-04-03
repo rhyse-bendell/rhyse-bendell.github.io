@@ -1,10 +1,12 @@
 ---
 title: MIT Engineering
 subtitle: Biomechatronics, neuroengineering, instrumentation, and product development
-description: Selected MIT engineering and research work across prosthetics, neural interfaces, measurement systems, and hands-on product prototyping.
+description: Selected MIT engineering work spanning prototypes, instrumentation, and human-centered system development.
 img: /assets/img/projects/mit-biomechatronics-prototypes.JPG
-importance: 1.5
-category: engineering
+importance: 11
+category: development
+filters:
+  - Development
 canonical: true
 featured: true
 ---

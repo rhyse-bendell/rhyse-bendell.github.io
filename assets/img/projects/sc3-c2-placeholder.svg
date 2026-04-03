@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+  <title id="t">Scalable Cross-Echelon Command and Control</title>
+  <desc id="d">Layered command and control flow placeholder.</desc>
+  <rect width="1200" height="800" fill="#0b1020"/>
+  <g fill="#93c5fd" opacity="0.25">
+    <rect x="120" y="150" width="960" height="90" rx="10"/>
+    <rect x="200" y="300" width="800" height="90" rx="10"/>
+    <rect x="280" y="450" width="640" height="90" rx="10"/>
+  </g>
+  <g stroke="#cbd5e1" stroke-width="5" opacity="0.45">
+    <line x1="600" y1="240" x2="600" y2="300"/>
+    <line x1="600" y1="390" x2="600" y2="450"/>
+  </g>
+  <text x="120" y="100" fill="#e2e8f0" font-size="42" font-family="Arial, sans-serif" font-weight="700">Scalable Cross-Echelon Command &amp; Control</text>
+  <text x="120" y="650" fill="#cbd5e1" font-size="30" font-family="Arial, sans-serif">Project page in development</text>
+</svg>

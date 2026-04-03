@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+  <title id="t">Macrocognition in Teams Model Simulator</title>
+  <desc id="d">Simulation-style map and timeline placeholder.</desc>
+  <rect width="1200" height="800" fill="#0f172a"/>
+  <rect x="90" y="110" width="720" height="500" rx="14" fill="#22d3ee" opacity="0.15"/>
+  <rect x="850" y="110" width="260" height="500" rx="14" fill="#a78bfa" opacity="0.18"/>
+  <polyline points="140,540 250,420 360,470 470,350 580,390 690,300" fill="none" stroke="#67e8f9" stroke-width="8"/>
+  <text x="90" y="80" fill="#e2e8f0" font-size="40" font-family="Arial, sans-serif" font-weight="700">Macrocognition in Teams Model Simulator</text>
+  <text x="90" y="680" fill="#cbd5e1" font-size="28" font-family="Arial, sans-serif">Additional materials and technical details will be added</text>
+</svg>
