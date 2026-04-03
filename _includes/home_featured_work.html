@@ -4,50 +4,8 @@
     margin: 0 auto;
   }
 
-  .home-portfolio .projects-layout {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-  }
-
-  .home-portfolio .projects-sidebar {
-    width: 220px;
-    flex-shrink: 0;
-  }
-
-  .home-portfolio .project-filters-vertical {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .home-portfolio .project-filters-vertical li {
-    padding: 10px 12px;
-    cursor: pointer;
-    border-radius: 6px;
-    border: 1px solid #d8d8d8;
-    color: #2b2b2b;
-    font-size: 0.95rem;
-    line-height: 1.35;
-    transition: background-color 180ms ease, border-color 180ms ease;
-  }
-
-  .home-portfolio .project-filters-vertical li:hover {
-    background: #f2f2f2;
-    border-color: #cfcfcf;
-  }
-
-  .home-portfolio .project-filters-vertical li.active {
-    background: #e6e6e6;
-    border-color: #bdbdbd;
-    font-weight: 600;
-  }
-
   .home-portfolio .projects-grid-container {
-    flex: 1;
+    width: 100%;
   }
 
   .home-portfolio .homepage-featured-grid {
@@ -82,21 +40,6 @@
     font-size: 0.82rem;
   }
 
-  @media (max-width: 900px) {
-    .home-portfolio .projects-layout {
-      flex-direction: column;
-    }
-
-    .home-portfolio .projects-sidebar {
-      width: 100%;
-    }
-
-    .home-portfolio .project-filters-vertical {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-  }
-
   @media (max-width: 768px) {
     .home-portfolio .homepage-featured-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -111,22 +54,14 @@
 </style>
 
 {% assign featured_projects = site.projects | where: 'canonical', true | sort: 'importance' %}
-{% assign filter_categories = 'Human-AI Interaction|Simulation Systems|Cognitive Science|Development' | split: '|' %}
+{% comment %}
+  Featured filter controls are intentionally hidden from the public homepage for now.
+  Keep this include's data-category attributes/scripts recoverable for future re-enabling.
+{% endcomment %}
 
 <div class="homepage-featured-work" data-featured-grid>
-  <div class="projects-layout">
-    <aside class="projects-sidebar" aria-label="Project filters">
-      <ul class="project-filters-vertical" role="toolbar" aria-label="Filter featured projects">
-        <li class="active" role="button" tabindex="0" data-filter="all" aria-pressed="true">All</li>
-        {% for category in filter_categories %}
-          {% assign category_slug = category | slugify %}
-          <li role="button" tabindex="0" data-filter="{{ category_slug }}" aria-pressed="false">{{ category }}</li>
-        {% endfor %}
-      </ul>
-    </aside>
-
-    <div class="projects-grid-container">
-      <div class="homepage-featured-grid" role="list">
+  <div class="projects-grid-container">
+    <div class="homepage-featured-grid" role="list">
         {% for project in featured_projects %}
           {% assign project_image = project.img | default: '/assets/img/projects/simulation_view.svg' %}
           {% assign project_tags = '' %}
@@ -155,7 +90,6 @@
             </a>
           </article>
         {% endfor %}
-      </div>
     </div>
   </div>
 </div>
@@ -167,6 +101,8 @@
 
     const buttons = featuredWork.querySelectorAll('.project-filters-vertical li');
     const cards = featuredWork.querySelectorAll('.homepage-featured-card');
+
+    if (!buttons.length || !cards.length) return;
 
     const setFilter = (nextFilter) => {
       buttons.forEach((button) => {
