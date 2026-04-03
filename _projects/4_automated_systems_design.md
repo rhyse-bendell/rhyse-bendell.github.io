@@ -1,31 +1,20 @@
 ---
-title: Automated Systems Design
-subtitle: CAD-driven integration for research and lab automation platforms
-description: Engineering design of automated research systems integrating mechanical layout, instrumentation, enclosures, and operator interface constraints.
-img: /assets/img/projects/simulation_view.svg
-importance: 6
-category: engineering
+title: Enhanced Supervisory Control of Autonomous Systems
+subtitle: Human-centered supervisory control for autonomous operations
+description: Design and evaluation of supervisory control workflows that improve transparency, intervention timing, and team performance.
+img: /assets/img/projects/enhanced-supervisory-control-placeholder.svg
+importance: 3
+category: human-ai interaction
+filters:
+  - Human-AI Interaction
+  - Simulation Systems
+  - Development
 canonical: true
-featured: false
+featured: true
 ---
 
 ## Project Overview
-This project captures engineering work that supports reliable research operations through automation-focused system design. The emphasis is not a single device, but integrated platform design where hardware, instrumentation, and operator workflows are engineered together.
+This work focuses on supervisory control concepts for autonomous and semi-autonomous systems, with attention to operator awareness, authority boundaries, and reliable intervention support.
 
-## Design Scope
-- CAD-driven subsystem layout and packaging
-- Enclosure and access design for maintainability and safe operation
-- Instrument and sensor integration planning
-- Interface and workflow considerations for setup, calibration, and repeated use
-- Iterative prototyping to resolve real deployment constraints
-
-## My Role
-I led CAD-centered integration efforts across mechanical architecture, enclosure strategy, and instrumentation compatibility decisions for research-focused automated systems.
-
-## Outcomes
-- Improved repeatability of system setup and operation
-- Better maintainability for recurring research workflows
-- Cleaner integration between hardware constraints and experiment needs
-
-## Why It Matters
-High-quality experimentation depends on dependable engineering infrastructure. This work provides the systems foundation that makes research platforms usable, stable, and scalable.
+## Current Status
+Project page in development. Additional materials and technical details will be added as evaluation artifacts are curated.

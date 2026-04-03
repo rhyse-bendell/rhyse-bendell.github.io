@@ -150,7 +150,7 @@
 </style>
 
 {% assign featured_projects = site.projects | where: 'canonical', true | sort: 'importance' %}
-{% assign filter_categories = 'Human–AI Interaction|Simulation Systems|Cognitive Science|Prototyping' | split: '|' %}
+{% assign filter_categories = 'Human-AI Interaction|Simulation Systems|Cognitive Science|Development' | split: '|' %}
 
 <div class="homepage-featured-work" data-featured-grid>
   <div class="projects-layout">
@@ -169,22 +169,12 @@
         {% for project in featured_projects %}
           {% assign project_image = project.img | default: '/assets/img/projects/simulation_view.svg' %}
           {% assign project_tags = '' %}
-          {% assign project_category = project.category | default: '' | downcase %}
-
-          {% if project_category contains 'human-ai' or project_category contains 'team' or project_category contains 'experiment' %}
-            {% assign project_tags = project_tags | append: 'human-ai-interaction ' %}
-          {% endif %}
-          {% if project_category contains 'simulation' or project_category contains 'spatial' %}
-            {% assign project_tags = project_tags | append: 'simulation-systems ' %}
-          {% endif %}
-          {% if project_category contains 'cognition' or project_category contains 'spatial' %}
-            {% assign project_tags = project_tags | append: 'cognitive-science ' %}
-          {% endif %}
-          {% if project_category contains 'research' or project_category contains 'engineering' or project_category contains 'experiment' %}
-            {% assign project_tags = project_tags | append: 'prototyping ' %}
-          {% endif %}
-          {% if project_tags == '' %}
-            {% assign project_tags = 'prototyping' %}
+          {% if project.filters %}
+            {% for filter in project.filters %}
+              {% assign project_tags = project_tags | append: filter | slugify | append: ' ' %}
+            {% endfor %}
+          {% else %}
+            {% assign project_tags = 'development' %}
           {% endif %}
 
           <article class="homepage-featured-card" role="listitem" data-category="{{ project_tags | strip }}">
