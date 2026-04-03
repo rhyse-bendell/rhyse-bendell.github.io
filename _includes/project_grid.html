@@ -6,18 +6,21 @@
 <div class="portfolio-grid">
   {% for project in projects %}
     <article class="portfolio-card">
-      <a href="{{ project.url | relative_url }}" class="portfolio-card__image-link" aria-label="View {{ project.title }} project">
-        {% if project.img %}
-          <img src="{{ project.img | relative_url }}" alt="{{ project.title }} preview image" class="portfolio-card__image">
-        {% endif %}
+      {% assign project_image = project.img | default: '/assets/img/projects/simulation_view.svg' %}
+      <a href="{{ project.url | relative_url }}" class="portfolio-card__image-link project-card project-card__image-link" aria-label="View {{ project.title }} project">
+        <img
+          src="{{ project_image | relative_url }}"
+          alt="{{ project.title }} preview image"
+          class="portfolio-card__image project-card__image"
+          loading="lazy"
+          onerror="this.onerror=null;this.src='{{ '/assets/img/projects/simulation_view.svg' | relative_url }}';">
+        <div class="project-card__overlay">
+          <div class="project-card__content">
+            <h3 class="portfolio-card__title project-card__title">{{ project.title }}</h3>
+            <p class="portfolio-card__description project-card__description">{{ project.description | strip_html | truncate: 140 }}</p>
+          </div>
+        </div>
       </a>
-      <div class="portfolio-card__content">
-        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-        {% if project.subtitle %}
-          <p class="portfolio-card__subtitle">{{ project.subtitle }}</p>
-        {% endif %}
-        <p>{{ project.description }}</p>
-      </div>
     </article>
   {% endfor %}
 </div>
