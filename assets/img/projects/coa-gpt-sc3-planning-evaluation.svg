@@ -1,0 +1,57 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">COA-GPT + SC3 Planning Evaluation</title>
+  <desc id="desc">Muted planning board style graphic for AI-supported course of action evaluation portfolio tile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E1A2A"/>
+      <stop offset="1" stop-color="#1A2D3F"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="260" y1="170" x2="940" y2="730" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F3F6F8"/>
+      <stop offset="1" stop-color="#E6ECEF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.2" stroke="#8FA3B7" stroke-width="1">
+    <path d="M0 140H1200"/>
+    <path d="M0 280H1200"/>
+    <path d="M0 420H1200"/>
+    <path d="M0 560H1200"/>
+    <path d="M0 700H1200"/>
+    <path d="M170 0V900"/>
+    <path d="M340 0V900"/>
+    <path d="M510 0V900"/>
+    <path d="M680 0V900"/>
+    <path d="M850 0V900"/>
+    <path d="M1020 0V900"/>
+  </g>
+
+  <rect x="230" y="150" width="740" height="600" rx="18" fill="url(#panel)"/>
+  <rect x="270" y="205" width="300" height="44" rx="8" fill="#1F3A56"/>
+  <text x="290" y="234" fill="#EAF0F5" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">COA-GPT + SC3</text>
+
+  <rect x="270" y="275" width="660" height="2" fill="#B8C5CF"/>
+
+  <g font-family="Arial, Helvetica, sans-serif" fill="#2A3E51">
+    <text x="270" y="328" font-size="21" font-weight="700">Planning Evaluation</text>
+    <text x="270" y="370" font-size="18" font-weight="600">Human-AI Workflow, Trust, and Team Coordination</text>
+  </g>
+
+  <g>
+    <rect x="270" y="410" width="200" height="120" rx="10" fill="#D5DEE6"/>
+    <rect x="500" y="410" width="200" height="120" rx="10" fill="#D5DEE6"/>
+    <rect x="730" y="410" width="200" height="120" rx="10" fill="#D5DEE6"/>
+
+    <rect x="300" y="446" width="140" height="10" rx="5" fill="#7B8FA3"/>
+    <rect x="530" y="446" width="140" height="10" rx="5" fill="#7B8FA3"/>
+    <rect x="760" y="446" width="140" height="10" rx="5" fill="#7B8FA3"/>
+
+    <circle cx="470" cy="470" r="6" fill="#1F3A56"/>
+    <circle cx="700" cy="470" r="6" fill="#1F3A56"/>
+    <path d="M476 470H694" stroke="#1F3A56" stroke-width="3"/>
+  </g>
+
+  <text x="270" y="600" fill="#36516A" font-family="Arial, Helvetica, sans-serif" font-size="17">SME-informed study design • simulation-assisted COA refinement • measured implications for team planning</text>
+</svg>
