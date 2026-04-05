@@ -93,7 +93,7 @@ permalink: /projects/asist/
 
 ## Overview
 
-ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA-sponsored interdisciplinary research program focused on building AI that could function as a teammate, not only a task-execution tool. For UCF’s portion of the program, this work was conducted under **Dr. Stephen Fiore** and **Dr. Florian Jentsch** and emphasized translating social and team-cognition science into empirically testable AI-support approaches.
+ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA-sponsored interdisciplinary research program focused on building AI that could function as a teammate, not only a task-execution tool. For UCF’s portion of the program, this work was conducted under Dr. Stephen Fiore and Dr. Florian Jentsch and emphasized translating social and team-cognition science into empirically testable AI-support approaches.
 
 Within UCF’s ASIST effort, my role spanned study design, analytic development, cross-lab coordination, and analysis workflow support across multiple ASIST studies.
 
@@ -160,18 +160,18 @@ Across UCF analyses, several findings were especially informative:
 
 ### Program Links
 
-* **ASIST Program Website** — https://artificialsocialintelligence.org/
-* **UCF Team Page** — https://artificialsocialintelligence.org/teams/
-* **Flocking Component** — https://artificialsocialintelligence.org/agents/flocking/
-* **Data Portal** — https://artificialsocialintelligence.org/data/
+- **ASIST Program Website** — [artificialsocialintelligence.org](https://artificialsocialintelligence.org/)
+- **UCF Team Page** — [UCF ASIST team page](https://artificialsocialintelligence.org/teams/)
+- **Flocking Component** — [ASIST flocking component](https://artificialsocialintelligence.org/agents/flocking/)
+- **Data Portal** — [ASIST data portal](https://artificialsocialintelligence.org/data/)
 
 ### Publications
 
-* **Nature Scientific Reports paper** — https://www.nature.com/articles/s41598-024-63122-8
-* **Sparse-data profiling paper** — https://journals.sagepub.com/doi/abs/10.1177/1071181321651354b
-* **Conceptual framework paper** — https://journals.sagepub.com/doi/abs/10.1177/1071181321651343
-* **Springer chapter** — https://link.springer.com/chapter/10.1007/978-3-030-80285-1_3
-* **Autonomous advisors perceptions paper** — https://journals.sagepub.com/doi/abs/10.1177/21695067231192207
+- **Nature Scientific Reports paper** — [Scientific Reports article](https://www.nature.com/articles/s41598-024-63122-8)
+- **Sparse-data profiling paper** — [SAGE abstract](https://journals.sagepub.com/doi/abs/10.1177/1071181321651354b)
+- **Conceptual framework paper** — [SAGE abstract](https://journals.sagepub.com/doi/abs/10.1177/1071181321651343)
+- **Springer chapter** — [Springer chapter](https://link.springer.com/chapter/10.1007/978-3-030-80285-1_3)
+- **Autonomous advisors perceptions paper** — [SAGE abstract](https://journals.sagepub.com/doi/abs/10.1177/21695067231192207)
 
 ### Video Walkthrough
 
