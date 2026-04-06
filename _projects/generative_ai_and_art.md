@@ -1,5 +1,6 @@
 ---
-title: Gener-AI-te: Perception, Attribution, and Trust in AI-Generated Art
+title: Generative AI and Art
+subtitle: Perception, Attribution, and Trust in AI-Generated Art
 description: Experimental research on how people perceive, evaluate, and assign value to AI-generated versus human-generated art.
 img: /assets/img/projects/generative-ai-art-image-aiabstract.png
 importance: 10
