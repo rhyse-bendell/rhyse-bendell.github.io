@@ -2,7 +2,7 @@
 title: Context for Critical Transdisciplinary Research
 subtitle: Integrating cognitive, social, and technical perspectives for complex problem contexts
 description: Research framing and analytic methods for understanding contextual factors in high-stakes transdisciplinary work.
-img: /assets/img/projects/context-critical-transdisciplinary-placeholder.svg
+img: /assets/img/projects/context-critical-transdisciplinary-image-tile.png
 importance: 4
 category: cognitive science
 filters:

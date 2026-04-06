@@ -1,7 +1,7 @@
 ---
 title: Cognition in Support of Future Space Missions
 description: Research on team cognition, process loss, multimodal sensing, and computational modeling for long-duration space-mission contexts.
-img: /assets/img/projects/mars-colony.jpg
+img: /assets/img/projects/cognition-future-space-image-tile.png
 importance: 2
 category: simulation systems
 filters:

@@ -1,7 +1,7 @@
 ---
 title: Wayfinding & Mental Map Formation
 description: Dissertation-related experimental research on how people acquire, integrate, and apply spatial knowledge for wayfinding in custom virtual environments.
-img: /assets/img/projects/mental_map_env.svg
+img: /assets/img/projects/mental-map-wayfinding-tile-image.png
 importance: 9
 category: cognitive science
 filters:
