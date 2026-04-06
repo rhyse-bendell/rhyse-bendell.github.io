@@ -1,7 +1,46 @@
 <style data-featured-grid-styles>
   .home-portfolio .homepage-featured-work {
-    max-width: 1060px;
+    max-width: 1180px;
     margin: 0 auto;
+  }
+
+  .home-portfolio .homepage-featured-layout {
+    display: grid;
+    grid-template-columns: 210px minmax(0, 1fr);
+    gap: 1.2rem;
+    align-items: start;
+  }
+
+  .home-portfolio .project-filters-vertical {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+  }
+
+  .home-portfolio .project-filters-vertical li {
+    display: block;
+    width: 100%;
+    border: 1px solid #d7dce5;
+    border-radius: 999px;
+    padding: 0.42rem 0.75rem;
+    background: #f8fafc;
+    color: #2b3440;
+    font-size: 0.88rem;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+  }
+
+  .home-portfolio .project-filters-vertical li.active,
+  .home-portfolio .project-filters-vertical li:hover,
+  .home-portfolio .project-filters-vertical li:focus-visible {
+    background: #1f3d76;
+    border-color: #1f3d76;
+    color: #ffffff;
+    outline: none;
   }
 
   .home-portfolio .projects-grid-container {
@@ -10,8 +49,8 @@
 
   .home-portfolio .homepage-featured-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.1rem;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.95rem;
   }
 
   .home-portfolio .homepage-featured-card {
@@ -40,7 +79,31 @@
     font-size: 0.82rem;
   }
 
+  @media (max-width: 1024px) {
+    .home-portfolio .homepage-featured-layout {
+      grid-template-columns: 180px minmax(0, 1fr);
+    }
+
+    .home-portfolio .homepage-featured-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
   @media (max-width: 768px) {
+    .home-portfolio .homepage-featured-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .home-portfolio .project-filters-vertical {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .home-portfolio .project-filters-vertical li {
+      width: auto;
+    }
+
     .home-portfolio .homepage-featured-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
@@ -54,14 +117,19 @@
 </style>
 
 {% assign featured_projects = site.projects | where: 'canonical', true | sort: 'importance' %}
-{% comment %}
-  Featured filter controls are intentionally hidden from the public homepage for now.
-  Keep this include's data-category attributes/scripts recoverable for future re-enabling.
-{% endcomment %}
 
 <div class="homepage-featured-work" data-featured-grid>
-  <div class="projects-grid-container">
-    <div class="homepage-featured-grid" role="list">
+  <div class="homepage-featured-layout">
+    <ul class="project-filters-vertical" aria-label="Filter featured projects">
+      <li data-filter="all" class="active" aria-pressed="true" role="button" tabindex="0">All</li>
+      <li data-filter="human-ai-interaction" aria-pressed="false" role="button" tabindex="0">Human-AI Interaction</li>
+      <li data-filter="cognitive-science" aria-pressed="false" role="button" tabindex="0">Cognitive Science</li>
+      <li data-filter="simulation-systems" aria-pressed="false" role="button" tabindex="0">Simulation Systems</li>
+      <li data-filter="development" aria-pressed="false" role="button" tabindex="0">Development</li>
+    </ul>
+
+    <div class="projects-grid-container">
+      <div class="homepage-featured-grid" role="list">
         {% for project in featured_projects %}
           {% assign project_image = project.img | default: '/assets/img/projects/simulation_view.svg' %}
           {% assign project_tags = '' %}
@@ -90,6 +158,7 @@
             </a>
           </article>
         {% endfor %}
+      </div>
     </div>
   </div>
 </div>
@@ -127,5 +196,7 @@
         }
       });
     });
+
+    setFilter('all');
   })();
 </script>
