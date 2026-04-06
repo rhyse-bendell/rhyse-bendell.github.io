@@ -2,7 +2,7 @@
 title: Enhanced Supervisory Control of Autonomous Systems
 subtitle: Human-centered supervisory control for autonomous operations
 description: Design and evaluation of supervisory control workflows that improve transparency, intervention timing, and team performance.
-img: /assets/img/projects/enhanced-supervisory-control-placeholder.svg
+img: /assets/img/projects/enhanced-supervisory-control-image-tile.png
 importance: 3
 category: human-ai interaction
 filters:
