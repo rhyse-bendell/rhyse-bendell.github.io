@@ -81,19 +81,6 @@ The point of the simulator is not simply to animate behavior. It is to create a 
 
 This is especially important because it turns the Mars Colony task into more than a one-off experiment. It becomes a reusable scientific testbed for theory development, computational modeling, and future AI-support research.
 
-### Videos
-
-<div class="project-media-grid">
-  <div class="project-media-placeholder">
-    <strong>Video Placeholder 1</strong><br>
-    Mars Colony task walkthrough / study overview.
-  </div>
-  <div class="project-media-placeholder">
-    <strong>Video Placeholder 2</strong><br>
-    MITM simulator demonstration.
-  </div>
-</div>
-
 ## Team Process-Loss Study
 
 A second major line of work in this project examined a deceptively simple question: when does collaboration actually help, and when does it make problem solving worse?
@@ -113,19 +100,6 @@ In practical terms, this means that pooling individual effort can sometimes outp
 This finding is valuable for both theory and application. It shows that collaboration is not automatically beneficial; the structure of the task matters. It also helps explain why some mission problems may benefit from tightly coordinated teamwork, while others may be better served by methods that preserve independent search before ideas are combined.
 
 For future space-mission contexts, that distinction matters because teams may need different coordination strategies depending on whether they are executing well-defined repair procedures or trying to reason through unfamiliar, ambiguous, system-level problems.
-
-### Images
-
-<div class="project-media-grid">
-  <div class="project-media-placeholder">
-    <strong>Image Placeholder 1</strong><br>
-    Problem structure / solution-space task matrix.
-  </div>
-  <div class="project-media-placeholder">
-    <strong>Image Placeholder 2</strong><br>
-    Process-loss comparison figure or Monte Carlo result visualization.
-  </div>
-</div>
 
 ## Why this project matters
 
