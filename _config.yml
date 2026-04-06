@@ -12,7 +12,6 @@ remote_theme: alshedivat/al-folio
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-scholar
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -46,14 +45,6 @@ defaults:
       type: "projects"
     values:
       layout: page
-
-scholar:
-  source: ./_bibliography/
-  bibliography: papers.bib
-  style: apa
-  locale: en
-  sort_by: year,month
-  order: descending
 
 navbar_fixed: true
 footer_fixed: true
