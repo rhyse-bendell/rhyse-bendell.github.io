@@ -13,9 +13,10 @@ permalink: /projects/asist/
 ---
 
 <style>
-  .asist-figure {
-    max-width: 760px;
-    margin: 1.25rem auto 1.5rem;
+  .asist-float-right,
+  .asist-float-left {
+    width: min(44%, 420px);
+    margin: 0.35rem 0 1rem 1.35rem;
     border: 1px solid #e6e9ef;
     border-radius: 14px;
     background: #fafbfd;
@@ -23,138 +24,99 @@ permalink: /projects/asist/
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
   }
 
-  .asist-figure img {
+  .asist-float-right {
+    float: right;
+  }
+
+  .asist-float-left {
+    float: left;
+    margin: 0.35rem 1.35rem 1rem 0;
+  }
+
+  .asist-float-right img,
+  .asist-float-left img {
     width: 100%;
     height: auto;
     display: block;
   }
 
-  .asist-figure figcaption {
+  .asist-float-right figcaption,
+  .asist-float-left figcaption {
     padding: 0.75rem 0.95rem 0.9rem;
     font-size: 0.93rem;
     line-height: 1.45;
     color: #374151;
   }
 
-  .asist-media-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-    margin: 1.25rem 0 1.5rem;
-  }
-
-  .asist-media-card {
-    border: 1px solid #e6e9ef;
-    border-radius: 14px;
-    background: #fafbfd;
-    overflow: hidden;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
-  }
-
-  .asist-media-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .asist-media-card figcaption {
-    padding: 0.75rem 0.9rem 0.9rem;
-    font-size: 0.92rem;
-    line-height: 1.45;
-    color: #374151;
-  }
-
-  .asist-video {
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    border-radius: 12px;
-    border: 1px solid #e6e6e6;
-    margin-bottom: 0.75rem;
-  }
-
-  .asist-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
+  .asist-clear {
+    clear: both;
   }
 
   @media (max-width: 860px) {
-    .asist-media-grid {
-      grid-template-columns: 1fr;
+    .asist-float-right,
+    .asist-float-left {
+      float: none;
+      width: 100%;
+      max-width: 760px;
+      margin: 1rem auto 1.25rem;
+    }
+
+    .asist-clear {
+      clear: none;
     }
   }
 </style>
 
-## Overview
+## Project Overview
 
-ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA-sponsored interdisciplinary research program focused on building AI that could function as a teammate, not only a task-execution tool. For UCF’s portion of the program, this work was conducted under Dr. Stephen Fiore and Dr. Florian Jentsch and emphasized translating social and team-cognition science into empirically testable AI-support approaches.
+ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA research program aimed at building AI teammates rather than AI tools that only perform isolated task actions. At the program level, the goal was to develop foundational AI theory and systems with the machine social skills needed to infer the goals and situational knowledge of human partners, anticipate what they would need, and offer context-aware support as adaptable, resilient teammates. The public ASIST materials describe the effort as combining individual and team analytics with AI-enabled intervention in a flexible testbed, and note that performers developed artificial teammates that collaborated with human teams in Studies 3 and 4.
 
-Within UCF’s ASIST effort, my role spanned study design, analytic development, cross-lab coordination, and analysis workflow support across multiple ASIST studies.
-
-## Why the Project Mattered
-
-A central idea in ASIST was the distinction between **taskwork** and **teamwork**:
-
-* **Taskwork:** performing the direct mission or task actions.
-* **Teamwork:** coordinating, sharing information, adapting plans, and maintaining common ground.
-
-Many AI systems perform well on isolated tasks but provide limited support for real team processes. In high-stakes collaborative settings, outcomes depend on more than technical task execution: teams must communicate clearly, externalize critical information, manage risk, and adapt under pressure.
-
-ASIST addressed this gap by developing and testing socially intelligent AI support that could model teammate context and provide interventions aligned with team needs.
-
-## My Contribution
-
-For UCF’s contribution, I worked across theory, experimentation, and analytics to help make team processes measurable and intervention-relevant:
-
-* **Study design and coordination** across research groups and analysis workflows.
-* **Final experiment design leadership (UCF side)** for the Study 4 task-design effort.
-* **Analytic-method development**, including flocking and swarming analytics used to characterize team behavior over time.
-* **Profiling and artificial theory of mind support** for machine-readable teammate models.
-* **Theory-to-method translation** from social-cognitive and teamwork theory into measurable variables and AI-relevant outputs.
-
-<figure class="asist-figure">
+<figure class="asist-float-right">
   <img src="/assets/img/projects/asist-profiling.png" alt="ASIST profiling framework connecting teammate taskwork and teamwork potential to AI support" loading="lazy" />
-  <figcaption><em>UCF profiling work connecting taskwork and teamwork potential to machine-readable teammate models and AI support.</em></figcaption>
+  <figcaption><em>UCF profiling work linking teammate taskwork and teamwork potential to machine-readable models that could guide adaptive support.</em></figcaption>
 </figure>
 
-This work was completed as part of UCF’s team within the broader DARPA ASIST program, not as an individual standalone effort.
+Within that broader program, UCF’s ASIMT effort approached the problem through macrocognition in teams: treating effective human-AI collaboration as a problem of coordination, adaptation, shared understanding, and externalized cognition, not just task execution. A central premise of our work was that successful teaming depends on both taskwork and teamwork. In other words, it is not enough for an intelligent system to help execute mission steps; it must also help teams maintain common ground, share critical information, adapt roles and strategy, and recover from breakdowns in coordination. That distinction shaped UCF’s profiling methods, analytic components, and intervention logic across the program.
 
-## Study Environments
+<div class="asist-clear"></div>
 
-ASIST involved human-subject experimentation in Minecraft-based team environments designed to preserve real teamwork demands: role interdependence, imperfect information sharing, shifting priorities, and time pressure.
+## Experiment Design
 
-* **Study 3 (Urban Search-and-Rescue):** three-person teams in differentiated roles coordinated search, triage or stabilization, and transport while using shared coordination aids.
-* **Study 4 (Bomb-Disposal Teaming):** teams worked across a field environment and a planning or store space to allocate tools and resources, communicate, and complete interdependent disposal work under time pressure.
+ASIST was inherently interdisciplinary. It brought together AI, cognitive science, human factors, team science, modeling, analytics, and testbed engineering in order to study socially intelligent AI under realistic collaborative conditions. On the UCF side, my work sat at that intersection of theory, experimentation, and analysis. I served as Experimentation Working Group Lead from October 2021 to July 2022, later led the Study 4 Task Design Team from October 2022 to January 2023, and also led the Study 3 Coordinated Datasets Breakout Group.
 
-<div class="asist-media-grid">
-  <figure class="asist-media-card">
-    <img src="/assets/img/projects/asist_minecraft.png" alt="Minecraft-based ASIST search and rescue team task environment" loading="lazy" />
-    <figcaption><em>Minecraft-based ASIST task environment used to study teamwork, coordination, and AI-supported collaboration.</em></figcaption>
-  </figure>
+<figure class="asist-float-left">
+  <img src="/assets/img/projects/asist_minecraft.png" alt="Minecraft-based ASIST task environment used to study teamwork, coordination, and AI-supported collaboration" loading="lazy" />
+  <figcaption><em>The Minecraft-based Study 3 environment preserved role interdependence, distributed information, and visible traces of coordination during urban search and rescue.</em></figcaption>
+</figure>
 
-  <figure class="asist-media-card">
-    <img src="/assets/img/projects/asist_flocking.png" alt="ASIST flocking and swarming analytic visualization of team coordination behavior" loading="lazy" />
-    <figcaption><em>Flocking and swarming analytics used to characterize real-time coordination patterns.</em></figcaption>
-  </figure>
-</div>
+In practical terms, this meant helping shape experiments that required real interdependence rather than simply placing people side by side in the same environment. For Study 3, UCF emphasized designs and measures that made knowledge building, knowledge externalization, role coordination, and team process measurable within a Minecraft-based urban search-and-rescue task. For Study 4, the challenge shifted toward a lighter and more generalizable evaluation environment: preserving meaningful teamwork demands while improving scalability, tractability, and the ability to evaluate ASI interventions under cleaner experimental conditions. Program records note that this transition involved balancing coordination demands, task complexity, replayability, and generalizability across TA1, TA2, and TA3 efforts.
 
-Across these studies, UCF’s work emphasized linking team-process theory to measurable traces from behavior, communication, and movement so it was possible to test not only whether support helped, but when and for whom specific support styles were effective.
+More broadly, this experimental work was not just about making a game-like testbed. It was about creating environments in which AI support could be evaluated against genuine teamwork requirements: differentiated roles, uneven information distribution, planning demands, adaptive execution, and visible traces of coordination. That is part of what made ASIST scientifically useful. The program was structured not only to test whether an AI intervention “worked,” but to examine when it worked, for whom, and through what team processes.
 
-## Key Findings
+<div class="asist-clear"></div>
 
-Across UCF analyses, several findings were especially informative:
+## Outcomes
 
-* Profiling work showed that individual and team traits tied to taskwork and teamwork potential helped explain differences in team performance and team perceptions.
-* In Study 3, ASI support was especially beneficial for lower a priori potential teams, helping them approach performance levels of stronger teams.
-* Intervention content mattered: support centered on knowledge augmentation, strategic planning, and teamwork-relevant guidance was more effective, while high-frequency motivational messaging could be unhelpful and sometimes detrimental.
-* Flocking and swarming analytics helped characterize real-time strategy patterns, including separation, alignment, cohesion, grouping, and redundant search tendencies.
-* Later analyses showed that team traits also shaped how teams interpreted both their own team processes and ASI advisor behavior.
+One of UCF’s clearest contributions was showing that sparse pre-mission profiling could support socially intelligent AI in an interpretable way. UCF’s player and team profiling work linked individual differences and competency measures to taskwork potential and teamwork potential, then used those profiles to anticipate likely performance patterns and guide support. In the Study 3 accomplishment materials, UCF reported that higher-potential profiles predicted better taskwork outcomes, that team profiles predicted team process scores, and that those process scores in turn predicted mission outcomes. The same materials also reported a profile-by-advisor interaction suggesting that advising was especially beneficial for lower-potential teams, helping them approach the performance of stronger teams.
+
+<figure class="asist-float-right">
+  <img src="/assets/img/projects/asist_flocking.png" alt="ASIST flocking and swarming analytic visualization of team coordination behavior" loading="lazy" />
+  <figcaption><em>Swarming and flocking analytics extended UCF’s work from self-report and task outcomes into observable coordination dynamics such as separation, cohesion, alignment, exploration, and overlap.</em></figcaption>
+</figure>
+
+A second major contribution was making teamwork process itself more measurable. UCF treated social process as something that could be operationalized through observable traces: how teams externalized information, how they coordinated movement, how they distributed roles, and how they responded to advisor prompts. Study 3 materials emphasized that successful teams relied heavily on marker-block based knowledge externalization, while UCF’s intervention work treated ASI prompts as the direct touchpoint between the AI and the human team and used a grounded coding approach to evaluate intervention effects across different agents. The swarming/flocking analytic work extended this logic into movement behavior by modeling separation, cohesion, alignment, exploration, and overlap as proxies for coordination in complex task environments.
+
+The published record from UCF’s ASIST work reflects that breadth. The final program report highlights publications on profiling human teammates from sparse data, artificial theory of mind, intervention effects on team performance and knowledge externalization, gaming experience and mental model formation, team traits and human-AI dynamics, dialogue analysis, and virtual teams. It also identifies technical products such as the Player and Team Profile Analytic Component and the Swarming Analytic Component. At the program level, ASIST also produced public-facing testbed infrastructure, artificial teammate development for Studies 3 and 4, and a large archive of datasets, publications, and presentations.
+
+<div class="asist-clear"></div>
+
+## Data and Collaboration
+
+On the data side, I led UCF’s coordinated Study 3 dataset-preparation effort and later continued downstream work on Study 3 communication extraction and Study 4 intervention and time-series analysis. That part of the project matters to me because ASIST was designed not only to answer immediate program questions, but also to leave behind reusable research resources for people working on human-AI teaming, multimodal team behavior, intervention design, and team cognition.
+
+One wording change I strongly recommend for the website: do not say that all ASIST study datasets are already public. The current official ASIST data page says that Studies 2, 3, and 4 are currently available, with Study 1 planned for later. The clean, accurate claim is that public ASIST datasets are available through the program data portal, including Studies 2–4, with Study 1 to follow.
+
+Researchers interested in human-AI teaming, team cognition, multimodal team data, adaptive interventions, or secondary analysis of ASIST-style datasets are welcome to contact me. I am especially interested in collaborations that connect theory, experiment design, analytics, and reusable research infrastructure.
 
 ## Selected Outputs
 
@@ -172,25 +134,3 @@ Across UCF analyses, several findings were especially informative:
 - **Conceptual framework paper** — [SAGE abstract](https://journals.sagepub.com/doi/abs/10.1177/1071181321651343)
 - **Springer chapter** — [Springer chapter](https://link.springer.com/chapter/10.1007/978-3-030-80285-1_3)
 - **Autonomous advisors perceptions paper** — [SAGE abstract](https://journals.sagepub.com/doi/abs/10.1177/21695067231192207)
-
-### Video Walkthrough
-
-<div class="asist-video">
-  <iframe
-    src="https://www.youtube.com/embed/N4Z2FqFWWFs?start=357"
-    title="DARPA ASIST Briefing"
-    loading="lazy"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
-</div>
-
-*A recorded DARPA briefing discussing ASIST agents, theoretical framing, and socially informed design decisions.*
-
-## Why It Matters
-
-This work matters because deployable AI teammates must do more than produce outputs: they must support how people actually work together. UCF’s ASIST contribution helped translate social, cognitive, and team science into machine-readable teammate models, analytic components, and empirically evaluated intervention strategies.
-
-Just as importantly, the project showed that evaluation has to include team-process outcomes, not only task completion metrics. In settings where people coordinate under uncertainty, performance depends on communication quality, role adaptation, workload balancing, and shared understanding over time. AI that ignores those dynamics may look strong in isolated benchmarks while failing in collaborative practice.
-
-That translation from theory to measurable, intervention-relevant team indicators remains relevant beyond ASIST itself in operational, government, and other complex collaborative environments where AI effectiveness depends on both task performance and teamwork support.
