@@ -10,6 +10,7 @@ filters:
   - Simulation Systems
 canonical: true
 featured: true
+permalink: /projects/robotics-collaborative-technology-alliance/
 ---
 
 ## Project Overview
