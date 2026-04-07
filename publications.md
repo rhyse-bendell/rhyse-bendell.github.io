@@ -63,17 +63,21 @@ permalink: /publications/
     overflow: hidden;
     background: #0f172a;
     box-shadow: 0 4px 14px rgba(15, 23, 42, 0.14);
+    height: 100%;
   }
 
   .selected-featured-tile a {
     display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
     text-decoration: none;
     color: inherit;
   }
 
   .selected-featured-image {
     width: 100%;
-    height: 260px;
+    aspect-ratio: 1034 / 581;
+    height: auto;
     object-fit: cover;
     display: block;
   }
@@ -104,6 +108,13 @@ permalink: /publications/
   .selected-list {
     display: grid;
     gap: 0.8rem;
+  }
+
+  .selected-feature-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 0.8rem;
+    align-items: stretch;
   }
 
   .selected-item {
@@ -178,8 +189,8 @@ permalink: /publications/
       padding: 0.86rem;
     }
 
-    .selected-featured-image {
-      height: 210px;
+    .selected-feature-row {
+      grid-template-columns: 1fr;
     }
   }
 </style>
@@ -208,15 +219,23 @@ permalink: /publications/
         <p class="description">Describes a machine-readable profiling approach intended to help AI systems form a more useful model of their human teammates.</p>
       </article>
 
-      <article class="selected-featured-tile" aria-label="Behind the Paper feature">
-        <a href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">
-          <img class="selected-featured-image" src="/assets/img/projects/asist-profiling.png" alt="Behind the Paper feature image for Enhancing Human-AI Collaboration">
-          <div class="selected-featured-content">
-            <h3>Enhancing Human-AI Collaboration: Profiling for Better Social Intelligence</h3>
-            <p>Behind the Paper · Springer Nature Research Communities · July 15, 2024</p>
-          </div>
-        </a>
-      </article>
+      <div class="selected-feature-row">
+        <article class="selected-item">
+          <h3><a href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">Enhancing Human-AI Collaboration: Profiling for Better Social Intelligence</a></h3>
+          <p class="citation">Bendell, R. (2024). Behind the Paper. Springer Nature Research Communities.</p>
+          <p class="description">A plain-language summary of the Scientific Reports publication, focused on practical implications of human and team profiling for socially intelligent AI collaboration.</p>
+        </article>
+
+        <article class="selected-featured-tile" aria-label="Behind the Paper feature image tile">
+          <a href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">
+            <img class="selected-featured-image" src="/assets/img/projects/nature-portfolio-blog-image.png" alt="Nature portfolio image for Enhancing Human-AI Collaboration">
+            <div class="selected-featured-content">
+              <h3>Behind the Paper</h3>
+              <p>Springer Nature Research Communities · July 15, 2024</p>
+            </div>
+          </a>
+        </article>
+      </div>
 
       <article class="selected-item">
         <h3><a href="https://stars.library.ucf.edu/etd2023/55/" target="_blank" rel="noopener noreferrer">The Interplay of Spatial Ability, Sex, Training Modality, and Environmental Features: Effects on Spatial Cognition, Mental Map Formation, and Wayfinding</a></h3>
