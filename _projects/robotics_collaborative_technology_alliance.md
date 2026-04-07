@@ -10,7 +10,7 @@ filters:
   - Simulation Systems
 canonical: true
 featured: true
-permalink: /projects/2_ai_teaming_experiments/
+permalink: /projects/robotics-collaborative-technology-alliance/
 ---
 
 {% include project_back_button.html %}
