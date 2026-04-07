@@ -5,8 +5,7 @@ img: /assets/img/projects/mental-map-wayfinding-tile-image.png
 importance: 9
 category: cognitive science
 filters:
-  - Cognitive Science
-  - Simulation Systems
+  - Cognitive Science & Research
 canonical: true
 featured: true
 ---

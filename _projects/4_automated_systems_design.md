@@ -6,9 +6,8 @@ img: /assets/img/projects/enhanced-supervisory-control-image-tile.png
 importance: 3
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Simulation Systems
-  - Development
+  - AI Systems & Development
+  - Engineering & Design
 canonical: true
 featured: true
 ---

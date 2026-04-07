@@ -6,8 +6,7 @@ img: /assets/img/projects/context-critical-transdisciplinary-image-tile.png
 importance: 4
 category: cognitive science
 filters:
-  - Cognitive Science
-  - Human-AI Interaction
+  - Cognitive Science & Research
 canonical: true
 featured: true
 ---

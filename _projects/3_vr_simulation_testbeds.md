@@ -5,8 +5,8 @@ img: /assets/img/projects/mitm-simulator-tile-image.png
 importance: 6
 category: simulation systems
 filters:
-  - Simulation Systems
-  - Cognitive Science
+  - Cognitive Science & Research
+  - AI Systems & Development
 canonical: true
 featured: true
 ---

@@ -6,8 +6,8 @@ img: /assets/img/projects/lisara-interface-tile-image.png
 importance: 7
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Development
+  - AI Systems & Development
+  - Cognitive Science & Research
 canonical: true
 featured: true
 ---

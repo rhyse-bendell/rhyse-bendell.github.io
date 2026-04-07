@@ -5,8 +5,8 @@ img: /assets/img/projects/asist_minecraft.png
 importance: 1
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Cognitive Science
+  - Cognitive Science & Research
+  - AI Systems & Development
 canonical: true
 featured: true
 permalink: /projects/asist/

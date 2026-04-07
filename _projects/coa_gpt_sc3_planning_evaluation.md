@@ -6,8 +6,8 @@ img: /assets/img/projects/sc3-tile-image.png
 importance: 5
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Simulation Systems
+  - AI Systems & Development
+  - Engineering & Design
 canonical: true
 featured: true
 ---

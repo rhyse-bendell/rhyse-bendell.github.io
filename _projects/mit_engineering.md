@@ -6,7 +6,7 @@ img: /assets/img/projects/mit-biomechatronics-prototypes.JPG
 importance: 11
 category: development
 filters:
-  - Development
+  - Engineering & Design
 canonical: true
 featured: true
 ---

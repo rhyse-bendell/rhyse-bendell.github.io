@@ -6,8 +6,8 @@ img: /assets/img/projects/robotics-collaborative-technology-alliance-tile-image.
 importance: 10
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Simulation Systems
+  - AI Systems & Development
+  - Engineering & Design
 canonical: true
 featured: true
 permalink: /projects/robotics-collaborative-technology-alliance/
