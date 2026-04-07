@@ -67,21 +67,6 @@ permalink: /contact/
     cursor: pointer;
   }
 
-  .contact-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .contact-links li {
-    margin-bottom: 0.6rem;
-    word-break: break-word;
-  }
-
-  .contact-label {
-    font-weight: 600;
-  }
-
   @media (max-width: 640px) {
     .contact-page {
       max-width: 100%;
@@ -99,12 +84,7 @@ permalink: /contact/
 
   <section class="contact-section" aria-labelledby="professional-links-heading">
     <h2 id="professional-links-heading">Professional Links</h2>
-    <ul class="contact-links">
-      <li><span class="contact-label">GitHub:</span> <a href="https://github.com/rhyse-bendell" target="_blank" rel="noopener noreferrer">github.com/rhyse-bendell</a></li>
-      <li><span class="contact-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/rhyse-bendell" target="_blank" rel="noopener noreferrer">linkedin.com/in/rhyse-bendell</a></li>
-      <li><span class="contact-label">Cognitive Sciences Laboratory:</span> <a href="https://csl.ist.ucf.edu/People" target="_blank" rel="noopener noreferrer">csl.ist.ucf.edu/People</a></li>
-      <li><span class="contact-label">Google Scholar:</span> <a href="https://scholar.google.com/scholar?q=Rhyse+Bendell" target="_blank" rel="noopener noreferrer">scholar.google.com (Rhyse Bendell search)</a></li>
-    </ul>
+    {% include professional_link_buttons.html %}
   </section>
 
   <section class="contact-section" aria-labelledby="contact-form-heading">

@@ -46,6 +46,10 @@ permalink: /
   </section>
 
   <section>
+    {% include professional_link_buttons.html %}
+  </section>
+
+  <section>
     <h2>Featured Work</h2>
     {% include home_featured_work.html %}
   </section>
