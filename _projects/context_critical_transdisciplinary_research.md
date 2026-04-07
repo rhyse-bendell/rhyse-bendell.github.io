@@ -13,9 +13,10 @@ featured: true
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 ## Project Overview
+
+{% include project_overview_figure.html %}
+
 
 This project examines how transdisciplinary science teams actually do the work of science. Its central focus is not only the outcomes of collaboration, such as papers or proposals, but the epistemic and social processes through which researchers identify important problems, define a shared area of inquiry, integrate disciplinary perspectives, and develop research directions together. The work is especially concerned with context: how social setting, physical space, disciplinary background, and differing orientations to time shape the development of new scientific teams and the ideas they produce.
 

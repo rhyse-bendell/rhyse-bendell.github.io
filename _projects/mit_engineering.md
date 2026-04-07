@@ -13,8 +13,6 @@ featured: true
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 <div class="mit-engineering-page">
   <style>
     .mit-engineering-page {
@@ -119,6 +117,8 @@ featured: true
 
   <section class="mit-section">
     <h2>Overview</h2>
+
+    {% include project_overview_figure.html %}
     <p class="mit-lead">
       This page brings together selected engineering and research work from my undergraduate years at MIT. Across biomechanics, neuroengineering, instrumentation, and product design, these projects developed the technical foundation that still shapes how I approach research and system building: start from first principles, build real things, measure performance carefully, and iterate until the design is both analytically defensible and practically workable.
     </p>

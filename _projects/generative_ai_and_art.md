@@ -15,8 +15,6 @@ permalink: /projects/generative-ai-and-art/
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 <style>
   .genart-gallery {
     display: grid;
@@ -54,6 +52,9 @@ permalink: /projects/generative-ai-and-art/
 </style>
 
 ## Project Overview
+
+{% include project_overview_figure.html %}
+
 
 Generative artificial intelligence is rapidly transforming creative industries, raising fundamental questions about authorship, authenticity, and value. As AI systems become capable of producing visually compelling and stylistically sophisticated artwork, the boundary between human and machine creativity is becoming increasingly ambiguous. This project was designed to investigate how people perceive, evaluate, and emotionally respond to artwork when its origin—human or AI—is manipulated or misrepresented.
 
