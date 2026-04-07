@@ -134,7 +134,8 @@
           {% assign project_tags = '' %}
           {% if project.filters %}
             {% for filter in project.filters %}
-              {% assign project_tags = project_tags | append: filter | slugify | append: ' ' %}
+              {% assign project_tag = filter | slugify %}
+              {% assign project_tags = project_tags | append: project_tag | append: ' ' %}
             {% endfor %}
           {% else %}
             {% assign project_tags = 'development' %}
