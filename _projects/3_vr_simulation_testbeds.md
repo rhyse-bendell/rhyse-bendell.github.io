@@ -1,7 +1,7 @@
 ---
 title: Macrocognition in Teams Model Simulator
 description: Agent-based simulation testbed for modeling macrocognition, distributed knowledge integration, and collaborative problem solving in teams.
-img: /assets/img/projects/mitm-simulator-placeholder.svg
+img: /assets/img/projects/mitm-simulator-tile-image.png
 importance: 6
 category: simulation systems
 filters:
@@ -24,6 +24,24 @@ The simulator is not meant to be a simple gameplay replica. Its goal is to model
 At the repository level, the simulator is built around a task-package architecture. The Mars Colony scenario is defined through a structured task model that includes source definitions, DIK elements, derivations, rule definitions, goals, plan methods, artifacts, environment objects, zones, interaction targets, phases, roles, communication catalogs, and construction templates. That makes the simulator portable: Mars Colony is the current concrete task package, but the architecture is intended to support any teaming task whose process depends on distributed knowledge, interdependent planning, and team-level macrocognition.
 
 The value of the project is twofold. First, it provides a generative process model of collaborative problem solving in a rich, physically grounded task. Second, because the Mars Colony simulator is tied to a real human-subjects experiment, it can also serve as a calibrated explanatory model: the same framework can be used to generate simulated traces, compare them against observed human-team behavior, and test which parameter combinations best reproduce patterns of knowledge flow, planning, coordination, recovery, and performance seen in real teams.
+
+
+## Simulator Visuals
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; align-items: start; margin: 1rem 0 1.5rem 0;">
+  <figure style="margin: 0;">
+    <img src="/assets/img/projects/mitm-simulator-agent-states-image.png" alt="MITM simulator agent states and process view" style="width: 100%; max-width: 560px; height: auto; border-radius: 8px;" loading="lazy">
+    <figcaption style="font-size: 0.9rem; margin-top: 0.4rem;">Agent-state and process-state view used to inspect team dynamics over time.</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/projects/mitm-simulator-epistemic-coverage-image.png" alt="MITM simulator epistemic coverage visualization" style="width: 100%; max-width: 560px; height: auto; border-radius: 8px;" loading="lazy">
+    <figcaption style="font-size: 0.9rem; margin-top: 0.4rem;">Epistemic coverage output showing acquisition and integration of distributed DIK.</figcaption>
+  </figure>
+  <figure style="margin: 0;">
+    <img src="/assets/img/projects/mitm-simulator-graph-image.png" alt="MITM simulator process graph and validation pathways" style="width: 100%; max-width: 560px; height: auto; border-radius: 8px;" loading="lazy">
+    <figcaption style="font-size: 0.9rem; margin-top: 0.4rem;">Process-graph and witness-path view used for pathway validation analysis.</figcaption>
+  </figure>
+</div>
 
 ## Simulating Macrocognition
 
