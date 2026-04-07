@@ -10,6 +10,7 @@ filters:
   - Simulation Systems
 canonical: true
 featured: true
+permalink: /projects/2_ai_teaming_experiments/
 ---
 
 ## Project Overview
