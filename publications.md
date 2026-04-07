@@ -56,42 +56,41 @@ permalink: /publications/
     text-decoration: none;
   }
 
-  .publications-featured {
-    border: 1px solid #e5e9ef;
-    border-radius: 13px;
-    padding: 1.1rem 1.15rem;
-    margin-bottom: 2rem;
-    background: linear-gradient(180deg, #ffffff, #fbfdff);
-    box-shadow: 0 2px 10px rgba(15, 23, 42, 0.06);
+
+  .selected-featured-tile {
+    border: 1px solid #dfe7f1;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #0f172a;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.14);
   }
 
-  .publications-featured h3 {
-    margin-top: 0;
-    margin-bottom: 0.35rem;
-    font-size: 1.23rem;
-  }
-
-  .publications-meta {
-    margin: 0 0 0.6rem;
-    color: #566173;
-    font-size: 0.94rem;
-  }
-
-  .publications-card-btn {
-    display: inline-block;
-    margin-top: 0.4rem;
+  .selected-featured-tile a {
+    display: grid;
     text-decoration: none;
-    font-weight: 600;
-    border: 1px solid #d4dce5;
-    border-radius: 7px;
-    padding: 0.42rem 0.8rem;
-    color: #1f2937;
-    background: #fff;
+    color: inherit;
   }
 
-  .publications-card-btn:hover {
-    background: #f6f8fb;
-    text-decoration: none;
+  .selected-featured-image {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .selected-featured-content {
+    padding: 1rem;
+    background: #ffffff;
+  }
+
+  .selected-featured-content h3 {
+    margin: 0 0 0.35rem;
+    color: #163f74;
+  }
+
+  .selected-featured-content p {
+    margin: 0;
+    color: #334155;
   }
 
   .publications-section {
@@ -175,9 +174,12 @@ permalink: /publications/
       max-width: 100%;
     }
 
-    .publications-featured,
     .selected-item {
       padding: 0.86rem;
+    }
+
+    .selected-featured-image {
+      height: 210px;
     }
   }
 </style>
@@ -190,16 +192,6 @@ permalink: /publications/
     <a class="publications-btn" href="https://scholar.google.com/citations?user=RdZstH8AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
     <a class="publications-btn" href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">Springer Nature Communities</a>
   </div>
-
-  <section class="publications-section" aria-labelledby="featured-writing-heading">
-    <h2 id="featured-writing-heading">Featured Writing</h2>
-    <article class="publications-featured">
-      <h3>Enhancing Human-AI Collaboration: Profiling for Better Social Intelligence</h3>
-      <p class="publications-meta">Springer Nature Research Communities · July 15, 2024</p>
-      <p>A research-translation piece on our work profiling human teammates to support Artificial Theory of Mind in socially intelligent AI systems, written for Springer Nature’s Research Communities.</p>
-      <a class="publications-card-btn" href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">Read the post</a>
-    </article>
-  </section>
 
   <section class="publications-section" aria-labelledby="selected-publications-heading">
     <h2 id="selected-publications-heading">Selected Publications</h2>
@@ -214,6 +206,16 @@ permalink: /publications/
         <h3><a href="https://www.nature.com/articles/s41598-024-63122-8" target="_blank" rel="noopener noreferrer">Individual and team profiling to support theory of mind in artificial social intelligence</a></h3>
         <p class="citation">Bendell, R., Williams, J., Fiore, S. M., &amp; Jentsch, F. (2024). Scientific Reports, 14(1), 12635.</p>
         <p class="description">Describes a machine-readable profiling approach intended to help AI systems form a more useful model of their human teammates.</p>
+      </article>
+
+      <article class="selected-featured-tile" aria-label="Behind the Paper feature">
+        <a href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">
+          <img class="selected-featured-image" src="/assets/img/projects/asist-profiling.png" alt="Behind the Paper feature image for Enhancing Human-AI Collaboration">
+          <div class="selected-featured-content">
+            <h3>Enhancing Human-AI Collaboration: Profiling for Better Social Intelligence</h3>
+            <p>Behind the Paper · Springer Nature Research Communities · July 15, 2024</p>
+          </div>
+        </a>
       </article>
 
       <article class="selected-item">
