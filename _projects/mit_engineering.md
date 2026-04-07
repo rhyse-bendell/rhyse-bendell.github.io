@@ -13,6 +13,8 @@ featured: true
 
 {% include project_back_button.html %}
 
+{% include project_tile_intro.html %}
+
 <div class="mit-engineering-page">
   <style>
     .mit-engineering-page {
