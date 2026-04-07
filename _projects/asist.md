@@ -42,6 +42,11 @@ permalink: /projects/asist/
     display: block;
   }
 
+  .asist-experiment-image {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
   .asist-float-right figcaption,
   .asist-float-left figcaption {
     padding: 0.75rem 0.95rem 0.9rem;
@@ -90,7 +95,7 @@ Within that broader program, UCF’s ASIMT effort approached the problem through
 ASIST was inherently interdisciplinary. It brought together AI, cognitive science, human factors, team science, modeling, analytics, and testbed engineering in order to study socially intelligent AI under realistic collaborative conditions. On the UCF side, my work sat at that intersection of theory, experimentation, and analysis. I served as Experimentation Working Group Lead from October 2021 to July 2022, later led the Study 4 Task Design Team from October 2022 to January 2023, and also led the Study 3 Coordinated Datasets Breakout Group.
 
 <figure class="asist-float-left">
-  <img src="/assets/img/projects/asist_minecraft.png" alt="Minecraft-based ASIST task environment used to study teamwork, coordination, and AI-supported collaboration" loading="lazy" />
+  <img class="asist-experiment-image" src="/assets/img/projects/asist-minecraft-comms-image.png" alt="Minecraft-based ASIST task environment used to study teamwork, coordination, and AI-supported collaboration" loading="lazy" />
   <figcaption><em>The Minecraft-based Study 3 environment preserved role interdependence, distributed information, and visible traces of coordination during urban search and rescue.</em></figcaption>
 </figure>
 
