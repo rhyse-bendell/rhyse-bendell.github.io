@@ -319,6 +319,21 @@
     margin-top: 0;
   }
 
+
+  .project-intro-tile {
+    float: right;
+    width: min(40%, 340px);
+    margin: 0.1rem 0 1rem 1.4rem;
+  }
+
+  .project-intro-tile img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+  }
+
   @media (max-width: 900px) {
     .project-flow__split,
     .project-flow__split--media-right {
@@ -354,6 +369,11 @@
   }
 
   @media (max-width: 768px) {
+    .project-back-button {
+      top: 4.6rem;
+      left: 0.65rem;
+    }
+
     .post .profile {
       width: 100%;
       max-width: 320px;
@@ -386,6 +406,43 @@
       grid-template-columns: 1fr;
     }
 
+    .project-intro-tile {
+      float: none;
+      width: min(100%, 420px);
+      margin: 0 auto 1rem;
+    }
+
   }
 
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var pathParts = window.location.pathname.split("/").filter(Boolean);
+    var isProjectPage = pathParts.length > 1 && pathParts[0] === "projects";
+
+    if (!isProjectPage || document.querySelector(".project-back-button")) {
+      return;
+    }
+
+    var backButton = document.createElement("button");
+    backButton.type = "button";
+    backButton.className = "project-back-button";
+    backButton.setAttribute("aria-label", "Go back to previous page");
+    backButton.textContent = "← Back";
+
+    backButton.addEventListener("click", function () {
+      var canUseReferrer =
+        document.referrer &&
+        new URL(document.referrer).origin === window.location.origin;
+
+      if (canUseReferrer || window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "/projects/";
+      }
+    });
+
+    document.body.appendChild(backButton);
+  });
+</script>
