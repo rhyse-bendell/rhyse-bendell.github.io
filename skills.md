@@ -223,7 +223,7 @@ permalink: /skills/
       </div>
     </section>
 
-    <section class="skills-card skills-card--reverse" aria-labelledby="skills-communication-heading">
+    <section class="skills-card" aria-labelledby="skills-communication-heading">
       <div class="skills-card__content">
         <div>
           <h2 id="skills-communication-heading">Visual Communication, Documentation &amp; Research Leadership</h2>
@@ -237,6 +237,9 @@ permalink: /skills/
             <li>Translating theory into implementable research systems</li>
           </ul>
         </div>
+        <figure class="skills-card__media">
+          <img src="/assets/img/projects/generative-ai-art-image-4mat.png" alt="Abstract AI-generated artistic composition used for communication and visual storytelling" loading="lazy" />
+        </figure>
       </div>
     </section>
   </div>
