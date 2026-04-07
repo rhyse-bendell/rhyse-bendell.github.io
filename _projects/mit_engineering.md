@@ -11,6 +11,8 @@ canonical: true
 featured: true
 ---
 
+{% include project_back_button.html %}
+
 <div class="mit-engineering-page">
   <style>
     .mit-engineering-page {
