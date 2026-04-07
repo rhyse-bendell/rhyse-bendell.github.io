@@ -369,6 +369,11 @@
   }
 
   @media (max-width: 768px) {
+    .project-back-button {
+      top: 4.6rem;
+      left: 0.65rem;
+    }
+
     .post .profile {
       width: 100%;
       max-width: 320px;
@@ -410,3 +415,34 @@
   }
 
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var pathParts = window.location.pathname.split("/").filter(Boolean);
+    var isProjectPage = pathParts.length > 1 && pathParts[0] === "projects";
+
+    if (!isProjectPage || document.querySelector(".project-back-button")) {
+      return;
+    }
+
+    var backButton = document.createElement("button");
+    backButton.type = "button";
+    backButton.className = "project-back-button";
+    backButton.setAttribute("aria-label", "Go back to previous page");
+    backButton.textContent = "← Back";
+
+    backButton.addEventListener("click", function () {
+      var canUseReferrer =
+        document.referrer &&
+        new URL(document.referrer).origin === window.location.origin;
+
+      if (canUseReferrer || window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "/projects/";
+      }
+    });
+
+    document.body.appendChild(backButton);
+  });
+</script>
