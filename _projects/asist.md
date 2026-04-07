@@ -12,6 +12,8 @@ featured: true
 permalink: /projects/asist/
 ---
 
+{% include project_tile_intro.html %}
+
 <style>
   .asist-float-right,
   .asist-float-left {

@@ -13,6 +13,8 @@ canonical: true
 featured: true
 ---
 
+{% include project_tile_intro.html %}
+
 ## Project Overview
 
 This project examines how to ensure reliable, well-calibrated human oversight as autonomous and semi-autonomous systems take on a larger role in complex operational settings. The core concern is not simply whether autonomy can perform well on its own, but whether human supervisors can still make clearheaded, timely, and defensible decisions when they must monitor multiple systems, interpret AI-generated recommendations, manage uncertainty, and intervene when conditions change. This is especially important in settings where poor oversight, misplaced trust, or delayed intervention can have serious downstream consequences.
