@@ -6,8 +6,8 @@ img: /assets/img/projects/generative-ai-art-image-aiabstract.png
 importance: 10
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Development
+  - AI Systems & Development
+  - Cognitive Science & Research
 canonical: true
 featured: true
 permalink: /projects/generative-ai-and-art/

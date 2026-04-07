@@ -6,8 +6,8 @@ img: /assets/img/projects/healthcomply-placeholder.svg
 importance: 8
 category: human-ai interaction
 filters:
-  - Human-AI Interaction
-  - Development
+  - AI Systems & Development
+  - Engineering & Design
 canonical: true
 featured: true
 ---

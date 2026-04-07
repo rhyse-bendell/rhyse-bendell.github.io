@@ -5,9 +5,8 @@ img: /assets/img/projects/cognition-future-space-image-tile.png
 importance: 2
 category: simulation systems
 filters:
-  - Simulation Systems
-  - Cognitive Science
-  - Human-AI Interaction
+  - Cognitive Science & Research
+  - Engineering & Design
 canonical: true
 featured: true
 permalink: /projects/space-missions-cognition/
