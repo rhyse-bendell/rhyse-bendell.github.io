@@ -14,8 +14,6 @@ permalink: /projects/asist/
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 <style>
   .asist-float-right,
   .asist-float-left {
@@ -70,6 +68,8 @@ permalink: /projects/asist/
     }
   }
 </style>
+
+{% include project_tile_intro.html %}
 
 ## Project Overview
 
