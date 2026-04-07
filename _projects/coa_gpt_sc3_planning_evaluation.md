@@ -2,7 +2,7 @@
 title: Scalable Cross-Echelon Command & Control
 subtitle: AI-supported planning and simulation for distributed command teams
 description: Evaluation-focused work on AI-assisted planning and simulation workflows for cross-echelon command-and-control coordination.
-img: /assets/img/projects/sc3-c2-placeholder.svg
+img: /assets/img/projects/sc3-tile-image.png
 importance: 5
 category: human-ai interaction
 filters:
