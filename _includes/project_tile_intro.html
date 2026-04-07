@@ -1,0 +1,5 @@
+{% if page.img %}
+<figure class="project-intro-tile">
+  <img src="{{ page.img | relative_url }}" alt="{{ page.title | escape }} tile image" loading="lazy" />
+</figure>
+{% endif %}
