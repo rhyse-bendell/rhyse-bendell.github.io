@@ -319,6 +319,40 @@
     margin-top: 0;
   }
 
+  .project-back-button {
+    position: fixed;
+    top: 5.25rem;
+    left: 1rem;
+    z-index: 1100;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid #d9d9d9;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #0b3a53;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: background 120ms ease, border-color 120ms ease, transform 120ms ease;
+  }
+
+  .project-back-button:hover,
+  .project-back-button:focus-visible {
+    background: #ffffff;
+    border-color: #bfc8ce;
+    color: #0a6f85;
+    transform: translateY(-1px);
+  }
+
+  .project-back-button:focus-visible {
+    outline: 2px solid #0a6f85;
+    outline-offset: 2px;
+  }
+
   @media (max-width: 900px) {
     .project-flow__split,
     .project-flow__split--media-right {
@@ -354,6 +388,11 @@
   }
 
   @media (max-width: 768px) {
+    .project-back-button {
+      top: 4.6rem;
+      left: 0.65rem;
+    }
+
     .post .profile {
       width: 100%;
       max-width: 320px;
@@ -389,3 +428,34 @@
   }
 
 </style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var pathParts = window.location.pathname.split("/").filter(Boolean);
+    var isProjectPage = pathParts.length > 1 && pathParts[0] === "projects";
+
+    if (!isProjectPage || document.querySelector(".project-back-button")) {
+      return;
+    }
+
+    var backButton = document.createElement("button");
+    backButton.type = "button";
+    backButton.className = "project-back-button";
+    backButton.setAttribute("aria-label", "Go back to previous page");
+    backButton.textContent = "← Back";
+
+    backButton.addEventListener("click", function () {
+      var canUseReferrer =
+        document.referrer &&
+        new URL(document.referrer).origin === window.location.origin;
+
+      if (canUseReferrer || window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = "/projects/";
+      }
+    });
+
+    document.body.appendChild(backButton);
+  });
+</script>
