@@ -12,6 +12,8 @@ featured: true
 permalink: /projects/asist/
 ---
 
+{% include project_back_button.html %}
+
 <style>
   .asist-float-right,
   .asist-float-left {

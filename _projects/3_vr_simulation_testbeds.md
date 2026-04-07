@@ -11,6 +11,8 @@ canonical: true
 featured: true
 ---
 
+{% include project_back_button.html %}
+
 ## Project Overview
 
 Mars Colony ABS is an agent-based simulation testbed for studying how teams build shared understanding, coordinate action, and adapt under conditions of distributed expertise. The first task package instantiates the Minerva: Mars Colony human subjects experiment: a collaborative construction problem in which participants must review shared and role-specific materials, reason through interdependent building rules, transport resources, and build a viable colony that provides shelter, food, and water for arriving colonists. The human task is explicitly organized around shared information, role briefs, planning, and phased colony objectives, with Architect, Botanist, and Engineer each holding different pieces of the rule structure the team must integrate to succeed.

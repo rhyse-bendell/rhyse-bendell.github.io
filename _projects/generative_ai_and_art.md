@@ -13,6 +13,8 @@ featured: true
 permalink: /projects/generative-ai-and-art/
 ---
 
+{% include project_back_button.html %}
+
 <style>
   .genart-gallery {
     display: grid;

@@ -12,6 +12,8 @@ canonical: true
 featured: true
 ---
 
+{% include project_back_button.html %}
+
 ## Project Overview
 
 This project examined how AI-enabled tools can support military planning and scalable cross-echelon command and control in complex operational environments. Conducted in collaboration with the U.S. Army Research Laboratory, the work focused on how human planners interact with emerging decision-support technologies intended to accelerate course-of-action (COA) development, support iterative refinement, and improve the assessment of operational options. Rather than treating AI as a replacement for human planning, the project was grounded in the idea that useful systems must fit within real command workflows, support judgment under uncertainty, and strengthen collaborative reasoning across echelons.
