@@ -15,8 +15,6 @@ permalink: /projects/space-missions-cognition/
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 <style>
   .project-media-grid {
     display: grid;
@@ -42,6 +40,8 @@ permalink: /projects/space-missions-cognition/
     margin: 1rem 0 1.5rem;
   }
 </style>
+
+{% include project_tile_intro.html %}
 
 ## Overview
 

@@ -320,18 +320,21 @@
   }
 
 
-  .project-intro-tile {
+  .post .project-intro-tile {
     float: right;
-    width: min(40%, 340px);
-    margin: 0.1rem 0 1rem 1.4rem;
+    width: clamp(220px, 34vw, 420px);
+    max-width: 44%;
+    margin: 0.15rem 0 1rem 1.4rem;
   }
 
-  .project-intro-tile img {
-    width: 100%;
+  .post .project-intro-tile img {
+    width: 100% !important;
+    height: auto !important;
     display: block;
     border-radius: 10px;
     border: 1px solid #e6e6e6;
     background: #fff;
+    object-fit: contain;
   }
 
   @media (max-width: 900px) {
@@ -406,9 +409,10 @@
       grid-template-columns: 1fr;
     }
 
-    .project-intro-tile {
+    .post .project-intro-tile {
       float: none;
       width: min(100%, 420px);
+      max-width: 100%;
       margin: 0 auto 1rem;
     }
 
