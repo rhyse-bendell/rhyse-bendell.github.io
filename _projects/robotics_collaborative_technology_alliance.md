@@ -13,6 +13,8 @@ featured: true
 permalink: /projects/2_ai_teaming_experiments/
 ---
 
+{% include project_tile_intro.html %}
+
 ## Project Overview
 
 The Robotics Collaborative Technology Alliance (RCTA) was a U.S. Army Research Laboratory program established in 2009 to accelerate the science required for future soldier-robot teaming. Built as a collaboration across government, academia, and industry, the alliance pursued three linked objectives: advancing robotic perception, developing intelligent control architectures for autonomous operation in complex tactical environments, and creating human-machine interfaces that let Soldiers task robots effectively without adding unnecessary workload. RCTA was not only about improving robot autonomy in isolation; it was about developing robots that could function as operational teammates.

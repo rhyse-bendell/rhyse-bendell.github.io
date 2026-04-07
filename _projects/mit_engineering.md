@@ -11,6 +11,8 @@ canonical: true
 featured: true
 ---
 
+{% include project_tile_intro.html %}
+
 <div class="mit-engineering-page">
   <style>
     .mit-engineering-page {
