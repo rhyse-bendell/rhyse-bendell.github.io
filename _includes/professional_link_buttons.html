@@ -1,0 +1,46 @@
+<style>
+  .professional-link-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin: 0.25rem 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .professional-link-buttons__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.42rem 0.85rem;
+    border: 1px solid #d4d8dd;
+    border-radius: 999px;
+    background: #ffffff;
+    color: #263238;
+    font-size: 0.94rem;
+    font-weight: 500;
+    line-height: 1.25;
+    text-decoration: none;
+    transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .professional-link-buttons__link:hover,
+  .professional-link-buttons__link:focus-visible {
+    background: #f5f8fb;
+    border-color: #b8c2ce;
+    color: #0f172a;
+    box-shadow: 0 0 0 2px rgba(24, 98, 146, 0.12);
+    text-decoration: none;
+  }
+
+  .professional-link-buttons__link:focus-visible {
+    outline: none;
+  }
+</style>
+
+<div class="professional-link-buttons" role="list" aria-label="Professional profiles">
+  <a class="professional-link-buttons__link" role="listitem" href="https://github.com/rhyse-bendell" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a class="professional-link-buttons__link" role="listitem" href="https://www.linkedin.com/in/rhyse-bendell" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a class="professional-link-buttons__link" role="listitem" href="https://csl.ist.ucf.edu/People" target="_blank" rel="noopener noreferrer">Cognitive Sciences Laboratory</a>
+  <a class="professional-link-buttons__link" role="listitem" href="https://scholar.google.com/scholar?q=Rhyse+Bendell" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+</div>
