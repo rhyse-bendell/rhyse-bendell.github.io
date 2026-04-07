@@ -15,6 +15,8 @@ permalink: /projects/generative-ai-and-art/
 
 {% include project_back_button.html %}
 
+{% include project_tile_intro.html %}
+
 <style>
   .genart-gallery {
     display: grid;
