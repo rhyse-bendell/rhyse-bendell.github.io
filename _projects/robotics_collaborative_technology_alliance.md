@@ -13,7 +13,7 @@ featured: true
 permalink: /projects/2_ai_teaming_experiments/
 ---
 
-{% include project_tile_intro.html %}
+{% include project_back_button.html %}
 
 ## Project Overview
 

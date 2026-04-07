@@ -13,7 +13,7 @@ featured: true
 permalink: /projects/space-missions-cognition/
 ---
 
-{% include project_tile_intro.html %}
+{% include project_back_button.html %}
 
 <style>
   .project-media-grid {

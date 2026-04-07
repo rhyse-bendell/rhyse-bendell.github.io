@@ -11,7 +11,7 @@ canonical: true
 featured: true
 ---
 
-{% include project_tile_intro.html %}
+{% include project_back_button.html %}
 
 ## Project Overview
 
