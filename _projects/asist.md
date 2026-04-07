@@ -69,9 +69,10 @@ permalink: /projects/asist/
   }
 </style>
 
-{% include project_tile_intro.html %}
-
 ## Project Overview
+
+{% include project_overview_figure.html %}
+
 
 ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA research program aimed at building AI teammates rather than AI tools that only perform isolated task actions. At the program level, the goal was to develop foundational AI theory and systems with the machine social skills needed to infer the goals and situational knowledge of human partners, anticipate what they would need, and offer context-aware support as adaptable, resilient teammates. The public ASIST materials describe the effort as combining individual and team analytics with AI-enabled intervention in a flexible testbed, and note that performers developed artificial teammates that collaborated with human teams in Studies 3 and 4.
 

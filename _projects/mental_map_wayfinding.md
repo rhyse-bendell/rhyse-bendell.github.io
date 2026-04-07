@@ -12,9 +12,10 @@ featured: true
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 ## Project Overview
+
+{% include project_overview_figure.html %}
+
 
 This project examined how people build, organize, and use mental maps when learning virtual environments. The broader research goal was to understand how different kinds of spatial knowledge are acquired and how those different knowledge types contribute to successful wayfinding. Rather than treating spatial cognition as a single undifferentiated ability, the research decomposed mental map formation into multiple related components: point knowledge about landmarks or target objects, route knowledge about how to travel between those points, point configuration knowledge about where those points are arranged in space, and route configuration knowledge about how routes interconnect into a larger navigable structure.
 

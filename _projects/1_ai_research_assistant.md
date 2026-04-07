@@ -14,12 +14,9 @@ featured: true
 
 {% include project_back_button.html %}
 
-{% include project_tile_intro.html %}
-
 ## Project Overview
 
-
-![LiSaRA interface overview](/assets/img/projects/lisara-interface-tile-image.png){: loading="lazy" style="width:100%;max-width:980px;border-radius:12px;margin:0.5rem 0 1.25rem;" }
+{% include project_overview_figure.html %}
 
 LiSaRA (Literature Search and Review Assistant) is an AI-supported research system designed to improve how scientific teams discover, evaluate, and synthesize knowledge. The project addresses a persistent bottleneck in research workflows: the translation of broad, evolving research questions into structured, traceable, and reproducible literature insights.
 
