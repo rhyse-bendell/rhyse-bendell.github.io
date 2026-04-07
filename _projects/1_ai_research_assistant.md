@@ -2,7 +2,7 @@
 title: AI-enabled Literature Search and Review
 subtitle: Human-guided AI workflows for evidence discovery and synthesis
 description: Structured literature search and review workflows that pair AI acceleration with researcher oversight and auditability.
-img: /assets/img/projects/simulation_view.svg
+img: /assets/img/projects/lisara-interface-tile-image.png
 importance: 7
 category: human-ai interaction
 filters:
@@ -12,7 +12,14 @@ canonical: true
 featured: true
 ---
 
+{% include project_back_button.html %}
+
+{% include project_tile_intro.html %}
+
 ## Project Overview
+
+
+![LiSaRA interface overview](/assets/img/projects/lisara-interface-tile-image.png){: loading="lazy" style="width:100%;max-width:980px;border-radius:12px;margin:0.5rem 0 1.25rem;" }
 
 LiSaRA (Literature Search and Review Assistant) is an AI-supported research system designed to improve how scientific teams discover, evaluate, and synthesize knowledge. The project addresses a persistent bottleneck in research workflows: the translation of broad, evolving research questions into structured, traceable, and reproducible literature insights.
 

@@ -12,6 +12,10 @@ canonical: true
 featured: true
 ---
 
+{% include project_back_button.html %}
+
+{% include project_tile_intro.html %}
+
 ## Project Overview
 
 HealthComply is an applied AI and knowledge-systems project focused on making healthcare compliance work more accessible, more traceable, and more operationally useful. The project brings together a growing library of regulatory, policy, and guidance materials with an interactive software environment designed to help users navigate complex compliance questions, monitor changes, and work more efficiently across related tasks. Rather than treating compliance support as a black-box chatbot problem, HealthComply is being built as an integrated workbench that combines curated source materials, structured workflows, and targeted AI assistance in a single system.
