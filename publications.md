@@ -213,17 +213,11 @@ permalink: /publications/
         <p class="description">Examines how taskwork and teamwork potential shape human–AI team processes and perceptions when teams collaborate with socially intelligent AI advisors.</p>
       </article>
 
-      <article class="selected-item">
-        <h3><a href="https://www.nature.com/articles/s41598-024-63122-8" target="_blank" rel="noopener noreferrer">Individual and team profiling to support theory of mind in artificial social intelligence</a></h3>
-        <p class="citation">Bendell, R., Williams, J., Fiore, S. M., &amp; Jentsch, F. (2024). Scientific Reports, 14(1), 12635.</p>
-        <p class="description">Describes a machine-readable profiling approach intended to help AI systems form a more useful model of their human teammates.</p>
-      </article>
-
       <div class="selected-feature-row">
         <article class="selected-item">
-          <h3><a href="https://communities.springernature.com/posts/enhancing-human-ai-collaboration-profiling-for-better-social-intelligence" target="_blank" rel="noopener noreferrer">Enhancing Human-AI Collaboration: Profiling for Better Social Intelligence</a></h3>
-          <p class="citation">Bendell, R. (2024). Behind the Paper. Springer Nature Research Communities.</p>
-          <p class="description">A plain-language summary of the Scientific Reports publication, focused on practical implications of human and team profiling for socially intelligent AI collaboration.</p>
+          <h3><a href="https://www.nature.com/articles/s41598-024-63122-8" target="_blank" rel="noopener noreferrer">Individual and team profiling to support theory of mind in artificial social intelligence</a></h3>
+          <p class="citation">Bendell, R., Williams, J., Fiore, S. M., &amp; Jentsch, F. (2024). Scientific Reports, 14(1), 12635.</p>
+          <p class="description">Describes a machine-readable profiling approach intended to help AI systems form a more useful model of their human teammates.</p>
         </article>
 
         <article class="selected-featured-tile" aria-label="Behind the Paper feature image tile">
