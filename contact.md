@@ -9,7 +9,7 @@ permalink: /contact/
 <style>
   .contact-page {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .contact-intro {
@@ -22,6 +22,10 @@ permalink: /contact/
 
   .contact-section h2 {
     margin-bottom: 0.75rem;
+  }
+
+  .contact-page .professional-link-buttons {
+    justify-content: flex-start;
   }
 
   .contact-form {
