@@ -7,7 +7,7 @@ lang: en
 markdown: kramdown
 permalink: pretty
 
-remote_theme: alshedivat/al-folio
+remote_theme: alshedivat/al-folio@v0.16.3
 
 plugins:
   - jekyll-remote-theme
