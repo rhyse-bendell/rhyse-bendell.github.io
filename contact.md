@@ -93,8 +93,7 @@ permalink: /contact/
 
   <section class="contact-section" aria-labelledby="contact-form-heading">
     <h2 id="contact-form-heading">Contact Form</h2>
-    <!-- Replace with real Formspree endpoint -->
-    <form class="contact-form" action="https://formspree.io/f/your-placeholder-id" method="POST">
+    <form class="contact-form" action="https://formspree.io/f/xnpalprz" method="POST">
       <div class="contact-form-field">
         <label for="name">Name</label>
         <input id="name" name="name" type="text" autocomplete="name" required>
@@ -102,12 +101,12 @@ permalink: /contact/
 
       <div class="contact-form-field">
         <label for="email">Email</label>
-        <input id="email" name="email" type="email" autocomplete="email" required>
+        <input id="email" name="_replyto" type="email" autocomplete="email" required>
       </div>
 
       <div class="contact-form-field">
         <label for="subject">Subject</label>
-        <input id="subject" name="subject" type="text" required>
+        <input id="subject" name="_subject" type="text" required>
       </div>
 
       <div class="contact-form-field">
