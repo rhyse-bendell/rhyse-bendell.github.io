@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">Concept mapping research translation</title>
+<desc id="desc">Abstract network of research concepts, stakeholder groups, clustering, and pathways connecting evidence to practical impact.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10243e"/><stop offset=".5" stop-color="#243e66"/><stop offset="1" stop-color="#335d7c"/></linearGradient>
+  <radialGradient id="g"><stop stop-color="#8ce6c3" stop-opacity=".21"/><stop offset="1" stop-color="#8ce6c3" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="44" height="44" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#e2f5ff" fill-opacity=".18"/></pattern>
+</defs>
+<rect width="1200" height="750" fill="url(#bg)"/>
+<rect width="1200" height="750" fill="url(#dots)"/>
+<circle cx="530" cy="255" r="435" fill="url(#g)"/>
+<g fill="none" stroke-width="5" stroke-linecap="round" stroke-opacity=".8">
+ <path d="M165 290 300 178 455 235 595 143 732 220 911 133" stroke="#75c8d9"/>
+ <path d="M165 290 330 387 485 319 676 385 860 320 1042 395" stroke="#8ee0cb"/>
+ <path d="M300 178 330 387 485 319 455 235 595 143 676 385 732 220 860 320 911 133 1042 395" stroke="#9ab7ec" stroke-opacity=".43"/>
+ <path d="M165 290 220 484 330 387 468 503 676 385 755 488 860 320 1042 395" stroke="#b4bbf0" stroke-opacity=".48"/>
+ <path d="M220 484 468 503 755 488 970 495" stroke="#67e2c8" stroke-opacity=".5"/>
+</g>
+<g fill="#d5f9ff" stroke="#56c8cf" stroke-width="8">
+ <circle cx="165" cy="290" r="29"/><circle cx="300" cy="178" r="22"/><circle cx="455" cy="235" r="26"/><circle cx="595" cy="143" r="22"/><circle cx="732" cy="220" r="29"/><circle cx="911" cy="133" r="21"/>
+</g>
+<g fill="#dcfff1" stroke="#65c5a9" stroke-width="8">
+ <circle cx="330" cy="387" r="30"/><circle cx="485" cy="319" r="23"/><circle cx="676" cy="385" r="34"/><circle cx="860" cy="320" r="25"/><circle cx="1042" cy="395" r="30"/>
+</g>
+<g fill="#d9ddff" stroke="#9babe8" stroke-width="8">
+ <circle cx="220" cy="484" r="21"/><circle cx="468" cy="503" r="27"/><circle cx="755" cy="488" r="21"/><circle cx="970" cy="495" r="23"/>
+</g>
+<g transform="translate(60 58)">
+ <rect width="330" height="59" rx="29" fill="#092844" fill-opacity=".8" stroke="#74c8d6" stroke-opacity=".6" stroke-width="2"/>
+ <text x="26" y="38" fill="#d5f7ff" font-size="21" letter-spacing="2" font-family="Arial,Helvetica,sans-serif">KNOWLEDGE → PRACTICE</text>
+</g>
+<path d="M0 582 C238 534 395 618 635 583 S1030 585 1200 533 V750 H0Z" fill="#081c32" fill-opacity=".85"/>
+<g transform="translate(140 648)" font-family="Arial,Helvetica,sans-serif" font-size="23" letter-spacing="3" fill="#d8f7fa">
+ <text x="0" y="0">RESEARCH</text><text x="400" y="0">COLLABORATION</text><text x="830" y="0">APPLICATION</text>
+</g>
+<path d="M290 638h212m-14-10 14 10-14 10M735 638h190m-14-10 14 10-14 10" stroke="#7fdac8" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

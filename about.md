@@ -67,7 +67,7 @@ I integrate systems design, controlled experimentation, and iterative prototypin
 
 <h3>B.Sc. in Mechanical Engineering, Massachusetts Institute of Technology</h3>
 
-<p>I began with a pre-med and natural science orientation, then moved through cognitive neuroscience into mechanical engineering. That path gave me a systems-level perspective across physical, biological, and cognitive processes, while undergraduate work in the MIT Media Lab’s Biomechatronics group grounded those interests in human-machine integration, measurement, and design.</p>
+<p>I began with a pre-med and natural science orientation, then moved through cognitive neuroscience into mechanical engineering. That path gave me a systems-level perspective across physical, biological, and cognitive processes, while undergraduate work in the <a href="https://www.media.mit.edu/groups/biomechatronics/overview/" target="_blank" rel="noopener noreferrer">MIT Media Lab’s Biomechatronics group</a> grounded those interests in human-machine integration, measurement, and design.</p>
 
 </div>
 
