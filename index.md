@@ -11,6 +11,11 @@ permalink: /
   <section class="homepage-hero">
     <div class="homepage-hero__content">
       <h1 class="hero-name">Rhyse Bendell, Ph.D.</h1>
+      <p class="hero-affiliation">
+        Postdoctoral Scholar,
+        <a href="https://csl.ist.ucf.edu/" target="_blank" rel="noopener noreferrer">Cognitive Sciences Laboratory</a>,
+        Institute for Simulation and Training, University of Central Florida
+      </p>
       <div class="hero-hat">
         <h2 class="hero-hat__title">Researcher &amp; Scientist</h2>
         <p class="hero-hat__description">I design and conduct rigorous studies to test theory, evaluate human-AI systems, and generate new knowledge about cognition, collaboration, and performance. My research combines human factors, cognitive science, experimentation, and modeling to understand how people and intelligent systems work together.</p>
