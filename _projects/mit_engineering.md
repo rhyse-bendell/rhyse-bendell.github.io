@@ -120,7 +120,7 @@ featured: true
 
     {% include project_overview_figure.html %}
     <p class="mit-lead">
-      This page brings together selected engineering and research work from my undergraduate years at MIT. Across biomechanics, neuroengineering, instrumentation, and product design, these projects developed the technical foundation that still shapes how I approach research and system building: start from first principles, build real things, measure performance carefully, and iterate until the design is both analytically defensible and practically workable.
+      This page brings together selected engineering and research work from my undergraduate years at MIT, including work with the <a href="https://www.media.mit.edu/groups/biomechatronics/overview/" target="_blank" rel="noopener noreferrer">Biomechatronics Group at the MIT Media Lab</a>. Across biomechanics, neuroengineering, instrumentation, and product design, these projects developed the technical foundation that still shapes how I approach research and system building: start from first principles, build real things, measure performance carefully, and iterate until the design is both analytically defensible and practically workable.
     </p>
     <p>
       Although the projects vary in domain and scale, they share a common throughline. Each required translating formal models into functioning systems, working across design and fabrication constraints, and supporting empirical evaluation in real laboratory or user contexts. Together, they show the engineering side of my background before and alongside my later work in human factors, experimentation, and human-AI systems.
@@ -197,7 +197,7 @@ featured: true
 
       <h4>Wilson Lab Research</h4>
       <p>
-        An earlier MIT research experience in the Wilson Lab focused on memory-related neuroscience research involving the thalamic reticular nucleus and optogenetic methods. This work introduced me to a research environment where experimental questions, instrumentation, fabrication, and protocol execution were tightly interdependent.
+        An earlier MIT research experience in the <a href="https://picower.mit.edu/matthew-wilson" target="_blank" rel="noopener noreferrer">Wilson Lab</a> focused on memory-related neuroscience research involving the thalamic reticular nucleus and optogenetic methods. This work introduced me to a research environment where experimental questions, instrumentation, fabrication, and protocol execution were tightly interdependent.
       </p>
       <p>
         My contributions included fabricating brain micro-drive implants, assisting with rodent handling and behavioral training, and building parts of the experimental setup using Arduino-based circuitry and task hardware. It was an early example of combining careful experimental support with hands-on engineering implementation.
