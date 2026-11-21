@@ -14,7 +14,7 @@ permalink: /
       <p class="hero-affiliation">
         Postdoctoral Scholar,
         <a href="https://csl.ist.ucf.edu/" target="_blank" rel="noopener noreferrer">Cognitive Sciences Laboratory</a>,
-        Institute for Simulation and Training, University of Central Florida
+        <a href="https://www.ist.ucf.edu/" target="_blank" rel="noopener noreferrer">Institute for Simulation and Training</a>, University of Central Florida
       </p>
       <div class="hero-hat">
         <h2 class="hero-hat__title">Researcher &amp; Scientist</h2>
