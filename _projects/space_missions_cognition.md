@@ -45,7 +45,7 @@ permalink: /projects/space-missions-cognition/
 {% include project_overview_figure.html %}
 
 
-This project examined how individual cognition, team cognition, and task design interact in the kinds of isolated, high-demand environments that future long-duration space missions will require. The broader research effort was led by Dr. Stephen Fiore, Dr. Florian Jentsch, Dr. Joe Kider, and Dr. Shawn Burke and drew on the Macrocognition in Teams Model to study how teams build knowledge, plan, solve problems, and coordinate under pressure.
+This project examined how individual cognition, team cognition, and task design interact in the kinds of isolated, high-demand environments that future long-duration space missions will require. Supported by the [Air Force Office of Scientific Research (AFOSR)](https://www.afrl.af.mil/AFOSR/), the broader research effort was led by Dr. Stephen Fiore, Dr. Florian Jentsch, Dr. Joe Kider, and Dr. Shawn Burke and drew on the Macrocognition in Teams Model to study how teams build knowledge, plan, solve problems, and coordinate under pressure.
 
 At a program level, the work asked three related questions: when collaboration helps versus hinders performance, how individual and team capabilities shape outcomes, and whether unobtrusive sensing can help identify markers of team cognition and macrocognitive processes in real time. Those questions matter not only for future space operations, but for any setting in which teams must coordinate under uncertainty with limited time, incomplete information, and evolving demands.
 
