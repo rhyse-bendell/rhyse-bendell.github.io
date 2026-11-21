@@ -151,7 +151,7 @@
                 onerror="this.onerror=null;this.src='{{ '/assets/img/projects/simulation_view.svg' | relative_url }}';">
               <div class="project-card__overlay homepage-featured-card__overlay">
                 <div class="project-card__content">
-                  <h3 class="homepage-featured-card__title project-card__title">{{ project.title }}</h3>
+                  <h3 class="homepage-featured-card__title project-card__title">{{ project.card_title | default: project.title }}</h3>
                   <p class="project-card__description">{{ project.description | strip_html | truncate: 110 }}</p>
                 </div>
               </div>
