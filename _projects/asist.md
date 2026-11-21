@@ -79,7 +79,7 @@ permalink: /projects/asist/
 {% include project_overview_figure.html %}
 
 
-ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA research program aimed at building AI teammates rather than AI tools that only perform isolated task actions. At the program level, the goal was to develop foundational AI theory and systems with the machine social skills needed to infer the goals and situational knowledge of human partners, anticipate what they would need, and offer context-aware support as adaptable, resilient teammates. The public ASIST materials describe the effort as combining individual and team analytics with AI-enabled intervention in a flexible testbed, and note that performers developed artificial teammates that collaborated with human teams in Studies 3 and 4.
+[ASIST](https://artificialsocialintelligence.org/) (Artificial Social Intelligence for Successful Teams) was a DARPA research program aimed at building AI teammates rather than AI tools that only perform isolated task actions. At the program level, the goal was to develop foundational AI theory and systems with the machine social skills needed to infer the goals and situational knowledge of human partners, anticipate what they would need, and offer context-aware support as adaptable, resilient teammates. The public ASIST materials describe the effort as combining individual and team analytics with AI-enabled intervention in a flexible testbed, and note that performers developed artificial teammates that collaborated with human teams in Studies 3 and 4.
 
 <figure class="asist-float-right">
   <img src="/assets/img/projects/asist-profiling.png" alt="ASIST profiling framework connecting teammate taskwork and teamwork potential to AI support" loading="lazy" />
@@ -87,6 +87,8 @@ ASIST (Artificial Social Intelligence for Successful Teams) was a DARPA research
 </figure>
 
 Within that broader program, UCF’s ASIMT effort approached the problem through macrocognition in teams: treating effective human-AI collaboration as a problem of coordination, adaptation, shared understanding, and externalized cognition, not just task execution. A central premise of our work was that successful teaming depends on both taskwork and teamwork. In other words, it is not enough for an intelligent system to help execute mission steps; it must also help teams maintain common ground, share critical information, adapt roles and strategy, and recover from breakdowns in coordination. That distinction shaped UCF’s profiling methods, analytic components, and intervention logic across the program.
+
+The wider program also included complementary AI-teammate development: [Dynamic Object Language Labs (DOLL)](https://www.dollabs.com/) worked on the [RITA advisor](https://artificialsocialintelligence.org/agents/rita/), which could draw on human- and team-state information to guide interventions. This agent-development work was distinct from UCF's profiling, experimentation, and analytical contributions, but illustrates how the different research components fit together.
 
 <div class="asist-clear"></div>
 
