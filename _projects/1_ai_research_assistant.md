@@ -1,8 +1,9 @@
 ---
-title: AI-enabled Literature Search and Review
-subtitle: Human-guided AI workflows for evidence discovery and synthesis
-description: Structured literature search and review workflows that pair AI acceleration with researcher oversight and auditability.
-img: /assets/img/projects/lisara-interface-tile-image.png
+title: "LiSaRA — Literature Search and Review Assistant"
+card_title: LiSaRA
+subtitle: Human-guided AI workflows for literature discovery, evidence review, and synthesis.
+description: A human-guided AI research workbench for literature discovery, evidence review, and synthesis.
+img: /assets/img/projects/lisara-dashboard-tile.webp
 importance: 7
 category: human-ai interaction
 filters:
@@ -16,73 +17,57 @@ featured: true
 
 ## Project Overview
 
-{% include project_overview_figure.html %}
+LiSaRA (Literature Search and Review Assistant) is a personally developed, AI-assisted research workbench designed to support the discovery, evaluation, organization, and synthesis of scientific literature.
 
-LiSaRA (Literature Search and Review Assistant) is an AI-supported research system designed to improve how scientific teams discover, evaluate, and synthesize knowledge. The project addresses a persistent bottleneck in research workflows: the translation of broad, evolving research questions into structured, traceable, and reproducible literature insights.
+I initiated this project to address challenges I encounter in my own research, which spans several rapidly evolving areas, including human–AI interaction, supervisory control, science translation, team science, and cognitive systems. Maintaining an informed understanding of developments across these areas requires considerable effort, particularly when relevant research is distributed across different disciplines, publication venues, and information systems.
 
-Traditional literature review processes are time-intensive, difficult to standardize, and often opaque in how decisions are made—particularly in collaborative or interdisciplinary contexts. LiSaRA was developed to augment, not replace, researcher judgment by structuring this process into explicit, inspectable steps supported by AI.
+As researchers themselves adopt increasingly capable AI systems to produce, analyze, and communicate scientific work, maintaining a useful window into the expanding body of scientific knowledge becomes increasingly important. One valuable role for AI in this environment is to help researchers manage the work required to remain informed, critically evaluate emerging research, and integrate findings into their own understanding of a problem.
 
-The system combines guided query construction, multi-source search, structured extraction, and provenance tracking into a unified workflow. Rather than treating AI as a black-box summarizer, LiSaRA positions it as a controllable collaborator that operates within researcher-defined constraints, produces structured outputs, and preserves the reasoning context behind each step.
+LiSaRA is an ongoing software-development project exploring how AI can support this process while preserving the researcher's ability to inspect, evaluate, and direct the underlying work.
 
-This work sits at the intersection of human–AI teaming, macrocognition in teams, and scientific workflow design. It is motivated by a broader goal: enabling research teams to externalize, align, and iteratively refine their understanding of a problem space while maintaining rigor and accountability.
+<figure style="margin: 1.5rem 0 2rem;">
+  <a href="{{ '/assets/img/projects/lisara-dashboard.webp' | relative_url }}" aria-label="Open the full-resolution LiSaRA dashboard screenshot">
+    <img src="{{ '/assets/img/projects/lisara-dashboard.webp' | relative_url }}" alt="LiSaRA desktop application dashboard with research workflow tabs, project management, approvals, and activity record panels; private project details redacted." width="1919" height="1024" style="display: block; width: 100%; height: auto; border-radius: 8px;" loading="lazy" />
+  </a>
+  <figcaption style="margin-top: 0.5rem; font-size: 0.9em;">LiSaRA's current desktop interface. Project details, local paths, and activity records have been redacted. Select the screenshot to view it at full resolution.</figcaption>
+</figure>
 
-## AI-Supported Literature Search
+## From Research Questions to Reviewable Evidence
 
-LiSaRA reconceptualizes literature search as an iterative, model-assisted process rather than a one-time query submission. The system begins with a researcher-defined problem description, which is then translated into structured keyword sets and search strategies using AI assistance.
+Rather than treating literature review as a single search or summarization task, LiSaRA provides a series of interconnected workbenches that support different stages of the research process.
 
-Rather than relying on a single query, LiSaRA supports:
+Researchers can begin by defining a research problem or literature review need and developing search strategies around that need. The system supports literature acquisition across scholarly information sources, candidate consolidation, metadata enrichment, deduplication, and relevance-based prioritization. Citation-based snowballing allows researchers to expand an initial body of literature through its relationships with earlier and subsequent work, integrating newly discovered candidates into an evolving collection.
 
-- Keyword expansion and refinement, grounded in the researcher’s original intent
-- Multi-database search integration, enabling broader coverage across sources
-- Deduplication and candidate consolidation, reducing noise while preserving recall
+These discovery processes connect to tools for acquiring and organizing source documents, evaluating candidate selections, and establishing a defined corpus of papers for review. Researchers can inspect and modify the materials produced at each stage, revisit earlier decisions, and incorporate literature obtained through other tools or search processes.
 
-A key design principle is that the researcher remains in control of the search space. AI-generated keywords and query augmentations are surfaced transparently and can be accepted, modified, or rejected. This ensures that the search process reflects the researcher’s conceptual framing rather than drifting toward opaque model-driven assumptions.
+Structured review capabilities assist with extracting and organizing information about research questions, methods, findings, contributions, and limitations. Supporting evidence and source references are retained alongside extracted information, providing a basis for researchers to evaluate the resulting interpretations.
 
-The system also supports iterative narrowing. As results are reviewed, the researcher can refine queries, introduce new constraints, or shift emphasis based on emerging insights. This creates a feedback loop in which search is not a front-loaded step, but a continuously evolving component of the research process.
+These materials can subsequently support evidence organization, outline development, and synthesis drafting. The objective is not simply to generate a literature review, but to help researchers develop and maintain the underlying body of research materials from which a defensible review or synthesis can be constructed.
 
-By structuring search in this way, LiSaRA helps teams:
+## Human Oversight and Transparent AI Assistance
 
-- Make their search strategies explicit and shareable
-- Reduce missed relevant work due to narrow initial queries
-- Maintain alignment across collaborators exploring the same topic
+A central design consideration in LiSaRA is how researchers retain meaningful access to the work being performed by increasingly capable AI systems.
 
-## AI-Supported Literature Review
+The software provides explicit approval checkpoints for AI-assisted operations, opportunities to inspect and modify intermediate materials, and records of research activities and processing decisions. Researchers can select the inputs used for subsequent tasks, evaluate generated outputs, redirect the workflow, and repeat individual stages as their understanding of the literature develops.
 
-Beyond search, LiSaRA provides structured support for literature review and synthesis. The system processes candidate papers and produces standardized, spreadsheet-ready outputs that capture key elements of each study.
+Particular attention is given to maintaining relationships between source documents, extracted evidence, and subsequent synthesis materials. Structured review outputs support source-text verification and the documentation of paper-level inclusion, exclusion, and uncertainty.
 
-These structured reviews include:
+These mechanisms are intended to make AI-assisted work more accessible to human evaluation rather than treating generated conclusions as authoritative. The quality and relevance of evidence, the appropriateness of methodological decisions, and the defensibility of scientific interpretations remain matters of researcher judgment.
 
-- Full citations and abstracts
-- Concise summaries of methods, findings, and contributions
-- Extracted or inferred research questions and hypotheses
-- Keywords and classification metadata
-- Expanded notes grounded in the source text
+## Research Artifacts, Reproducibility, and Collaboration
 
-The goal is not simply summarization, but consistent representation of literature in a format that supports comparison, aggregation, and downstream analysis. By enforcing a standardized schema, LiSaRA enables researchers to build cumulative knowledge bases rather than isolated notes.
+LiSaRA is organized around persistent research projects that retain the materials generated throughout a literature review. Search strategies, candidate records, source documents, selection decisions, structured reviews, evidence maps, and synthesis materials can be preserved as distinct and reusable research artifacts.
 
-Importantly, AI-generated outputs are treated as first-pass analyses that require researcher validation. The system is designed to support review workflows where users can inspect, edit, and refine extracted content before incorporating it into their dataset.
+This approach builds on established literature review and evidence synthesis practices by supporting explicit research procedures, documented decisions, and traceable relationships between inputs and outputs. It is intended to facilitate rigorous research practices rather than replace established methodologies or guarantee the completeness or validity of a review.
 
-This approach provides several advantages for research teams:
+Preserving these materials in accessible formats also supports research that crosses disciplinary, technological, and organizational boundaries. Researchers can work with existing materials, exchange project artifacts with collaborators, and incorporate outputs into other research tools and analytical workflows.
 
-- Reduces time spent on repetitive extraction tasks
-- Improves consistency across reviewers
-- Enables large-scale synthesis without sacrificing structure
-- Supports traceability from summary back to source
+An important direction of the project is the development of portable evidence packages that bring together the materials and records underlying a synthesis. Such packages can help researchers revisit earlier work, communicate its foundations to collaborators, and update their understanding as new literature emerges.
 
-The result is a literature review process that is both more efficient and more analytically rigorous, particularly in projects involving large bodies of work or multiple contributors.
+## Ongoing Development
 
-## Provenance and Collaboration
+LiSaRA is under active development as a local-first desktop research application, with capabilities spanning literature discovery, corpus preparation, structured review, evidence organization, and AI-assisted synthesis.
 
-A central challenge in AI-supported research is maintaining transparency: how conclusions were reached, what sources were used, and how intermediate decisions were made. LiSaRA addresses this through explicit provenance tracking and collaboration-aware design.
+Current development emphasizes the reliability of individual research operations, continuity between workflow stages, evidence traceability, and the preservation of researcher control throughout increasingly complex AI-assisted processes.
 
-Each interaction with the system—query generation, search refinement, paper selection, and review output—is recorded as part of a structured workflow. AI calls can be gated for approval, logged, and revisited, allowing researchers to trace how a particular output was produced.
-
-This supports several critical functions:
-
-- Reproducibility: Others can reconstruct the search and review process
-- Accountability: AI contributions are visible and auditable
-- Collaboration: Team members can understand and build on each other’s work
-
-The system also enables shared artifacts, such as curated paper sets and structured review tables, which can be integrated across team members. By externalizing intermediate representations (e.g., keyword sets, extracted findings), LiSaRA supports alignment in how team members interpret the literature and the problem space.
-
-From a broader perspective, this work contributes to the design of AI systems that function as transparent collaborators in scientific teams. Rather than optimizing for autonomy, LiSaRA emphasizes controllability, inspectability, and integration with human cognitive processes.
+More broadly, the project explores how AI can help researchers maintain an informed and evaluative relationship with rapidly developing bodies of scientific knowledge, while ensuring that the materials and decisions underlying scientific work remain accessible to the people responsible for it.
