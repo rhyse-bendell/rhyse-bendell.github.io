@@ -2,7 +2,7 @@
 title: HealthComply AI Advisor Application
 subtitle: AI-assisted compliance guidance for healthcare workflows
 description: Applied AI advisor concepts to support interpretation, documentation, and workflow compliance in healthcare settings.
-img: /assets/img/projects/healthcomply-placeholder.svg
+img: /assets/img/projects/healthcomply-compliance-dashboard.svg
 importance: 8
 category: human-ai interaction
 filters:
