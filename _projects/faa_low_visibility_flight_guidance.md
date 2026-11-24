@@ -43,13 +43,9 @@ The analysis drew on simulator flight-path data to characterize pilot performanc
 
 The analytical work combined data preparation, descriptive and inferential statistics, comparisons across experimental conditions, and visualization of flight trajectories and performance outcomes. Flight-path plots provided an additional perspective on how aircraft trajectories varied across guidance conditions and normal versus abnormal operations.
 
+My role focused on statistical analysis and visualization of flight-performance data, including results from the instrument and visual approach segments and touchdown measures.
+
 These analyses informed an evidence-based evaluation of the operational implications of flight-deck guidance technologies. The findings were not limited to the presence or absence of a HUD: performance depended on the phase of flight, the measure being assessed, and the experimental configuration.
-
-## My Contributions
-
-I contributed statistical analysis, flight-performance data analysis, and research visualization to this project, including analysis of objective performance measures across instrument and visual approach segments and landing outcomes. My work supported the technical reporting of how guidance configurations, visibility conditions, and runway lighting relate to pilot performance.
-
-The project is an example of my work applying quantitative human-factors methods to a safety-critical operational domain, where the analysis must be interpretable in the context of real aviation procedures, instrumentation, and performance criteria.
 
 ## Publication and Research Resources
 
