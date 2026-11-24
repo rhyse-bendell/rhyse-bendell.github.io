@@ -286,7 +286,7 @@ permalink: /publications/
       <h3>2024</h3>
       <ol class="full-list">
         <li><a href="https://www.nature.com/articles/s41598-024-63122-8" target="_blank" rel="noopener noreferrer">Bendell, R., Williams, J., Fiore, S. M., &amp; Jentsch, F. (2024). Individual and team profiling to support theory of mind in artificial social intelligence. Scientific Reports, 14(1), 12635.</a></li>
-        <li><a href="https://doi.org/10.1109/DASC62030.2024.10748673" target="_blank" rel="noopener noreferrer">Kratchounova, D., Bendell, R., Williams, J., Sonnenfeld, N., Hesselroth, J., &amp; Stevenson, S. (2024). The Effects of Type of Guidance, Runway Visual Range, and Runway Lighting on Touchdown Point Dispersion when Conducting ILS Approaches in Low-Visibility Conditions. 2024 AIAA/IEEE 43rd Digital Avionics Systems Conference (DASC), 1–4.</a></li>
+        <li><a href="https://doi.org/10.1109/DASC62030.2024.10748673" target="_blank" rel="noopener noreferrer">Kratchounova, D., Bendell, R., Williams, J., Sonnenfeld, N., Hesselroth, J., &amp; Stevenson, S. (2024). The Effects of Type of Guidance, Runway Visual Range, and Runway Lighting on Touchdown Point Dispersion when Conducting ILS Approaches in Low-Visibility Conditions. 2024 AIAA/IEEE 43rd Digital Avionics Systems Conference (DASC), 1–4.</a> <a href="/projects/faa-low-visibility-flight-guidance/" class="publication-project-link" aria-label="Read the FAA flight-guidance project overview">(Project overview)</a></li>
       </ol>
     </div>
 
