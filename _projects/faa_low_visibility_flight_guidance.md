@@ -20,9 +20,9 @@ permalink: /projects/faa-low-visibility-flight-guidance/
 
 {% include project_overview_figure.html %}
 
-This research, conducted in collaboration with the **Federal Aviation Administration (FAA)** and researchers at the University of Central Florida, examined how different forms of flight-deck guidance affect pilot performance during low-visibility instrument approaches and landings. The work used a Boeing 737-800 full-flight simulator and professional flight crews to evaluate flight performance across combinations of guidance technology, runway visual range, decision height, and runway lighting.
+This FAA-funded aviation human-factors study examined how different forms of flight-deck guidance affect pilot performance during low-visibility instrument approaches and landings. The research was coordinated by Daniela Kratchounova, Ph.D., at the FAA's Civil Aerospace Medical Institute (CAMI), with analytical and reporting contributions from university researchers. The work used a Boeing 737-800 full-flight simulator and professional flight crews to evaluate flight performance across combinations of guidance technology, runway visual range, decision height, and runway lighting.
 
-The broader research program addressed the **instrument segment**, **visual segment**, and **landing and rollout** phases of instrument landing system (ILS) approaches. Its practical motivation was to build an empirical understanding of the performance implications of modern flight-deck displays and guidance systems, including the conditions under which they support accurate, safe approaches and landings.
+The broader research program addressed the instrument segment, visual segment, and landing and rollout phases of instrument landing system (ILS) approaches. Its practical motivation was to build an empirical understanding of the performance implications of modern flight-deck displays and guidance systems, including the conditions under which they support accurate, safe approaches and landings.
 
 ## Research Design
 
@@ -47,7 +47,7 @@ These analyses informed an evidence-based evaluation of the operational implicat
 
 ## My Contributions
 
-I contributed **statistical analysis, flight-performance data analysis, and research visualization** to this FAA collaboration, including preparation and interpretation of objective performance measures across instrument and visual approach segments and landing outcomes. My work supported the technical analysis and reporting of how guidance configurations, visibility conditions, and runway lighting relate to pilot performance.
+I contributed statistical analysis, flight-performance data analysis, and research visualization to this project, including analysis of objective performance measures across instrument and visual approach segments and landing outcomes. My work supported the technical reporting of how guidance configurations, visibility conditions, and runway lighting relate to pilot performance.
 
 The project is an example of my work applying quantitative human-factors methods to a safety-critical operational domain, where the analysis must be interpretable in the context of real aviation procedures, instrumentation, and performance criteria.
 
@@ -55,7 +55,7 @@ The project is an example of my work applying quantitative human-factors methods
 
 The research contributed to the peer-reviewed conference paper:
 
-**Kratchounova, D., Bendell, R., Williams, J., Sonnenfeld, N., Hesselroth, J., & Stevenson, S. (2024).** The Effects of Type of Guidance, Runway Visual Range, and Runway Lighting on Touchdown Point Dispersion when Conducting ILS Approaches in Low-Visibility Conditions. *2024 AIAA/IEEE 43rd Digital Avionics Systems Conference (DASC)*, 1–4.
+Kratchounova, D., Bendell, R., Williams, J., Sonnenfeld, N., Hesselroth, J., & Stevenson, S. (2024). The Effects of Type of Guidance, Runway Visual Range, and Runway Lighting on Touchdown Point Dispersion when Conducting ILS Approaches in Low-Visibility Conditions. *2024 AIAA/IEEE 43rd Digital Avionics Systems Conference (DASC)*, 1–4.
 
 - [Read the published conference paper (IEEE DOI)](https://doi.org/10.1109/DASC62030.2024.10748673)
 - [FAA Office of Aerospace Medicine technical-report catalog](https://www.faa.gov/data_research/research/med_humanfacs/oamtechreports)
