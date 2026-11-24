@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+<title id="title">Flight guidance and pilot performance</title>
+<desc id="desc">Stylized aviation research dashboard featuring an instrument landing approach, runway perspective, navigation deviation indicators, and flight-path traces.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07192f"/><stop offset=".6" stop-color="#183d64"/><stop offset="1" stop-color="#345b73"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#25435c"/><stop offset="1" stop-color="#081c35"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#57d9d9" stop-opacity=".28"/><stop offset="1" stop-color="#57d9d9" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#95bdd1" stroke-opacity=".12"/></pattern>
+</defs>
+<rect width="1200" height="750" fill="url(#sky)"/>
+<rect width="1200" height="750" fill="url(#grid)"/>
+<circle cx="732" cy="319" r="395" fill="url(#glow)"/>
+<path d="M0 496h1200v254H0Z" fill="url(#floor)"/>
+<g stroke="#b4e4eb" stroke-opacity=".34"><path d="M0 496h1200" stroke-width="2"/><path d="M0 750 568 496M1200 750 631 496" stroke-width="3"/></g>
+<path d="M355 750 581 496h37L853 750Z" fill="#08243e" stroke="#70ccdb" stroke-opacity=".65" stroke-width="4"/>
+<path d="M599 515v230" fill="none" stroke="#e7faff" stroke-width="8" stroke-dasharray="41 28" opacity=".92"/>
+<g fill="#a4e6ef"><path d="M583 511h30l4 19h-38Z"/><path d="M562 566h76l9 20h-95Z"/></g>
+<g fill="none" stroke="#54dfd1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M285 407 365 372 446 389 514 335 587 349 662 301 732 320 828 262 947 248"/></g>
+<g fill="#a4fff2"><circle cx="285" cy="407" r="8"/><circle cx="446" cy="389" r="8"/><circle cx="587" cy="349" r="9"/><circle cx="732" cy="320" r="9"/><circle cx="947" cy="248" r="9"/></g>
+<g fill="none" stroke="#bdd5e7" stroke-width="3" opacity=".7"><circle cx="730" cy="319" r="167" stroke-dasharray="13 14"/><circle cx="730" cy="319" r="105"/><path d="M730 129v382M546 319h366"/></g>
+<g transform="translate(735 318) rotate(-23)"><path d="M0-56 12-11 91 13 91 27 16 19 19 55 37 71 36 81 0 65-36 81-37 71-19 55-16 19-91 27-91 13-12-11Z" fill="#d4f6ff" stroke="#60c6d1" stroke-width="4"/></g>
+<g transform="translate(65 85)">
+<rect width="333" height="191" rx="15" fill="#061a31" fill-opacity=".92" stroke="#79bccb" stroke-width="2"/>
+<text x="26" y="42" font-family="Arial,sans-serif" font-size="20" letter-spacing="2" fill="#89d7e9">ILS FLIGHT PERFORMANCE</text>
+<path d="M28 86h266" stroke="#8abbd0" stroke-opacity=".35" stroke-width="2"/>
+<path d="M31 136 80 121 126 142 174 102 224 117 268 90" fill="none" stroke="#5be7d3" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="27" y="173" font-family="Arial,sans-serif" font-size="17" letter-spacing="2" fill="#c7e3f0">GUIDANCE / DEVIATION</text>
+</g>
+<g transform="translate(900 433)">
+<rect width="240" height="170" rx="15" fill="#071b31" fill-opacity=".91" stroke="#74c3d8" stroke-opacity=".75" stroke-width="2"/>
+<text x="22" y="36" font-family="Arial,sans-serif" font-size="18" letter-spacing="2" fill="#c3e6f5">APPROACH TRACE</text>
+<path d="M24 90h189M118 56v80" stroke="#8bc3d1" stroke-opacity=".4" stroke-width="2"/>
+<path d="M32 124 77 115 112 88 166 76 208 60" stroke="#5ce6d7" stroke-width="5" fill="none" stroke-linecap="round"/>
+<circle cx="166" cy="76" r="7" fill="#dcfff6"/>
+</g>
+</svg>
